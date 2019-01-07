@@ -1,0 +1,22 @@
+#+TAGS: algebra(a) discrete(d) systems(u) notes(n) homework(w) exam(e)
+* Projects  
+  This file is for all things that require multiple steps to complete.
+** School
+*** Classes
+**** Abstract Algebra (Psyche 206)                                  :algebra:
+     <2019-01-09 Wed 11:00-11:50 +1w>
+     <2019-01-11 Fri 11:00-11:50 +1w>
+     <2019-01-14 Mon 11:00-11:50 +1w>
+***** Notes                                                           :notes:
+**** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
+     <2019-01-10 Thu 14:00-15:15 +1w>
+     <2019-01-15 Tue 14:00-15:15 +1w>
+     <2019-01-11 Fri 14:00-14:50 +1w>
+***** Notes                                                           :notes:
+**** Systems Programming (Koffler 218)                              :systems:
+     <2019-01-10 Thu 08:00-09:15 +1w>
+     <2019-01-15 Tue 08:00-09:15 +1w>
+***** Notes                                                           :notes:
+*** Homework                                                       :homework:
+*** Exams                                                              :exam:
+   
