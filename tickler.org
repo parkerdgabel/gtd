@@ -1,7 +1,13 @@
 * Tickler
-** TODO [#A] Pay Rent.
+** BILL [#A] Pay Rent.
    DEADLINE: <2019-01-01 Tue +1m>
   [2018-12-27 Thu 11:39]
 ** Appointments
 *** APPT Chapter 31 appointment  
-    SCHEDULED: <2019-01-11 Fri 13:00>
+    SCHEDULED: <2019-01-11 Fri 10:00>
+** BILL Pay Water bill 
+  DEADLINE: <2019-02-01 Fri +1m> 
+** BILL Pay electric bill
+   DEADLINE: <2019-01-17 Thu +1m>
+   
+  

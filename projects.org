@@ -1,4 +1,4 @@
-#+TAGS: algebra(a) discrete(d) systems(u) notes(n) homework(w) exam(e)
+#+TAGS: algebra(a) discrete(d) systems(u) comporg(c) notes(n) homework(w) exam(e)
 * Projects  
   This file is for all things that require multiple steps to complete.
 ** School
@@ -8,6 +8,48 @@
      <2019-01-11 Fri 11:00-11:50 +1w>
      <2019-01-14 Mon 11:00-11:50 +1w>
 ***** Notes                                                           :notes:
+****** Lecture 1
+       [2019-01-09 Wed]
+******* Homeworks or quizes on friday.
+	Alternated randomly. Always get a homework sheet regardless.
+	Buffer: 100 * (Total Points earned) / (Total Possible points) * 0.9
+	Only selected problems will be graded. Participation points for ungraded attempted problems.
+******* Office hour Mon 3, Wed 1 (Math 220), Thu 10  
+******* 100 hw/quizzes, 100 midterms, 100 final
+******* Rings (or how I learned to love the polynomial)
+******** Def: A ring is a triple (R, +, *) where R is a set and +, *: R \cross R \to R are two binary ops st 
+********* (R, +) is an abelian group with identity O_r=O\in R 
+********* For all a,b,c \in R
+********** a*(b*c)=(a*b)*c
+********** a*(b+c) = a*b+a*c and (a+b)*c=a*c+b*c
+********* (R,*) is not necessarily a group. It does not necessarily have invereses
+********* We say R is unital if R has a multiplicative id 1_r=1\in R. In a unital ring not every element has a multiplicative inverse.
+********* If n \gt 0 an integer then na = a+a+a+...+a and a^n = a*a*...a
+********* In general ab \ne ba for all a,b\in R. If ab = ba for all a,b \in R then R is commutative. 
+********* Examples
+********** Integers, Rationals, Reals, Complex are all commutative unital rings under usual defs
+********** For n\gt0 an int the set nZ={xn | x\in Z} is also a ring. 
+********** If n\gt1 then nZ is not unital because the id is not there.
+********** Assume R is a ring and n\to is an int. Let I={1,...n}. Let M_n(R)={a:I cross I \to R}. M_n(R) is a ring with the ops
+*********** (a+b)(i,j) = a(i,j) + b(i,j) 
+*********** (ab)(i,j) = \sum_k_\in_I a(i,k)b(k,j) 
+*********** (M_r(R), +) is abelian group with id O_M_n_(R)(i,j)=O_r
+*********** For any a,b,c\in M_n(R) and i,j\in I we have (a(bc))(i,j)=\sum a(i,k)((bc)(k,j))  
+	                                                        =\sum\sum a(i,k)(b(k,l)c(l,j))
+	                                                        =\sum\sum(a(i,k)b(k,l))c(l,j)=\sum((ab)(i,l))c(l,j)=((ab)c)(i,j)
+********** If n\gt1 then M_n(R) is a non-commutative ring. If R is unital then M_n(R) is also unital.
+********** For n\gt0 an int the set Z/nZ, which is a factor group under +, is also a ring. The multiplication is defined by (a + nZ)(b+nZ)=ab +nZ.
+********** This is well-defined and makes Z/nZ into a ring. This is an example of a quotient ring
+********** Every element has a multiplicative inverse iff n is prime.
+********** Lemma(Rules of multiplication)
+	   Assume R is a ring. For any a,b,c\in R the following holds 
+*********** a0=0=0a 
+*********** a(-b)=(-a)b=-ab
+*********** (-a)(-b)=ab
+*********** a(b-c)=ab-ac and (b-c)a=ba-ca
+	    Moreover if R is unital then
+*********** (-1)a=-a
+*********** (-1)(-1)=1
 **** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
@@ -17,6 +59,10 @@
      <2019-01-10 Thu 08:00-09:15 +1w>
      <2019-01-15 Tue 08:00-09:15 +1w>
 ***** Notes                                                           :notes:
+**** Computer Organization (Pacheco ILC 141)                        :comporg:
+     <2019-01-10 Thu 12:30-13:45 +1w>
+     <2019-01-15 Tue 12:30-13:45 +1w>
+***** Notes                                                           :notes:
 *** Homework                                                       :homework:
 *** Exams                                                              :exam:
-   
+
