@@ -1,2 +1,4 @@
 * One-Steps
 ** TODO Get mu4e working.
+** TODO Set up lectura
+** TODO Set up C development. 

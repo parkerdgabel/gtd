@@ -24,7 +24,7 @@
 ********** a*(b+c) = a*b+a*c and (a+b)*c=a*c+b*c
 ********* (R,*) is not necessarily a group. It does not necessarily have invereses
 ********* We say R is unital if R has a multiplicative id 1_r=1\in R. In a unital ring not every element has a multiplicative inverse.
-********* If n \gt 0 an integer then na = a+a+a+...+a and a^n = a*a*...a
+********* If n\gt0 an integer then na = a+a+a+...+a and a^n = a*a*...a
 ********* In general ab \ne ba for all a,b\in R. If ab = ba for all a,b \in R then R is commutative. 
 ********* Examples
 ********** Integers, Rationals, Reals, Complex are all commutative unital rings under usual defs
@@ -36,7 +36,9 @@
 *********** (M_r(R), +) is abelian group with id O_M_n_(R)(i,j)=O_r
 *********** For any a,b,c\in M_n(R) and i,j\in I we have (a(bc))(i,j)=\sum a(i,k)((bc)(k,j))  
 	                                                        =\sum\sum a(i,k)(b(k,l)c(l,j))
-	                                                        =\sum\sum(a(i,k)b(k,l))c(l,j)=\sum((ab)(i,l))c(l,j)=((ab)c)(i,j)
+	                                                        =\sum\sum(a(i,k)b(k,l))c(l,j)
+								=\sum((ab)(i,l))c(l,j)
+								=((ab)c)(i,j)
 ********** If n\gt1 then M_n(R) is a non-commutative ring. If R is unital then M_n(R) is also unital.
 ********** For n\gt0 an int the set Z/nZ, which is a factor group under +, is also a ring. The multiplication is defined by (a + nZ)(b+nZ)=ab +nZ.
 ********** This is well-defined and makes Z/nZ into a ring. This is an example of a quotient ring
@@ -59,10 +61,16 @@
      <2019-01-10 Thu 08:00-09:15 +1w>
      <2019-01-15 Tue 08:00-09:15 +1w>
 ***** Notes                                                           :notes:
+****** Lecture 1 
+       [2019-01-10 Thu]      
+******* We just talked about syllabus stuff. 
 **** Computer Organization (Pacheco ILC 141)                        :comporg:
      <2019-01-10 Thu 12:30-13:45 +1w>
      <2019-01-15 Tue 12:30-13:45 +1w>
 ***** Notes                                                           :notes:
 *** Homework                                                       :homework:
 *** Exams                                                              :exam:
-
+**** EXAM Systems midterm                                           :systems:
+     SCHEDULED: <2019-02-28 Thu 08:00>
+**** EXAM Systems Final                                             :systems:
+     SCHEDULED: <2019-05-09 Thu 08:00>
