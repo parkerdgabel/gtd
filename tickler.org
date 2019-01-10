@@ -1,6 +1,10 @@
 * Tickler
 ** BILL [#A] Pay Rent.
-   DEADLINE: <2019-01-01 Tue +1m>
+   DEADLINE: <2019-02-01 Fri +1m>
+   :PROPERTIES:
+   :LAST_REPEAT: [2019-01-10 Thu 11:20]
+   :END:
+   - State "DONE"       from "BILL"       [2019-01-10 Thu 11:20]
   [2018-12-27 Thu 11:39]
 ** Appointments
 *** APPT Chapter 31 appointment  

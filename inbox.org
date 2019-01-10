@@ -1,1 +1,2 @@
 * Tasks
+** TODO clean up init and reconsider hydra setup 

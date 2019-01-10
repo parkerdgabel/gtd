@@ -57,6 +57,26 @@
      <2019-01-15 Tue 14:00-15:15 +1w>
      <2019-01-11 Fri 14:00-14:50 +1w>
 ***** Notes                                                           :notes:
+****** Lecture 1 
+       [2019-01-10 Thu]
+******* Knights and Knaves 
+******** Knights = always true, Knaves = always false, Normies = can lie or say the truth 
+******** 3 People P M G one of each kind
+********* P: At least one of us is a knave. 
+********* M: *Says nothing*
+********** If P = Knight \to statement is true \to M is a knave.
+********** If P = Knave \to statement is false \to contradiction.
+********** So P = Knight and M = Knave
+********* P: Both of us are Knights
+********* M: P is a Knight
+********** If P = Knight \to Then both are Knights \to M = Knight  
+********** If P = Knave \to P is false \to M is false \to M = Knave
+********* P: G is the Knave
+********* M: P is the Knight
+********* G: I'm a normie
+********** If P = Knight \to G is a knave \to G = Knave \to M = normie  
+********** If P = Knave \to G is not a Knave \to G = normie \to M = Knight \to contradiction
+********** If P = Normie \to G = knave \to M = Knight \to contradiction
 **** Systems Programming (Koffler 218)                              :systems:
      <2019-01-10 Thu 08:00-09:15 +1w>
      <2019-01-15 Tue 08:00-09:15 +1w>
@@ -68,9 +88,22 @@
      <2019-01-10 Thu 12:30-13:45 +1w>
      <2019-01-15 Tue 12:30-13:45 +1w>
 ***** Notes                                                           :notes:
+****** Lecture 1 
+       [2019-01-10 Thu]
+******* Just syllabus stuff 
 *** Homework                                                       :homework:
+**** HOMEWORK 345 Written assingment                               :discrete:
+     DEADLINE: <2019-01-17 Thu 14:03>
 *** Exams                                                              :exam:
 **** EXAM Systems midterm                                           :systems:
      SCHEDULED: <2019-02-28 Thu 08:00>
 **** EXAM Systems Final                                             :systems:
      SCHEDULED: <2019-05-09 Thu 08:00>
+**** EXAM Computer Orginization final                               :comporg: 
+     SCHEDULED: <2019-05-08 Wed 13:00-15:00>
+**** EXAM Discrete final                                           :discrete: 
+     SCHEDULED: <2019-05-06 Mon 15:30-17:30>
+**** EXAM Discrete midterm 1                                       :discrete: 
+     SCHEDULED: <2019-02-21 Thu 14:00>
+**** EXAM Discrete midterm 2                                       :discrete: 
+     SCHEDULED: <2019-04-11 Thu 14:00>
