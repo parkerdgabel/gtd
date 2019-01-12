@@ -1,17 +1,20 @@
 * Tickler
-** BILL [#A] Pay Rent.
+** Bills
+*** BILL [#A] Pay Rent.
    DEADLINE: <2019-02-01 Fri +1m>
    :PROPERTIES:
    :LAST_REPEAT: [2019-01-10 Thu 11:20]
    :END:
    - State "DONE"       from "BILL"       [2019-01-10 Thu 11:20]
   [2018-12-27 Thu 11:39]
-** Appointments
-*** APPT Chapter 31 appointment  
-    SCHEDULED: <2019-01-11 Fri 10:00>
-** BILL Pay Water bill 
+*** BILL Pay Water bill 
   DEADLINE: <2019-02-01 Fri +1m> 
-** BILL Pay electric bill
+*** BILL Pay electric bill
    DEADLINE: <2019-01-17 Thu +1m>
-   
-  
+     
+** Appointments
+** WORK Turn stuff off then on again.
+   <2019-01-18 Fri 08:00-10:45 +1w>
+   <2019-01-14 Mon 08:00-10:45 +1w>
+   <2019-01-16 Wed 08:00-10:45 +1w>
+   <2019-01-16 Wed 12:30-17:00 +1w>

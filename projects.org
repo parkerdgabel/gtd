@@ -1,4 +1,4 @@
-#+TAGS: algebra(a) discrete(d) systems(u) comporg(c) notes(n) homework(w) exam(e)
+#+TAGS: algebra(a) discrete(d) systems(u) comporg(c) notes(n) homework(w) exam(e) definition
 * Projects  
   This file is for all things that require multiple steps to complete.
 ** School
@@ -17,7 +17,7 @@
 ******* Office hour Mon 3, Wed 1 (Math 220), Thu 10  
 ******* 100 hw/quizzes, 100 midterms, 100 final
 ******* Rings (or how I learned to love the polynomial)
-******** Def: A ring is a triple (R, +, *) where R is a set and +, *: R \cross R \to R are two binary ops st 
+******** Def: A ring is a triple (R, +, *) where R is a set and +, *: R \cross R \to R are two binary ops st :definition:
 ********* (R, +) is an abelian group with identity O_r=O\in R 
 ********* For all a,b,c \in R
 ********** a*(b*c)=(a*b)*c
@@ -52,6 +52,59 @@
 	    Moreover if R is unital then
 *********** (-1)a=-a
 *********** (-1)(-1)=1
+****** Lecture 2
+       [2019-01-11 Fri]
+******* Lemma (Multiplication)
+******** a0 = 0 = 0a \forall a \in R
+******** (-a)b=a(-b)=-ab \forall a,n \in R
+******* Proof
+******** a0 + 0 = a0 = a(0 + 0) = a0 + a0 \to 0 = a0 
+******** a(-b) ab = a(-b + b) = a0 = 0 \to a(-b) = -ab. A symmetric arg gives (-a)b=-ab
+******* Example 
+	Let R be a ring and fix X then let R[X] be the set of polynomials 
+	\sum_i_\in_N_0 a_i X^i, N_0={0,1,2...} where a_i \in R and only finitely many a_i are non-zero.
+	This is a ring under: 
+	(\sum_i_\in_N_0 a^i x^i) + (\sum_i_\in_N_0 b^i x^i) = (\sum_i_\in_N_0 (a^i + b^i)x^i))
+	(\sum_i_\in_N_0 a^i x^i) (\sum_i_\in_N_0 b^i x^i) = \sum_i_\in_N_0(\sum_k=0 a_k b_j_-k) x^i \forall \sum_i\inN_o a_i x^i, \sum_i\inN_o b_i x^i \in R[X]
+******* Definition
+******** If (R,+,*) is a ring then a subset S of R is a subring if (S,+,*) is a ring :definition:
+******* Subring Test
+******** If R is a ring and S \subset R a nonempty subset then S is a subring if a-b\inS and ab\in S \forall a,b\in S
+******** Proof
+	 By the one step subgroup test we have (S,+) is a subgroup of (R,+). As the semigroup and distributing
+	 properties hold for all elements of R they must hold for all elements of S. The assumption ab\in S implies
+	 * is a binary operation on S.
+******* Example of subrings
+******** For any integer n\gt0 we have nZ \subset Z is a subring 
+******** The gaussian integers Z[i] = {a+bi | a,b\in Z} are a subring of C
+******* Units
+******** Def: If R is a unital ring then an element a \in R is called a unit if there exsists an element b \in R such that ab=1=ba. :definition:
+       As for groups we have b is uniquely determined by a and we denote it by a^-1.
+       The set U(R) of all units is a group under the multiplication on R.
+******* Examples of Units
+******** If R = M_2(Z) then U(R) = GL_2(Z). In general U(M_n(Z)) = GL_n(Z). 
+******** If R = Z then U(R) = {1, -1}.
+******** If n \gt 0 then U(Z/nZ) = U(n)
+******* Integral Domains
+******** In Z if ab = 0 then either a = 0 or b = 0 
+******** Let R = M_2(Z) and let a = [0 1; 0 0] and b = [1 0; 0 0] then ab = [0 0; 0 0] and ba = [0 1; 0 0]
+******** If R is a ring the a non-zero element a \in R is called a zero divisor if ab = 0 for some non-zero b \in R :definition:
+******** A ring R is called an Integral Domain if R is commutative and has no zero divisor :definition:
+******** In an Integral Domain we have ab = 0 \to a = 0 or b = 0
+******* Examples of Integral Domains
+******** Z is an Integral Domain. 
+******** If p \gt 0 is a prime then Z/pZ is an Integral Domain.  
+	 Assume a,b \in Z such that
+	 (a + pZ)(b + pZ) = ab + pZ = pZ
+	 then ab \in pZ so p divides ab.
+	 As p is a prime either p | a or p |b so either a \in pZ or b \in pZ so either
+	 a + pZ = pZ or b + pZ = pZ.
+******** If n \gt 0 is non-prime then Z/nZ has zero divisors. 
+	 If n = 8 then
+	 (2 + 8Z)(4 + 8Z) = 8 + 8Z = 8Z 
+******* Lemma: If R is an Integral Domain then for any a,b,c \in R with a \ne 0 we have ab = ac \to b = c.
+******* Proof
+	ab = ac this implies a(b-c) = 0 so b-c = 0 because a \ne 0 which gives b = c.
 **** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
