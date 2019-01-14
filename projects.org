@@ -1,4 +1,4 @@
-#+TAGS: algebra(a) discrete(d) systems(u) comporg(c) notes(n) homework(w) exam(e) definition
+#+TAGS: algebra(a) discrete(d) systems(u) comporg(c) notes(n) homework(w) exam(e) definition proof theorem
 * Projects  
   This file is for all things that require multiple steps to complete.
 ** School
@@ -17,7 +17,7 @@
 ******* Office hour Mon 3, Wed 1 (Math 220), Thu 10  
 ******* 100 hw/quizzes, 100 midterms, 100 final
 ******* Rings (or how I learned to love the polynomial)
-******** Def: A ring is a triple (R, +, *) where R is a set and +, *: R \cross R \to R are two binary ops st :definition:
+******** Def: A ring is a triple (R, +, *) where R is a set and +, *: R \times R \to R are two binary ops st :definition:
 ********* (R, +) is an abelian group with identity O_r=O\in R 
 ********* For all a,b,c \in R
 ********** a*(b*c)=(a*b)*c
@@ -105,6 +105,52 @@
 ******* Lemma: If R is an Integral Domain then for any a,b,c \in R with a \ne 0 we have ab = ac \to b = c.
 ******* Proof
 	ab = ac this implies a(b-c) = 0 so b-c = 0 because a \ne 0 which gives b = c.
+****** Lecture 3
+       [2019-01-14 Mon]
+******* Last Time: Integral Domains. A commutative unital ring with no zero divisors.  
+******* Remark: We say a is a left zero divisor if there exists a b\in R such that ab=0. resp. ba=0.
+******* Remark: It is a two-sided zero divisor if it is both a left and right zero divisor.
+******* In a commutative ring we have left divisor \to right divisor \to two-sided divisor.
+******* Def: A field is a unital commutative ring in which every non-zero element is a unit. :definition:
+******* Equivalently a field is a ring (R,\plus,\times) in which both (R,\plus) and (R,\times) are abelian groups. :definition:
+******* Example Q\sub R\sub C are fields.
+******* Theorem: A finite Integral Domain is a field.               :theorem:
+******* Proof: Assume R is a finite Integral Domain.                  :proof:
+	Let a\in R be a non-zero element then we claim there exists an integer k\gt=1 such that a^k=1.
+	If this holds then aa^(k-1)=1=a^(k-1)a=a^-1.
+	If a=1 the claim is clearly true so assume a\ne1.
+	Consider the list a, a^2 ,a^3,... then as R is finite we must have a^i=a^j for some i \lt j.
+	Hence a^j = a^i a^(j-i). Since this is an Integral Domain we have a^(j-i) = 1.
+	Hence we can take k = j-i.
+******* Corollary: For any prime p \gt 0 we have Z_p is a field.       :theorem:
+******* Remark: For any prime power q = p^a, there exists a unique field k with |k|=q. The field is not Z/qZ. 
+******* Example: Let Q[\radic2] = {a + b\radic2 | a,b \in Q}
+	Then Q[\radic2] \sub R is a field.
+	We know that (a+b\radic2)^-1 = \frac{1}{a+b\radic2}.
+	Rationalize the denominator.
+******* Characteristic of a ring
+******** Def: Characteristic of a ring is defined as follows.    :definition:
+	 Let n \gt 0 be the least positive integer such that nx=x+...+x=0 for all x \in R. 
+	 If no such n exists then we say R has characteristic 0 and otherwise it has characteristic n. 
+	 We denote by char(R) the characteristic.
+******** Example: Z \sub Q \sub R \sub C have characteristic 0.
+******** Example: Z_p has characteristic p\gt0
+******** Example: char(M_n(R)) = char(R)
+******** Example: char(R[x]) = char(R)
+******** Lemma: If R is a unital ring then n = char(R) is the least positive integer such that n1 = 0, if it exists, or n = 0. :theorem:
+******** Proof: For all x \in R we have nx = x + ...+x = 1x+...+1x=(1+...+1)x=(n1)x :proof:
+	 If n1 = 0 then for all x \in R we have nx = (n1)x = 0x = 0.
+******** Theorem: If R is an Integral Domain then either char(R) = 0 or char(R) = p a prime.:theorem:
+******** Proof: Suppose n = char(R) \gt 0 and assume n = st with 1 \lt= s,t \lt= n :proof:
+	 We have 0 = (1+...+1)n = (1+...+1)t+...(1+...+1)t)s = (1+...+1)s(1+...+1)t
+	 As R is an Integral Domain either s1 = 0 or t1 = 0. 
+	 If s1 = 0 then s = char(R) = n and likewise if t1 = 0. Hence n is a prime.
+******** The characteristic has a big difference on the ring.
+******** Lemma: If p \gt 0 is a prime then p | \binom{p}{i} for all 0 \lt i \lt p :theorem:
+******** Proof: assume p \gt 0 is prime.                                :proof:
+	 We have \binom{p}{i} = p!\i!(p-i)! so N\binom{p}{i} = p! where N = i!(p-1)!.
+	 We must have p | N\binom{p}{i} so either p | N or p | \binom{p}{i}. 
+	 By assumption N = a_1 ...a_k with a_i \lt p so we cannot have p | N.
 **** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
@@ -147,6 +193,50 @@
 *** Homework                                                       :homework:
 **** HOMEWORK 345 Written assingment                               :discrete:
      DEADLINE: <2019-01-17 Thu 14:03>
+**** HOMEWORK Zybooks reading.                                      :comporg: 
+     DEADLINE: <2019-01-22 Tue 23:59 +7d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2019-01-14 Mon 10:07]
+     :END:
+     - State "DONE"       from "HOMEWORK"   [2019-01-14 Mon 10:07]
+**** HOMEWORK Sim project 1                                         :comporg: 
+     DEADLINE: <2019-01-24 Thu 12:30>
+**** HOMEWORK Assembly project 1                                    :comporg: 
+     DEADLINE: <2019-01-31 Thu 12:30>
+**** HOMEWORK Sim project 2                                         :comporg: 
+     DEADLINE: <2019-02-07 Thu 17:16>
+**** HOMEWORK Assembly project 2                                    :comporg: 
+     DEADLINE: <2019-02-14 Thu 12:30>
+**** HOMEWORK Simulation Project 3                                  :comporg: 
+     DEADLINE: <2019-02-21 Thu 12:30>
+**** HOMEWORK Assembly Project 3                                    :comporg: 
+     DEADLINE: <2019-03-14 Thu 12:30>
+**** HOMEWORK Simulation Project 4 Milestone 1                      :comporg: 
+     DEADLINE: <2019-03-21 Thu 12:30>
+**** HOMEWORK Assembly Project 4                                    :comporg:
+     DEADLINE: <2019-04-04 Thu 12:30>
+**** HOMEWORK Simulation Project 4 Milestone 2                      :comporg: 
+     DEADLINE: <2019-03-28 Thu 12:30>
+**** HOMEWORK Simulation Project 5                                  :comporg: 
+     DEADLINE: <2019-04-11 Thu 12:30>
+**** HOMEWORK Assembly Project 5                                    :comporg: 
+     DEADLINE: <2019-04-18 Thu 12:30>
+**** HOMEWORK Simulation Project 6                                  :comporg: 
+     DEADLINE: <2019-04-25 Thu 12:30>
+**** HOMEWORK Computer Organization Homework 1                      :comporg: 
+     DEADLINE: <2019-01-29 Tue 17:00>
+**** HOMEWORK Computer Organization Homework 2                      :comporg: 
+     DEADLINE: <2019-02-12 Tue 17:00>
+**** HOMEWORK Computer Organization Homework 3                      :comporg: 
+     DEADLINE: <2019-03-12 Tue 17:00>
+**** HOMEWORK Computer Organization Homework 4                      :comporg: 
+     DEADLINE: <2019-03-26 Tue 17:00>
+**** HOMEWORK Computer Organization Homework 5                      :comporg: 
+     DEADLINE: <2019-04-09 Tue 17:00>
+**** HOMEWORK Computer Organization Homework 6                      :comporg: 
+     DEADLINE: <2019-04-23 Tue 17:00>
+**** HOMEWORK Abstract Algebra Homework                               :algebra: 
+     DEADLINE: <2019-01-18 Fri 11:00 +7d>
 *** Exams                                                              :exam:
 **** EXAM Systems midterm                                           :systems:
      SCHEDULED: <2019-02-28 Thu 08:00>
@@ -160,3 +250,19 @@
      SCHEDULED: <2019-02-21 Thu 14:00>
 **** EXAM Discrete midterm 2                                       :discrete: 
      SCHEDULED: <2019-04-11 Thu 14:00>
+**** EXAM Computer Orginization Midterm 1                           :comporg: 
+     SCHEDULED: <2019-01-31 Thu 12:30>
+**** EXAM Computer Orginization Midterm 2                           :comporg: 
+     SCHEDULED: <2019-02-14 Thu 12:30>
+**** EXAM Computer Orginization Midterm 3                           :comporg: 
+     SCHEDULED: <2019-03-14 Thu 12:30>
+**** EXAM Computer Orginization Midterm 4                           :comporg: 
+     SCHEDULED: <2019-03-28 Thu 12:30>
+**** EXAM Computer Orginization Midterm 5                           :comporg: 
+     SCHEDULED: <2019-04-11 Thu 12:30>
+**** EXAM Computer Orginization Midterm 6                           :comporg:
+     SCHEDULED: <2019-04-25 Thu 12:30>
+**** EXAM Abstract Algebra Midterm 1                                :algebra: 
+     SCHEDULED: <2019-02-27 Wed 11:00>
+**** EXAM Abstract Algebra Midterm 2                                :algebra: 
+     SCHEDULED: <2019-04-10 Wed 11:00>

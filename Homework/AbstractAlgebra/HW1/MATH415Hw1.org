@@ -1,0 +1,9 @@
+#+TITLE: Math 415 Homework 1
+#+AUTHOR: Parker Gabel
+#+LATEX_CLASS: article
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LATEX_COMPILER: pdflatex
+#+DATE: \today
+#+OPTIONS: toc:nil
+
+* Find all the zero divisors of \( \mathbb{Z}/20\mathbb{Z} \).
