@@ -1,0 +1,43 @@
+% Created 2019-01-14 Mon 16:46
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=0.5in]{geometry}
+\author{Parker Gabel}
+\date{\today}
+\title{Computer Organization Homework 1}
+\hypersetup{
+ pdfauthor={Parker Gabel},
+ pdftitle={Computer Organization Homework 1},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Problem 1}
+\label{sec:orgf490bfa}
+
+\subsection{7544\(_{\text{ten}}\) = 0001110101111000}
+\label{sec:org968e330}
+
+\subsection{2974\(_{\text{ten}}\) = 0000101110011110}
+\label{sec:orgfb590c3}
+
+\subsection{-671\(_{\text{ten}}\) = 1111110101100001}
+\label{sec:org53644bd}
+\end{document}

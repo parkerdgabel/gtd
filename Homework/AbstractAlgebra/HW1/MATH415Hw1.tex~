@@ -1,4 +1,4 @@
-% Created 2019-01-12 Sat 14:04
+% Created 2019-01-14 Mon 16:31
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -17,17 +17,26 @@
 \usepackage[margin=0.5in]{geometry}
 \author{Parker Gabel}
 \date{\today}
-\title{}
+\title{Math 415 Homework 1}
 \hypersetup{
  pdfauthor={Parker Gabel},
- pdftitle={},
+ pdftitle={Math 415 Homework 1},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
  pdflang={English}}
 \begin{document}
 
+\maketitle
 
-\section{Find all the zero divisors of \(\mathbb{Z}/20\mathbb{Z}\)}
-\label{sec:org7026796}
+\section{Find all the zero divisors of \(\mathbb{Z}/20\mathbb{Z}\).}
+\label{sec:org7100641}
+Notice that the additive identity of \(\mathbb{Z}/20\mathbb{Z}\) is \(\mathbb{Z} = 1 \mathbb{Z}\). 
+Therefore a zero divisor is any a,b \(\in\) \mathbb{Z} such that ab \(\equiv\) 1 mod 20. This is the set of all integers that are coprime to 20 or \{[1], [3], [7], [9], [11], [13], [17], [19]\}. ([x] means the equivalence class of x modulo 20)
+
+\section{Determine U(\(\mathbb{Z}[i]\)) where \(\mathbb{Z}[i]\) \(\subseteq\) \(\mathbb{C}\) is the ring of Gaussian Integer.}
+\label{sec:org1fec7c5}
+\par Notice 1 \(\in\) \(\mathbb{Z}[i]\) is its own inverse so 1 \(\in\) U(\(\mathbb{Z}[i]\)). Likewise -1 \(\in\) \(\mathbb{Z}[i]\) is its own inverse so -1 \(\in\) U(\mathbb{Z}[i]).
+Notice \(i(-i) = 1 = (-i)i\) so i, -i \(\in\) U(\(\mathbb{Z}[i]\)). \par 
+I claim there are no more units in the Gaussian Integers.
 \end{document}

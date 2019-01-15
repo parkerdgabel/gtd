@@ -1,0 +1,14 @@
+#+TITLE: Computer Organization Homework 1
+#+AUTHOR: Parker Gabel
+#+LATEX_CLASS: article
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+DATE: \today
+#+OPTIONS: toc:nil
+
+* Problem 1
+
+** 7544_ten = 0001110101111000 
+
+** 2974_ten = 0000101110011110
+
+** -671_ten = 1111110101100001

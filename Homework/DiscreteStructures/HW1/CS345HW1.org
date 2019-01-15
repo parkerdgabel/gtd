@@ -41,3 +41,5 @@ Consider \[1\times2^0 + 2\times2^1 + 3\times2^2 + . . . + k\times2^{{k-1}} \plus
 So \[(k - 1)\times2^k \plus 1 \plus (k\plus1)\times2^k = (k \plus k \plus 1 \minus 1)\times2^k \plus 1 = (2 \times k)\times2^k + 1 = k\times2^{k+1} + 1 = ((k + 1) -1)\times2^k + 1\]
 So P(k+1) is true.
 \end{proof}
+* How many nonempty substrings are there of a string of length n. Prove your answer. (Note: duplicate substrings from different parts of the string are counted as separate substrings. For example, the string abab contains 10 substrings: a, b, a, b, ab, ba, ab, aba, bab, abab) 
+  \quad Let S be a string of length n. Consider the first character of the string and its substrings. Counting from right to left, the first character has n substrings. Following the same process the next character has n - 1 substrings. Proceed until the end of the string is reached and it can be seen that the number of substrings total in S is \(n + (n - 1) ... + 2 + 1\). 

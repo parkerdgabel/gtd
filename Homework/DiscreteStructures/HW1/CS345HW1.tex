@@ -1,4 +1,4 @@
-% Created 2019-01-14 Mon 08:57
+% Created 2019-01-14 Mon 17:04
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -29,35 +29,35 @@
 
 \maketitle
 \section{A coin is flipped 10 times in a row.}
-\label{sec:org614bbf9}
+\label{sec:org6970eff}
 \subsection{How many possible results are there?}
-\label{sec:orga8bf6ca}
+\label{sec:org9e465b3}
 There are 2 possible results for any individual coin flip. Since there are 10 flips there are 2\(^{\text{10}}\) possible sequences.
 \subsection{How many of those results have exactly four heads?}
-\label{sec:orge9f3cec}
+\label{sec:org9521ea0}
 The answer is how many ways can exactly four heads be arranged in a sequece of ten choices.
 \[
        \binom{10}{4} = 210
    \]
 \subsection{How many results have the same number of heads as tails?}
-\label{sec:orga668030}
+\label{sec:org889bd52}
 It is sufficient to find the number of ways to arrange five heads.
 \[
        \binom{10}{5} = 252
    \]
 \section{How many cards must be chosen from a standard deck of 52 cards to guarantee a pair of matching values is chosen?}
-\label{sec:org12f797d}
+\label{sec:org37d0010}
 Notice there are 13 possible cards, ignoring suit. So in the worst case scenario you draw 13 cards and all are different then the 14\(^{\text{th}}\) card is guaranteed to match a previous card drawn. So the answer is 14.
 \section{Suppose that on an island there are two types of people, knights and knaves. Knights always tell the truth and knaves always lie. You meet three people from the island, Bilbo, Frodo, and Sam. If Bilbo says “I am a knave and Frodo is a knight” and Frodo says “Exactly one of the three of us is a knight”. Can you tell what Bilbo, Frodo, and Sam are? If so, what are they. Explain your answer.}
-\label{sec:org3917cb7}
+\label{sec:orgfeb7e58}
 Notice in order for Bilbo's statement to be true both parts of the and expression must be true. Assume Bilbo is a Knight. The first part of Bilbo's expression("I am a Knave") is false so the whole expression is false. Thus Bilbo cannot be a Knight. Now assume Bilbo is a Knave. Since Bilbo's statement must be false and the first part of the expression is true, the second part("Frodo is a knight") must be false. 
 So Frodo is knave. So frodo's statement must be false. So there cannot be exactly one Knight. Since Bilbo and Frodo are known to be knaves, Sam must also be a knave.  
 \section{Now suppose that in addition to knights and knaves, the island from problem 3 also contains normals who may lie or tell the truth. Suppose a crime was committed and you have three suspects, John, Paul and George. You know the crime was committed by a knight. You know exactly one of your three suspects is a knight. You also have this transcript: Paul: “I am innocent.”John: “What Paul says is true.” George: “John is not normal.” Who is the guilty person? Explain your reasoning.}
-\label{sec:org14b1c69}
+\label{sec:org254f307}
 If Paul is a Knight then his statement is true but he is guilty so that is false. So Paul cannot be a Knight. If Paul is a Knave then his statement is false so he must be a guilty. However we know a Knight is guilty so that cannot be the case. So Paul is not a Knave. So Paul is a normal.
 If John is a Knave then what Paul says must be false. So Paul is guilty. However, we know that Paul is a normal so that cannot be the case. If John is normal then George must be the Knight. However George's statement must be true but it would be false. So George cannot be the Knight. Thus the only remaing option for the Knight is John. Sir John is our dastardly villain.
 \section{Prove: 1×2\(^{\text{0}}\) + 2×2\(^{\text{1}}\) + 3×2\(^{\text{2}}\) + . . . + n×2\(^{\text{n}}\)\(^{\text{-1}}\) = (n – 1)×2\(^{\text{n}}\) + 1}
-\label{sec:org599eb3c}
+\label{sec:orgf4e242a}
 Proof by induction.
 Let P(x) be the statement \[1\times2^0 + 2\times2^1 + 3\times2^2 + . . . + n\times2^{{x-1}} = (x - 1)\times2^x + 1\]
 Base Case: P(1) is true.
@@ -72,4 +72,7 @@ Consider \[1\times2^0 + 2\times2^1 + 3\times2^2 + . . . + k\times2^{{k-1}} \plus
 So \[(k - 1)\times2^k \plus 1 \plus (k\plus1)\times2^k = (k \plus k \plus 1 \minus 1)\times2^k \plus 1 = (2 \times k)\times2^k + 1 = k\times2^{k+1} + 1 = ((k + 1) -1)\times2^k + 1\]
 So P(k+1) is true.
 \end{proof}
+\section{How many nonempty substrings are there of a string of length n. Prove your answer. (Note: duplicate substrings from different parts of the string are counted as separate substrings. For example, the string abab contains 10 substrings: a, b, a, b, ab, ba, ab, aba, bab, abab)}
+\label{sec:org82f029f}
+\quad Let S be a string of length n. Consider the first character of the string and its substrings. Counting from right to left, the first character has n substrings. Following the same process the next character has n - 1 substrings. Proceed until the end of the string is reached and it can be seen that the number of substrings total in S is \(n + (n - 1) ... + 2 + 1\). 
 \end{document}
