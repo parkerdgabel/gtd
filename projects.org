@@ -43,7 +43,7 @@
 ********** For n\gt0 an int the set Z/nZ, which is a factor group under +, is also a ring. The multiplication is defined by (a + nZ)(b+nZ)=ab +nZ.
 ********** This is well-defined and makes Z/nZ into a ring. This is an example of a quotient ring
 ********** Every element has a multiplicative inverse iff n is prime.
-********** Lemma(Rules of multiplication)
+********** Lemma(Rules of multiplication)                           :theorem:
 	   Assume R is a ring. For any a,b,c\in R the following holds 
 *********** a0=0=0a 
 *********** a(-b)=(-a)b=-ab
@@ -54,10 +54,10 @@
 *********** (-1)(-1)=1
 ****** Lecture 2
        [2019-01-11 Fri]
-******* Lemma (Multiplication)
+******* Lemma (Multiplication)                              :theorem:
 ******** a0 = 0 = 0a \forall a \in R
 ******** (-a)b=a(-b)=-ab \forall a,n \in R
-******* Proof
+******* Proof                                                         :proof:
 ******** a0 + 0 = a0 = a(0 + 0) = a0 + a0 \to 0 = a0 
 ******** a(-b) ab = a(-b + b) = a0 = 0 \to a(-b) = -ab. A symmetric arg gives (-a)b=-ab
 ******* Example 
@@ -68,9 +68,9 @@
 	(\sum_i_\in_N_0 a^i x^i) (\sum_i_\in_N_0 b^i x^i) = \sum_i_\in_N_0(\sum_k=0 a_k b_j_-k) x^i \forall \sum_i\inN_o a_i x^i, \sum_i\inN_o b_i x^i \in R[X]
 ******* Definition
 ******** If (R,+,*) is a ring then a subset S of R is a subring if (S,+,*) is a ring :definition:
-******* Subring Test
+******* Subring Test                                                :theorem:
 ******** If R is a ring and S \subset R a nonempty subset then S is a subring if a-b\inS and ab\in S \forall a,b\in S
-******** Proof
+******** Proof                                                        :proof:
 	 By the one step subgroup test we have (S,+) is a subgroup of (R,+). As the semigroup and distributing
 	 properties hold for all elements of R they must hold for all elements of S. The assumption ab\in S implies
 	 * is a binary operation on S.
@@ -102,8 +102,8 @@
 ******** If n \gt 0 is non-prime then Z/nZ has zero divisors. 
 	 If n = 8 then
 	 (2 + 8Z)(4 + 8Z) = 8 + 8Z = 8Z 
-******* Lemma: If R is an Integral Domain then for any a,b,c \in R with a \ne 0 we have ab = ac \to b = c.
-******* Proof
+******* Lemma: If R is an Integral Domain then for any a,b,c \in R with a \ne 0 we have ab = ac \to b = c. :theorem:
+******* Proof                                                         :proof:
 	ab = ac this implies a(b-c) = 0 so b-c = 0 because a \ne 0 which gives b = c.
 ****** Lecture 3
        [2019-01-14 Mon]
@@ -176,6 +176,27 @@
 ********** If P = Knight \to G is a knave \to G = Knave \to M = normie  
 ********** If P = Knave \to G is not a Knave \to G = normie \to M = Knight \to contradiction
 ********** If P = Normie \to G = knave \to M = Knight \to contradiction
+****** Lecture 2
+       [2019-01-15 Tue]
+******* A type is a collection of values                         :definition:
+******** Integers, Boolean etc.
+******* A simple type is a type that can't be broken up into smaller types. :definition:
+******* An aggregate type is a type that is not a simple type    :definition:
+******* A data type is a type and operations on that type        :definition:
+******* An abstract data type is the specification of a data type within some language independent of the implementation :definition:
+******** Java interface. 
+******* A data structure is the implementation of a data type    :definition:
+******** A list is a sequence of data. A sequence implies there is an order.(index)
+******** Lists are generally homogeneous
+******** Things needed by a list
+********* A create function
+********* an insert function
+********* Move cursor to location
+********* an append function
+********* a getValue function
+********* A next and prev function
+********* moveToStart and moveToEnd
+********* a remove function
 **** Systems Programming (Koffler 218)                              :systems:
      <2019-01-10 Thu 08:00-09:15 +1w>
      <2019-01-15 Tue 08:00-09:15 +1w>
@@ -183,6 +204,16 @@
 ****** Lecture 1 
        [2019-01-10 Thu]      
 ******* We just talked about syllabus stuff. 
+****** Lecure 2
+       [2019-01-15 Tue]
+******* Operating System is a program that manages programs.   
+******* Basic Bash stuff. You know this stuff already.
+	#+BEGIN_SRC bash
+	echo "Easy Stuff"
+	#+END_SRC
+******* Absolute File paths start at the root directory.
+******* Relative path is how to get to a location from another location.
+******* scp will transfer a file from one computer to another(lectura)
 **** Computer Organization (Pacheco ILC 141)                        :comporg:
      <2019-01-10 Thu 12:30-13:45 +1w>
      <2019-01-15 Tue 12:30-13:45 +1w>
@@ -190,6 +221,23 @@
 ****** Lecture 1 
        [2019-01-10 Thu]
 ******* Just syllabus stuff 
+****** Lecure 2
+       [2019-01-15 Tue] 
+******* There are a variety of number systems available. 
+******* Computers use binary.
+******* Binary is used because it is easy to represent with electrical signals.
+******* A bit is a binary digit                                  :definition:
+******* A byte is 8 bits                                         :definition:
+******* A nibble is 4 bits                                       :definition:
+******* LSB: Least significant Bit(Rightmost)                    :definition:
+******* MSB: Most significant Bit(Leftmost)                      :definition:
+******* Trinary was tried before and it was kind of cool but had a lot of technical problems.
+******* A binary number is a polynomial with increasing power of two's
+******* Max value in a byte: 2^8 - 1 = 255_ten
+******* Binary Addition
+******** Nothing special about binary addition. 
+******** 00101010 + 00011111 = 01001001
+******* Integers in computers are fixed size and can overflow.
 *** Homework                                                       :homework:
 **** HOMEWORK 345 Written assingment                               :discrete:
      DEADLINE: <2019-01-17 Thu 14:03>

@@ -43,3 +43,11 @@ So P(k+1) is true.
 \end{proof}
 * How many nonempty substrings are there of a string of length n. Prove your answer. (Note: duplicate substrings from different parts of the string are counted as separate substrings. For example, the string abab contains 10 substrings: a, b, a, b, ab, ba, ab, aba, bab, abab) 
   \quad Let S be a string of length n. Consider the first character of the string and its substrings. Counting from right to left, the first character has n substrings. Following the same process the next character has n - 1 substrings. Proceed until the end of the string is reached and it can be seen that the number of substrings total in S is \(n + (n - 1) ... + 2 + 1\). 
+* Given the recursive relation a_n = 2a_n_-1 + 1, and the initial condition a_1 = 1
+** Give the first 5 terms of the sequence defined.
+   \quad a_1 = 1, a_2 = 3, a_3 = 7, a_4 = 11, a_5 = 23.
+** Give a closed form formula for the sequence and prove it is correct.
+   \quad We proceed by telescoping.
+   \[
+   a_n = 2a_n_-1 + 1 = 2(2a_n_-2 + 1) + 1
+   \]
