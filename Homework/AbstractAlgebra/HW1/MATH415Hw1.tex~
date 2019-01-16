@@ -1,4 +1,4 @@
-% Created 2019-01-15 Tue 11:56
+% Created 2019-01-15 Tue 19:51
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -30,20 +30,22 @@
 \maketitle
 
 \section{Find all the zero divisors of \(\mathbb{Z}/20\mathbb{Z}\).}
-\label{sec:org1751a3b}
+\label{sec:orgd54fa43}
 Notice that the additive identity of \(\mathbb{Z}/20\mathbb{Z}\) is \(\mathbb{Z} = 1 \mathbb{Z}\). 
 Therefore a zero divisor is any a,b \(\in\) \mathbb{Z} such that ab \(\equiv\) 1 mod 20. This is the set of all integers that are coprime to 20 or \{[1], [3], [7], [9], [11], [13], [17], [19]\}. ([x] means the equivalence class of x modulo 20)
 
 \section{Determine U(\(\mathbb{Z}[i]\)) where \(\mathbb{Z}[i]\) \(\subseteq\) \(\mathbb{C}\) is the ring of Gaussian Integer.}
-\label{sec:org3d2b489}
-\quad Notice 1 \(\in\) \(\mathbb{Z}[i]\) is its own inverse so 1 \(\in\) U(\(\mathbb{Z}[i]\)). Likewise -1 \(\in\) \(\mathbb{Z}[i]\) is its own inverse so -1 \(\in\) U(\mathbb{Z}[i]).
+\label{sec:orga853304}
+\paragraph{}
+Notice 1 \(\in\) \(\mathbb{Z}[i]\) is its own inverse so 1 \(\in\) U(\(\mathbb{Z}[i]\)). Likewise -1 \(\in\) \(\mathbb{Z}[i]\) is its own inverse so -1 \(\in\) U(\mathbb{Z}[i]).
 Notice \(i(-i) = 1 = (-i)i\) so i, -i \(\in\) U(\(\mathbb{Z}[i]\)). \par 
 I claim there are no more units in the Gaussian Integers.
 Assume x \(\in\) U(\(\mathbb{Z}[i]\)) and x \(\ne\) 1,-1,i,-i. \par
 So x = a + bi and there exists a y = \(\alpha\) + \(\beta\) i such that xy = 1. \par
 
 \section{Let G be a group and let R be a ring.  We denote by RG the set of all functions f: G \(\to\) R whose support \{x \(\in\) G | f(x) \(\ne\) 0\} is finite.  Note that if G is finite then this condition is automatically satisfied.}
-\label{sec:orgdcda76b}
+\label{sec:orgc39a1ae}
 \subsection{Show that RG is a ring under the operations defined by \[(f+g)(x) =f(x) +g(x)\]    \[(fg)(x) =\sum_y_\in_G f(y)g(y-1x) \]for all f,g \(\in\) RG and x \(\in\) G.  Note the sum on the right makes sense as it has only finitely many non-zero terms. The product just defined is usually called the convolutional product and we call RG the group ring.}
-\label{sec:org6e20904}
+\label{sec:org0a63892}
+The 
 \end{document}

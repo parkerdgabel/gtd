@@ -151,6 +151,48 @@
 	 We have \binom{p}{i} = p!\i!(p-i)! so N\binom{p}{i} = p! where N = i!(p-1)!.
 	 We must have p | N\binom{p}{i} so either p | N or p | \binom{p}{i}. 
 	 By assumption N = a_1 ...a_k with a_i \lt p so we cannot have p | N.
+	 Assume now that R is a commutative ring with char(R) = p \gt 0 a prime. By the binomial theorem for any a, b \in R then
+	 (a + b)^p = \sum_u_=0 \binom{p}{i} a^i b^(p-1) = a^P + b^P. So npr = 0 for all n \ge 0, r \in R because if 0 \lt i \lt p then \binom{p}{i}a^i b^(p-i) = 0 
+****** Lecture 4
+       [2019-01-16 Wed]
+******* Corollary: Assume R is an integral domain with characteristic p \gt 0 then if a \in R satisfies a^P = 1 then a = 1. :theorem:
+******* Proof:                                                      :proof:
+	By assumption we have a^P - 1 = 0.
+	If p is odd then (-1)^P = -1.
+	So a^P - 1 = a^P + (-1)^P = (a + (-1))^P = (a - 1)^P
+	which implies a - 1 = 0 because R is an Integral Domain.
+	If p = 2 the same argument works given that -1 = 1.
+******* Compare this with the case R = C then we have p distinct elements a \in R such that a^P = 1. Thses are e^(2\pi i/p) with 0 \le i \le p.
+******* Integral Domains are important when discussing solutions of polynomial equations.
+******** x^2 - 4x + 3 = (x - 3)(x - 1) \in Z[x]
+	 As Z is an Integral Domains we have either x - 3 = 0 or x - 1 =0 so either x = 3 or x =1.
+	 Reducing mod 12 we get a polynomial x^2 - 4 x + 3. In Z_12 we have x = 7 and x = 9 are also solutions  of the polynomial.
+******* Fields are bad.
+	If R_1 ,...,R_k are rings then we can form an abelian group R \directsum ... R_k wunder addition. This can be made into a ring with
+	multiplication componentwise. 
+	It is unital, resp., commutative, iff all R_i are unital, resp., commutative
+	If R_1 , R_2 are fields then R_1 \directsum R_2 is not a field. 
+	If R_1 , R_2 are Integral Domains then R_1 \directsum R_2 is not an integral domain. 
+	Pick a \in R_1 and b \in R_2 non-zero elements then (a,0)(0,b) = (a0,0b) = (0,0)
+******* Ideals and Factor Rings
+******** Let I \subset R be a subring of a ring R. We have I is a subgroup of the abelian R under addition.
+	 As I is necessarily normal we can form the factor group R/I under addition. When does the multiplication in R 
+	 give R/I a ring structure?
+******** Def: A subring  I \sub R of a ring R is called a left, resp., right, ideal if for all r \in R and x \in I we have rx \in I, resp., xr \in I :definition:
+******** We say I is a two-sided Ideal if it is both a left and right ideal.
+******** Lemma: A non-empty subset I \sub R is an ideal if               :proof:
+********* x - y \in I for all x,y \in I
+********* rx \in I and xr \in I for all r \in R and x \in I
+******** Example of Ideals
+********* If R is a ring then {0} \sub R is an ideal.
+********* For any integer n \ge 0, we have nZ \sub Z is an ideal.
+********* Given x \in R we have the following principal ideals: 
+********** Rx = {rx | r \in R} left ideal
+********** xR = {xr | r \in R} right ideal
+********** RxR = {rxs | r,s \in R} two-sided ideal
+********** If R is commutative then Rx = xR = RxR and is sometimes denoted by <x>.
+********* If R is a ring and f \in R[x] is a polynomial then set l(f) = min{i \in N_0 | a_i \ne 0}.
+	  if n \ge 0 is an integer then I = {f \in R[x]} then l(f) \ge n is an ideal in R[x].
 **** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>

@@ -47,7 +47,14 @@ So P(k+1) is true.
 ** Give the first 5 terms of the sequence defined.
    \quad a_1 = 1, a_2 = 3, a_3 = 7, a_4 = 11, a_5 = 23.
 ** Give a closed form formula for the sequence and prove it is correct.
-   \quad We proceed by telescoping.
-   \[
-   a_n = 2a_n_-1 + 1 = 2(2a_n_-2 + 1) + 1
-   \]
+   \quad Let P(x) be the statement a_n = 2^(n-1) + 1, Proof by Induction.\par
+     Base Case: P(1) is true.\par
+     P(1) = 1 = 2^(1-1) + 1 = 1\par
+     Thus P(1) is true.\par
+     Inductive Step: If P(k) is true then P(k+1) is true\par
+     Assume P(k) is true. So a_k = 2^(k-1) + 1\par
+     Consider a_k_+1 = 2a_k + 1 = 2(2^(k-1)) + 1 = 2^k + 1\par
+     So P(k+1) is true. So the closed form solution is a_n = 2^(n-1) + 1.
+* Problem 8
+  \paragraph{}
+  The problem with this proof lies in the second part of the inductive step.  The claim that the set p_2, p_3, ...,p_n_+1 is true by the inductive hypothesis is false. The base case is about p_1 and p_1 is not in this set so the induction does not apply to this set. The first "dominoe" of the induction does not fall thus the claim is false. 
