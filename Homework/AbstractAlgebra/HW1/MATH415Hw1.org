@@ -18,5 +18,23 @@
   So x = a + bi and there exists a y = \alpha + \beta i such that xy = 1. \par
   
 * Let G be a group and let R be a ring.  We denote by RG the set of all functions f: G \to R whose support {x \in G | f(x) \ne 0} is finite.  Note that if G is finite then this condition is automatically satisfied.
-** Show that RG is a ring under the operations defined by \[(f+g)(x) =f(x) +g(x)\]    \[(fg)(x) =\sum_y_\in_G f(y)g(y-1x) \]for all f,g \in RG and x \in G.  Note the sum on the right makes sense as it has only finitely many non-zero terms. The product just defined is usually called the convolutional product and we call RG the group ring.
-   The 
+** Show that RG is a ring under the operations defined by \[(f+g)(x) =f(x) +g(x)\]    \[(fg)(x) =\sum_{y\in G} f(y)g(y^{-1}x) \]for all f,g \in RG and x \in G.  Note the sum on the right makes sense as it has only finitely many non-zero terms. The product just defined is usually called the convolutional product and we call RG the group ring.
+   \paragraph{}
+   Let a,b,c \in RG
+*** (a + b)(x) = (b + a)(x)
+    \paragraph{}
+    Consider (a + b)(x) = a(x) + b(x) = b(x) + a(x) = (b + a)(x).
+*** (a + b)(x) + c(x) = a(x) + (b + c)(x)
+    \paragraph{}
+    Consider (a + b)(x) + c(x) = a(x) + b(x) + c(x) = a(x) + (b + c)(x). 
+*** There is an additive identity.
+    \paragraph{}
+    Consider i: G \to R defined by i(x) = 0. Notice this fuctions support is empty so it is finite. Also for all y \in RG, (y + i)(x) = y(x) + 0 = y(x).
+    So i is the additive identity of RG.
+*** There is an element -a \in RG such that (a + (-a))(x) = 0. 
+    \paragraph{}
+    Consider the function \alpha: G \to R defined by \alpha(x) = -(a(x)). As G is a group any a(x) will have an additive inverse so this is possible. Also \alpha has the same support as a. So (a + \alpha)(x) = a(x) + \alpha(x) = a(x) + (-a(x)) = 0. So this is -a \in RG.
+*** a(x)(bc)(x) = (ab)(x)c(x)
+    \paragraph{}
+    Consider \[a(x)(bc)(x) = a(x)\sum_{y\in G} b(y)c(y^-1 x)\]
+    

@@ -239,6 +239,13 @@
 ********* A next and prev function
 ********* moveToStart and moveToEnd
 ********* a remove function
+****** Lecture 3
+       [2019-01-17 Thu]
+******* Linked Lists
+******** Composed of nodes
+********* Nodes have a data value and a link to the next node in the list.
+******** Maintain a head and tail pointer.
+******** We need a current position pointer.
 **** Systems Programming (Koffler 218)                              :systems:
      <2019-01-10 Thu 08:00-09:15 +1w>
      <2019-01-15 Tue 08:00-09:15 +1w>
@@ -280,6 +287,12 @@
 ******** Nothing special about binary addition. 
 ******** 00101010 + 00011111 = 01001001
 ******* Integers in computers are fixed size and can overflow.
+****** Lecture 3
+       [2019-01-17 Thu]
+******* Carry-out vs. Overflow.
+******** Carry-out is mechanical and expected. We lose the MSB but we don't care.
+******** Overflow is an unexpected error.
+******** 2-complement is both a format and a process.
 *** Homework                                                       :homework:
 **** HOMEWORK 345 Written assingment                               :discrete:
      DEADLINE: <2019-01-17 Thu 14:03>
@@ -331,6 +344,28 @@
      2. [ ] Problem 2
      3. [ ] Problem 3
      4. [ ] Problem 4
+**** HOMEWORK Systems Project 1                                     :systems: 
+     DEADLINE: <2019-02-02 Sat 23:59>
+**** HOMEWORK Systems Project 2                                     :systems: 
+     DEADLINE: <2019-02-09 Sat 23:59>
+**** HOMEWORK Systems Project 3                                     :systems: 
+     DEADLINE: <2019-02-16 Sat 23:59>
+**** HOMEWORK Systems Project 4                                     :systems: 
+     DEADLINE: <2019-02-23 Sat 23:59>
+**** HOMEWORK Systems Project 5                                     :systems: 
+     DEADLINE: <2019-03-16 Sat 23:59>
+**** HOMEWORK Systems Project 6                                     :systems: 
+     DEADLINE: <2019-03-23 Sat 23:59>
+**** HOMEWORK Systems Project 7                                     :systems: 
+     DEADLINE: <2019-03-30 Sat 23:59>
+**** HOMEWORK Systems Project 8                                     :systems: 
+     DEADLINE: <2019-04-06 Sat 23:59>
+**** HOMEWORK Systems Project 9                                     :systems: 
+     DEADLINE: <2019-04-13 Sat 23:59>
+**** HOMEWORK Systems Project 10                                    :systems: 
+     DEADLINE: <2019-04-20 Sat 23:59>
+**** HOMEWORK Systems Project 11                                    :systems: 
+     DEADLINE: <2019-04-27 Sat 23:59>
 *** Exams                                                              :exam:
 **** EXAM Systems midterm                                           :systems:
      SCHEDULED: <2019-02-28 Thu 08:00>

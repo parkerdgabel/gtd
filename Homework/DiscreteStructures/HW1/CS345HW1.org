@@ -28,19 +28,19 @@
   If John is a Knave then what Paul says must be false. So Paul is guilty. However, we know that Paul is a normal so that cannot be the case. If John is normal then George must be the Knight. However George's statement must be true but it would be false. So George cannot be the Knight. Thus the only remaing option for the Knight is John. Sir John is our dastardly villain.
 * Prove: 1×2^0 + 2×2^1 + 3×2^2 + . . . + n×2^n^-1 = (n – 1)×2^n + 1
   Proof by induction.
-  Let P(x) be the statement \[1\times2^0 + 2\times2^1 + 3\times2^2 + . . . + n\times2^{{x-1}} = (x - 1)\times2^x + 1\]
+  Let P(x) be the statement \[1\times2^0 + 2\times2^1 + 3\times2^2 + . . . + x\times2^{{x-1}} = (x - 1)\times2^x + 1\]
   Base Case: P(1) is true.
-\begin{proof}
-\[P(1) = 1\times2^0 = (1 \minus 1)\times2^1 \plus 1 = 1\]
+
+\[P(1) = 1\times2^0 = (1 - 1)\times2^1 + 1 = 1\]
 Thus P(1) is true.
-\end{proof}
-  Inductive Step: If P(k) is true then P(k+1) is true
-\begin{proof}
+
+  Inductive Step: If P(k) is true then P(k + 1) is true
+
 Assume P(k) is true. So \[1\times2^0 + 2\times2^1 + 3\times2^2 + . . . + k\times2^{{k-1}} = (k - 1)\times2^k + 1\]
-Consider \[1\times2^0 + 2\times2^1 + 3\times2^2 + . . . + k\times2^{{k-1}} \plus (k \plus 1)\times2^k = (k - 1)\times2^k + 1 \plus (k \plus 1)\times2^k\]
-So \[(k - 1)\times2^k \plus 1 \plus (k\plus1)\times2^k = (k \plus k \plus 1 \minus 1)\times2^k \plus 1 = (2 \times k)\times2^k + 1 = k\times2^{k+1} + 1 = ((k + 1) -1)\times2^k + 1\]
-So P(k+1) is true.
-\end{proof}
+Consider \[1\times2^0 + 2\times2^1 + 3\times2^2 + . . . + k\times2^{{k-1}} \plus (k + 1)\times2^k = (k - 1)\times2^k + 1 + (k + 1)\times2^k\]
+So \[(k - 1) \times 2^k + 1 + (k + 1) \times 2^k = (k + k + 1 - 1) \times 2^k + 1 = (2 \times k) \times 2^k + 1 = k \times 2^{k+1} + 1 = ((k + 1) -1) \times 2^k + 1\]
+So P(k + 1) is true.
+
 * How many nonempty substrings are there of a string of length n. Prove your answer. (Note: duplicate substrings from different parts of the string are counted as separate substrings. For example, the string abab contains 10 substrings: a, b, a, b, ab, ba, ab, aba, bab, abab) 
   \quad Let S be a string of length n. Consider the first character of the string and its substrings. Counting from right to left, the first character has n substrings. Following the same process the next character has n - 1 substrings. Proceed until the end of the string is reached and it can be seen that the number of substrings total in S is \(n + (n - 1) ... + 2 + 1\). 
 * Given the recursive relation a_n = 2a_n_-1 + 1, and the initial condition a_1 = 1
