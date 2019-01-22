@@ -2,12 +2,15 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/VICOperationsTest.java" line="4" />
+    <bookmark url="file://$PROJECT_DIR$/src/VICOperations.java" line="16" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a6f0602-f745-4b1b-86f3-2cb0b2f93122" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../AbstractAlgebra/HW1/MATH415Hw1.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AbstractAlgebra/HW1/MATH415Hw1.org" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AbstractAlgebra/HW1/MATH415Hw1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AbstractAlgebra/HW1/MATH415Hw1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AbstractAlgebra/HW1/MATH415Hw1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AbstractAlgebra/HW1/MATH415Hw1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VICOperations/VICOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VICOperations/VICOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VICOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VICOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../inbox.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../inbox.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../one-steps.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../one-steps.org" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../projects.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects.org" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../tickler.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../tickler.org" afterDir="false" />
     </list>
@@ -22,16 +25,12 @@
     <favorites_list name="VICOperations" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VICOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-              <folding>
-                <element signature="e#1594#1595#0" expanded="true" />
-                <element signature="e#1631#1632#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="462">
+              <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -39,14 +38,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VICOperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="294">
               <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-1" />
     <option name="y" value="-2" />
     <option name="width" value="1346" />
@@ -84,38 +81,20 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="VICOperations" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VICOperations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VICOperations" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VICOperations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548108265054" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548185109128" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../projects.org" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -138,10 +117,29 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
     <configuration name="VICOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VICOperations" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VICOperationsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,9 +164,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VICOperationsTest - 2019.01.21 at 12h 51m 07s.xml">
-      <configuration name="VICOperationsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VICOperationsTest - 2019.01.21 at 12h 52m 50s.xml">
       <configuration name="VICOperationsTest" configurationId="JUnit" />
     </history-entry>
@@ -196,6 +191,9 @@
     <history-entry file="VICOperationsTest - 2019.01.21 at 13h 58m 05s.xml">
       <configuration name="VICOperationsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VICOperationsTest - 2019.01.22 at 14h 08m 47s.xml">
+      <configuration name="VICOperationsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -207,26 +205,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-2" width="1368" height="735" extended-state="6" />
+    <frame x="-1" y="-34" width="1368" height="803" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" weight="0.32978722" />
+      <window_info active="true" id="Favorites" order="3" side_tool="true" visible="true" weight="0.32978722" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.25835866" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4978038" weight="0.25835866" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32934132" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007599" side_tool="true" weight="0.38473055" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49924013" weight="0.38473055" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997006" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32934132" />
+      <window_info id="Terminal" order="7" sideWeight="0.5021962" side_tool="true" weight="0.97720367" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32934132" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007599" side_tool="true" weight="0.38473055" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49924013" weight="0.384127" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3997006" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.32934132" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="emBrowser" order="2" />
@@ -236,6 +234,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="REPL" order="9" side_tool="true" weight="0.32978722" />
+      <window_info anchor="right" id="Leiningen" order="10" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -268,27 +268,28 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/VICOperationsTest.java">
+    <entry file="file://$PROJECT_DIR$/../../../../projects.org">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
+        <state>
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VICOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="462">
+          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VICOperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
           <folding>
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
           </folding>
         </state>
       </provider>

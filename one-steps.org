@@ -2,3 +2,8 @@
 ** TODO Get mu4e working.
 ** TODO Set up C development. 
 ** TODO clean up init and reconsider hydra setup 
+** TODO Talk to Dustin
+** TODO Follow up on Internships
+** TODO Apply to USAA internship
+** TODO Apply to Connexta Intership
+** TODO Apply to Repay Intership

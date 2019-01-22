@@ -20,3 +20,12 @@ Archived entries from file /home/garlic/Documents/OrgDocs/gtd/projects.org
    - State "NEXT"       from "DONE"       [2018-12-27 Thu 16:06]
    - State "DONE"       from "NEXT"       [2018-12-27 Thu 16:06]
    :END:
+
+* DONE Set up hledger
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-01-22 Tue 14:13
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/Finance
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :END:

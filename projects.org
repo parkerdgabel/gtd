@@ -274,6 +274,28 @@
 ********* Nodes have a data value and a link to the next node in the list.
 ******** Maintain a head and tail pointer.
 ******** We need a current position pointer.
+****** Lecture 4
+       [2019-01-22 Tue]
+******* Algorithm Analysis       
+******** What makes for a good solution?
+********* Not complicated
+********* Efficiency
+********** Low run time
+********** Space
+********* Correct
+********* Reusable
+********* Extensible and Adaptable
+******** Problem: A task to be solved
+********* A function mapping inputs to desired outputs
+********* A specific set of inputs is called an instance of a problem.
+******** Algorithm: A method for solving a problem.
+********* A finite set of doable instructions
+********* It must be correct
+********* It must be composed of concrete steps
+********* There can be no ambiguity in what step to do next
+********* It must be a finite number of steps
+********* It must always terminate
+******** Program: Implementation of an algorithm in some language
 **** Systems Programming (Koffler 218)                              :systems:
      <2019-01-10 Thu 08:00-09:15 +1w>
      <2019-01-15 Tue 08:00-09:15 +1w>
@@ -291,6 +313,21 @@
 ******* Absolute File paths start at the root directory.
 ******* Relative path is how to get to a location from another location.
 ******* scp will transfer a file from one computer to another(lectura)
+****** Lecture 4
+       [2019-01-22 Tue]
+******* C Programmming
+******** Syntax is like Java
+******** Lower level than Java 
+******** Explicate Memory Management
+******** Lots of Pointers
+******** No Garbage Collection
+******** No array boundry protection
+******** You have more control 
+********* Programs can be made faster
+********* Harder to debug
+********* Security issues
+******** Compiles to machine language
+******** We must compile with gcc -Wall and get rid of all warnings
 **** Computer Organization (Pacheco ILC 141)                        :comporg:
      <2019-01-10 Thu 12:30-13:45 +1w>
      <2019-01-15 Tue 12:30-13:45 +1w>
@@ -321,6 +358,15 @@
 ******** Carry-out is mechanical and expected. We lose the MSB but we don't care.
 ******** Overflow is an unexpected error.
 ******** 2-complement is both a format and a process.
+****** Lecture 4
+       [2019-01-22 Tue]
+******* Modern processors operates at gigahertz speeds.
+******* There are no decimals in computer hardware.
+******* C has two kinds of AND operations
+******** && is logical AND as you are used to
+******** & bitwise AND takes an Integer and performs ands on its bits.
+******** Masking is bitwise anding with a number that has ones in the bits we are interested in.
+******** >> shift operation moves all bits to the right by n amount
 *** Homework                                                       :homework:
 **** HOMEWORK Zybooks reading.                                      :comporg: 
      DEADLINE: <2019-01-22 Tue 23:59 +7d>
@@ -446,4 +492,3 @@
      SCHEDULED: <2019-04-10 Wed 11:00>
 ** Bookworm
 ** Finance
-*** TODO Set up hledger
