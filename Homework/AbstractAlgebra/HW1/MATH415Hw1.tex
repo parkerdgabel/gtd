@@ -1,4 +1,4 @@
-% Created 2019-01-16 Wed 16:59
+% Created 2019-01-17 Thu 21:43
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -30,12 +30,12 @@
 \maketitle
 
 \section{Find all the zero divisors of \(\mathbb{Z}/20\mathbb{Z}\).}
-\label{sec:orgfcafc88}
+\label{sec:org1b2c6dc}
 Notice that the additive identity of \(\mathbb{Z}/20\mathbb{Z}\) is \(\mathbb{Z} = 1 \mathbb{Z}\). 
 Therefore a zero divisor is any a,b \(\in\) \mathbb{Z} such that ab \(\equiv\) 1 mod 20. This is the set of all integers that are coprime to 20 or \{[1], [3], [7], [9], [11], [13], [17], [19]\}. ([x] means the equivalence class of x modulo 20)
 
 \section{Determine U(\(\mathbb{Z}[i]\)) where \(\mathbb{Z}[i]\) \(\subseteq\) \(\mathbb{C}\) is the ring of Gaussian Integer.}
-\label{sec:orgcd16b14}
+\label{sec:org144b44a}
 \paragraph{}
 Notice 1 \(\in\) \(\mathbb{Z}[i]\) is its own inverse so 1 \(\in\) U(\(\mathbb{Z}[i]\)). Likewise -1 \(\in\) \(\mathbb{Z}[i]\) is its own inverse so -1 \(\in\) U(\mathbb{Z}[i]).
 Notice \(i(-i) = 1 = (-i)i\) so i, -i \(\in\) U(\(\mathbb{Z}[i]\)). \par 
@@ -44,30 +44,46 @@ Assume x \(\in\) U(\(\mathbb{Z}[i]\)) and x \(\ne\) 1,-1,i,-i. \par
 So x = a + bi and there exists a y = \(\alpha\) + \(\beta\) i such that xy = 1. \par
 
 \section{Let G be a group and let R be a ring.  We denote by RG the set of all functions f: G \(\to\) R whose support \{x \(\in\) G | f(x) \(\ne\) 0\} is finite.  Note that if G is finite then this condition is automatically satisfied.}
-\label{sec:org355168e}
+\label{sec:org3da982a}
 \subsection{Show that RG is a ring under the operations defined by \[(f+g)(x) =f(x) +g(x)\]    \[(fg)(x) =\sum_{y\in G} f(y)g(y^{-1}x) \]for all f,g \(\in\) RG and x \(\in\) G.  Note the sum on the right makes sense as it has only finitely many non-zero terms. The product just defined is usually called the convolutional product and we call RG the group ring.}
-\label{sec:org0b16156}
+\label{sec:orge74ae4c}
 \paragraph{}
 Let a,b,c \(\in\) RG
 \subsubsection{(a + b)(x) = (b + a)(x)}
-\label{sec:org3f1f499}
+\label{sec:orgfc32976}
 \paragraph{}
 Consider (a + b)(x) = a(x) + b(x) = b(x) + a(x) = (b + a)(x).
 \subsubsection{(a + b)(x) + c(x) = a(x) + (b + c)(x)}
-\label{sec:org61abe58}
+\label{sec:org84dd37d}
 \paragraph{}
 Consider (a + b)(x) + c(x) = a(x) + b(x) + c(x) = a(x) + (b + c)(x). 
 \subsubsection{There is an additive identity.}
-\label{sec:orge01e368}
+\label{sec:org18ca200}
 \paragraph{}
 Consider i: G \(\to\) R defined by i(x) = 0. Notice this fuctions support is empty so it is finite. Also for all y \(\in\) RG, (y + i)(x) = y(x) + 0 = y(x).
 So i is the additive identity of RG.
 \subsubsection{There is an element -a \(\in\) RG such that (a + (-a))(x) = 0.}
-\label{sec:org25ac212}
+\label{sec:org567ffc0}
 \paragraph{}
 Consider the function \(\alpha\): G \(\to\) R defined by \(\alpha\)(x) = -(a(x)). As G is a group any a(x) will have an additive inverse so this is possible. Also \(\alpha\) has the same support as a. So (a + \(\alpha\))(x) = a(x) + \(\alpha\)(x) = a(x) + (-a(x)) = 0. So this is -a \(\in\) RG.
-\subsubsection{a(x)(bc)(x) = (ab)(x)c(x)}
-\label{sec:org7550bbb}
+\subsubsection{(a(bc))(x) = ((ab)c)(x)}
+\label{sec:org426642f}
 \paragraph{}
-Consider \[a(x)(bc)(x) = a(x)\sum_{y\in G} b(y)c(y^-1 x)\]
+Consider \[(a(bc))(x) = \sum_{y\in G} a(y)(bc)(y^{-1}x) = \sum_{y\in G}\sum_{z\in G}a(y)b(z)c(z^{-1}y^{-1}x)\]
+Consider \[((ab)c)(x) = \sum_{y\in G} (ab)(y)c(y^{-1}x) = \sum_{y\in G}\sum_{z\in G}a(z)b(z^{-1}y)c(y^{-1}x)\]
+Let yz = w. So z = y\(^{\text{-1}}\) w\par
+So \[\sum_{y\in G}\sum_{z\in G}a(y)b(z)c(z^{-1}y^{-1}x) = \sum_{y\in G}\sum_{w\in G}a(y)b(y^{-1}w)c(w^{-1} y^{}y^{-1}x) =  \sum_{y\in G}\sum_{w\in G}a(y)b(y^{-1}w)c(w^{-1}^{}^{}x)\]
+So \[\sum_{y\in G}\sum_{z\in G}a(z)b(z^{-1}y)c(y^{-1}x) =  \sum_{y\in G}\sum_{w\in G}a(y^{-1}w)b(y^{-1}wy)c(y^{-1}x) =  \sum_{y\in G}\sum_{w\in G}a(y^{-1}w)b(y^{-1}wy)c(y^{-1}^{}^{}x)\]
+Notice these summations happen over the the same set of elements so they are in fact equal.
+\subsubsection{(a(b + c))(x) = ab(x) + ac(x) and ((b + c)a) = ba(x) + ca(x)}
+\label{sec:org1f86aea}
+\paragraph{}
+\subsection{If R is unital then RG is unital.}
+\label{sec:org408ec6e}
+\paragraph{}
+Assume R is unital. 
+\section{Question 4}
+\label{sec:org967876f}
+\paragraph{}
+\(fg = \frac{1}{4}(23) - \frac{1}{2}(123) + \frac{1}{4}(231) - \frac{1}{2}(132)\) 
 \end{document}

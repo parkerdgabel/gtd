@@ -193,6 +193,34 @@
 ********** If R is commutative then Rx = xR = RxR and is sometimes denoted by <x>.
 ********* If R is a ring and f \in R[x] is a polynomial then set l(f) = min{i \in N_0 | a_i \ne 0}.
 	  if n \ge 0 is an integer then I = {f \in R[x]} then l(f) \ge n is an ideal in R[x].
+****** Lecture 5
+       [2019-01-18 Fri]
+******* Let R be an Integral Domain and let n \ge 0 an integer. 
+	We define I \sub R[x] to be the set of all polynomials f = \sum_i\in_N a_i x^i with m(f) = min{i\in N | a_i \ne 0} \ge n
+	then let g \sum_i\in_N b_i x^i \in R[x]. If f = 0 \in I then gf = 0 \in I.
+	Assume 0 \ne gf \in I.
+	By definition of multiplication we have \sum_i\in_N \sum_j\in_N a_i b_j x^(i + j)
+	Assume a_i b_j \ne 0 then a_i \ne 0 and b_j = 0
+	so i \ge m(f) and j \ge m(g) so this implies that i + j \ge m(f) \ge n.
+	Hence gf \in I. It's easy to see that g - f \in I. For all g*f \in I and I \ne empty.
+	So by the ideal test I \sub R[x] is an ideal
+******* x^n, x^n^+1, x^n^+2,...\in I.
+	If g = \sum_i\in_N a_i x^i \in R[x] is a polynomial then g + I = \sum_(i=0)^(n-1) a_i x^i + I
+******* Theorem: Exsistence of factor Rings.                        :theorem:
+	Let R be a ring and I \sub R a subring. The binary operation R/I \times R/I \to R/I defined by (s + I)(t + I) = st + I is well defined iff I is an ideal.
+	Moreover, if I is an Ideal then R/I is a ring(called the quotient ring or factor ring). It is an excersice to show if the multiplication is well defined then R/I is a ring.
+	Assume first that I is an ideal and let s, s_1, t, t_1 \in R be such that s + I = s_1 + I and t + I = t_1 + I
+	So there exists elements in the ideal such that s_1 = s + a and t_1 = t + b.
+	Now s_1 t_1 = (s + a) (t + b) = st + sb + at + ab. So sb + at + ab \in I as I is an Ideal.
+	This means (s_1 + I)(t_1 + I) = s_1 t_1 + I = st + I = (s + I)(t + I). So the multiplication is well defined.
+	Conversly assume I is not an Ideal then there exists r \in R and a \in I such that either ra \notin I or ar \notin I then
+	I \ne ra + I = (r + I)(a + I) = (r + I)(0 + I) = r0 + I = I
+	So the multiplication is not well-defined.
+******* Example Let R = Reals[x] then we have a principal ideal I = <x^2 + 1> = {r(x^2 + 1) | r \in R} 
+	If f \in R is a polynomial then by the division algorithm there exists polynomials q,r \in R such that f = q(x^2 + 1) + r.
+	Moreover we have deg(r) \lt 2. This means that r = aX +b with a,b \in Reals.
+	The quotient ring R/I = {(aX + b) + I | a,b \in Reals}
+	Note: x^2 + I = x^2 = (x^2 + 1) + I = -1 + I
 **** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
@@ -294,16 +322,22 @@
 ******** Overflow is an unexpected error.
 ******** 2-complement is both a format and a process.
 *** Homework                                                       :homework:
-**** HOMEWORK 345 Written assingment                               :discrete:
-     DEADLINE: <2019-01-17 Thu 14:03>
 **** HOMEWORK Zybooks reading.                                      :comporg: 
      DEADLINE: <2019-01-22 Tue 23:59 +7d>
      :PROPERTIES:
      :LAST_REPEAT: [2019-01-14 Mon 10:07]
      :END:
      - State "DONE"       from "HOMEWORK"   [2019-01-14 Mon 10:07]
-**** HOMEWORK Sim project 1                                         :comporg: 
-     DEADLINE: <2019-01-24 Thu 12:30>
+**** HOMEWORK Sim project 1 [5/8]                                   :comporg: 
+     DEADLINE: <2019-01-24 Thu 12:30> 
+     - [X] Sim1-ADD
+     - [X] Sim1-NOT
+     - [X] Sim1-AND
+     - [X] Sim1-OR
+     - [ ] Sim1-Sub
+     - [X] Sim1-XOR
+     - [ ] Sim1-2sComplement
+     - [ ] sim1.c
 **** HOMEWORK Assembly project 1                                    :comporg: 
      DEADLINE: <2019-01-31 Thu 12:30>
 **** HOMEWORK Sim project 2                                         :comporg: 
@@ -338,14 +372,20 @@
      DEADLINE: <2019-04-09 Tue 17:00>
 **** HOMEWORK Computer Organization Homework 6                      :comporg: 
      DEADLINE: <2019-04-23 Tue 17:00>
-**** HOMEWORK Abstract Algebra Homework [25%]                       :algebra: 
-     DEADLINE: <2019-01-18 Fri 11:00 +7d>
-     1. [X] Problem 1
-     2. [ ] Problem 2
-     3. [ ] Problem 3
-     4. [ ] Problem 4
-**** HOMEWORK Systems Project 1                                     :systems: 
+**** HOMEWORK Abstract Algebra Homework                             :algebra: 
+     DEADLINE: <2019-01-25 Fri 11:00 +7d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2019-01-18 Fri 20:00]
+     :END:
+     - State "DONE"       from "HOMEWORK"   [2019-01-18 Fri 20:00] 
+**** HOMEWORK Systems Project 1 [0/6]                               :systems: 
      DEADLINE: <2019-02-02 Sat 23:59>
+     - [ ] No-Carry Addition
+     - [ ] Chain Addition
+     - [ ] Digit Permutation
+     - [ ] The Straddling Checkerboard
+     - [ ] VIC Incomplete encode
+     - [ ] VIC Incomplete decode
 **** HOMEWORK Systems Project 2                                     :systems: 
      DEADLINE: <2019-02-09 Sat 23:59>
 **** HOMEWORK Systems Project 3                                     :systems: 
@@ -366,6 +406,15 @@
      DEADLINE: <2019-04-20 Sat 23:59>
 **** HOMEWORK Systems Project 11                                    :systems: 
      DEADLINE: <2019-04-27 Sat 23:59>
+**** HOMEWORK Discrete Program 1 [0/3]                             :discrete: 
+     DEADLINE: <2019-01-31 Thu 14:00>
+     - [-] VICOperations [2/4]
+       - [X] No-carry Addition
+       - [X] Chain Addition
+       - [ ] Digit Permutation
+       - [ ] Straddling Checkerboard
+     - [ ] EncryptVIC
+     - [ ] DecryptVIC
 *** Exams                                                              :exam:
 **** EXAM Systems midterm                                           :systems:
      SCHEDULED: <2019-02-28 Thu 08:00>
@@ -395,3 +444,6 @@
      SCHEDULED: <2019-02-27 Wed 11:00>
 **** EXAM Abstract Algebra Midterm 2                                :algebra: 
      SCHEDULED: <2019-04-10 Wed 11:00>
+** Bookworm
+** Finance
+*** TODO Set up hledger

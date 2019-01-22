@@ -34,7 +34,20 @@
 *** There is an element -a \in RG such that (a + (-a))(x) = 0. 
     \paragraph{}
     Consider the function \alpha: G \to R defined by \alpha(x) = -(a(x)). As G is a group any a(x) will have an additive inverse so this is possible. Also \alpha has the same support as a. So (a + \alpha)(x) = a(x) + \alpha(x) = a(x) + (-a(x)) = 0. So this is -a \in RG.
-*** a(x)(bc)(x) = (ab)(x)c(x)
+*** (a(bc))(x) = ((ab)c)(x)
     \paragraph{}
-    Consider \[a(x)(bc)(x) = a(x)\sum_{y\in G} b(y)c(y^-1 x)\]
-    
+    Consider \[(a(bc))(x) = \sum_{y\in G} a(y)(bc)(y^{-1}x) = \sum_{y\in G}\sum_{z\in G}a(y)b(z)c(z^{-1}y^{-1}x)\]
+    Consider \[((ab)c)(x) = \sum_{y\in G} (ab)(y)c(y^{-1}x) = \sum_{y\in G}\sum_{z\in G}a(z)b(z^{-1}y)c(y^{-1}x)\]
+    Let yz = w. So z = y^-1 w\par
+    So \[\sum_{y\in G}\sum_{z\in G}a(y)b(z)c(z^{-1}y^{-1}x) = \sum_{y\in G}\sum_{w\in G}a(y)b(y^{-1}w)c(w^{-1} y^{}y^{-1}x) =  \sum_{y\in G}\sum_{w\in G}a(y)b(y^{-1}w)c(w^{-1}^{}^{}x)\]
+    So \[\sum_{y\in G}\sum_{z\in G}a(z)b(z^{-1}y)c(y^{-1}x) =  \sum_{y\in G}\sum_{w\in G}a(y^{-1}w)b(y^{-1}wy)c(y^{-1}x) =  \sum_{y\in G}\sum_{w\in G}a(y^{-1}w)b(y^{-1}wy)c(y^{-1}^{}^{}x)\]
+    Notice these summations happen over the the same set of elements so they are in fact equal.
+*** (a(b + c))(x) = ab(x) + ac(x) and ((b + c)a) = ba(x) + ca(x)
+    \paragraph{}
+** If R is unital then RG is unital.
+   \paragraph{}
+   Assume R is unital. 
+* Question 4 
+  \paragraph{}
+  \(fg = \frac{1}{4}(23) - \frac{1}{2}(123) + \frac{1}{4}(231) - \frac{1}{2}(132)\) 
+  
