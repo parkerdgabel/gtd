@@ -19,4 +19,9 @@ class VICOperationsTest {
     void digitPermutaionTest() {
         assertEquals("4071826395", VICOperations.digitPermutation("BANANALAND"));
     }
+
+    @Test
+    void straddlingCheckerboard() {
+
+    }
 }

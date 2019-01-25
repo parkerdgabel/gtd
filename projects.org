@@ -69,7 +69,7 @@
 ******* Definition
 ******** If (R,+,*) is a ring then a subset S of R is a subring if (S,+,*) is a ring :definition:
 ******* Subring Test                                                :theorem:
-******** If R is a ring and S \subset R a nonempty subset then S is a subring if a-b\inS and ab\in S \forall a,b\in S
+******** If R is a ring and S \subset R a nonempty subset then S is a subring if a-b \in S and ab\in S \forall a,b\in S
 ******** Proof                                                        :proof:
 	 By the one step subgroup test we have (S,+) is a subgroup of (R,+). As the semigroup and distributing
 	 properties hold for all elements of R they must hold for all elements of S. The assumption ab\in S implies
@@ -221,6 +221,72 @@
 	Moreover we have deg(r) \lt 2. This means that r = aX +b with a,b \in Reals.
 	The quotient ring R/I = {(aX + b) + I | a,b \in Reals}
 	Note: x^2 + I = x^2 = (x^2 + 1) + I = -1 + I
+****** Lecture 6
+       [2019-01-23 Wed]
+******* Prime Ideals and Maximal Ideals
+******** Def: Prime Ideal                                        :definition:
+	 If R is a commutative ring then a prime ideal of R is a proper Ideal I \sub R such that for any a,b \in R with ab \in I
+	 we have either a \in I or b \in I
+******** Def: Maximal Ideals                                     :definition:
+	 A maximal Ideal is a proper ideal I \sub R such that for any ideal I \sub J \sub R either I = J or J = R
+******** Example: The ideal <x^2 - 1> \in R[x] is neither prime nor maximal
+	 We have x^2 -1 = (x + 1)(x - 1) but x + 1, x - 1 \notin <x^2 - 1> because any non-zero f \in <x^2 - 1> has deg(f) \ge 2
+	 Thus <x^2 - 1> is not a prime ideal.
+	 Also x^2 - 1 \in <x - 1>
+	 so <x^2 - 1> \sub <x - 1> \sub R[x] which implies <x^2 - 1> is not maximal
+******** Example: The ideal <x^2 + 1> \sub R[x] is maximal
+	 We will show that if <x^2 + 1> \sub I \sub R[x]
+	 then there exists a non-zero element c \in R such that c \in I.
+	 This implies 1 = c^-1 c \in I so I = R[x]
+	 Pick an element f \in I such that f \notin <x^2 + 1>. By the division algorithm we have
+	     f = q(x^2 + 1) + r for some q,r \in R[x]
+	 As f \notin <x^2 + 1> we have r \ne 0 and deg(r) \lt 2. This means r = aX + b for a,b \in Reals not both zero.
+	 We have 
+	     aX + b = r = f - q(x^2 + 1) \in I
+	 so (aX - b)(aX + b) = a^2 x^2 - b^2 \in I
+	 Now a^2(x^2 + 1) = a^2 X^2 + a^2 \in I and (a^2 X^2 + a^2) - (a^2 X^2 - b^2) = a^2 + b^2 \in I
+******** The Ideal inside <x^2 + 1> \in Z_2[X] is not prime because (x + 1)^2 = x^2 + 1 but x + 1 \notin <x^2 + 1>
+******** Notation: 
+	 For any Integer n \gt 0 we have the ring Z_n = Z/nZ.
+	 If p \gt 0 is a prime then we have the field F_p = Z/pZ
+******** Theorem                                                    :theorem:
+	 Assume R is a commutative unital ring and I \sub R is an ideal. Then R/I is an integral domain iff I is a prime ideal.
+******** Proof                                                        :proof:
+	 Assume R/I is an Integral Domain and let a,b \in R such that ab \in I.
+	 We have (a + I)(b + I) = ab + I = I
+	 So as R/I is an Integral Domain either a + I = I or b + I = I so either a \in I or b \in I.
+	 Hence I is a prime ideal.
+	 Conversely, assume I is a prime ideal. Firstly R/I is commutative and unital because R is so we need only check R/I has no zero divisors
+	 Assume a + I, b + I \in R/I such that (a + I)(b + I) = ab + I = I then ab \in I.
+	 As I is prime either a \in I or b \in I so either a + I = I or b + I = I.
+******** Theorem:                                                   :theorem:
+	 Assume R is a commutative unital ring and I \sub R is an ideal. Then R/I is a field iff I is maximal.
+******** Proof:                                                       :proof:
+	 Suppose R/I is a field and I \sub J \sub R is an Ideal
+	 Assume x \in J but x \notin I. As R/I is a field there exists an element y + I \in R/I such that (x + I)(y + I) = xy + I = 1 + I.
+	 This means xy - 1 \in I \sub J so xy - (xy - 1) = 1 \in J Because xy \in J and I is maximal 
+	 Conversely assume I is maximal then we need to show R/I is a field. As before R/I is commutative and unital because R is,
+	 so we need to show every  non-zero element is invertible.
+	 Pick x \in R with x \notin I. Consider the ideal J = <x> + I = {rx + y | r \in R and y \in I}
+	 Certainly I \sub J and, as x \in J, we have I \sub J. As I is a maximal ideal we must have J = R. This means 1 \in J so 1 = rx + y for some r \in R
+	 and y \in I. Hence 1 + I = rx + y + I = rx + I = (r + I)(x + I).
+******** Example: 
+	 If I <x^2 + x + 1> \in F_2[x] then F_2[x]/I is a field. If \sum_{i=0}a_i x^i is a polynomial and n \ge 2 then
+	     f + I = (f + I) - (x^{n-2}(x^2 + x + 1) + I)
+****** Lecture 7
+       [2019-01-25 Fri]
+******* Group Rings (Homework 1.3)   
+******** RG, G is a group and R is a ring
+	 RG: Set of function G \to R whose support is finite
+********* Assume R is a field
+	  In this case RG is actually a vector space
+	  Addition is pointwise and multiplication is scalar
+	  "Kronecker Functions" x \in G \delta_x : G \to F
+	  \delta_x(y) = 1: x = y or 0: x \ne y so \delta_x \in RG
+********** Claim: {\delta_x}_{x \in G }is a basis of RG and dim FG = |G| and f = \sum_{x \in G }f(x)\delta_x 
+********** Idea: Define multiplication FG \times FG \to FG on the basis elements: \delta_x * \delta_y = \delta_xy 
+********** Claim: This is precisely the multiplication of Question 3
+	   (fg)(x) = \sum_{y \in G}f(y)g(y^-1 x)
 **** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
@@ -368,21 +434,22 @@
 ******** Masking is bitwise anding with a number that has ones in the bits we are interested in.
 ******** >> shift operation moves all bits to the right by n amount
 *** Homework                                                       :homework:
-**** HOMEWORK Zybooks reading.                                      :comporg: 
-     DEADLINE: <2019-01-22 Tue 23:59 +7d>
+**** TODO Zybooks reading.                                          :comporg: 
+     DEADLINE: <2019-01-29 Tue 23:59 +7d>
      :PROPERTIES:
-     :LAST_REPEAT: [2019-01-14 Mon 10:07]
+     :LAST_REPEAT: [2019-01-22 Tue 22:44]
      :END:
+     - State "DONE"       from "HOMEWORK"   [2019-01-22 Tue 22:44]
      - State "DONE"       from "HOMEWORK"   [2019-01-14 Mon 10:07]
-**** HOMEWORK Sim project 1 [5/8]                                   :comporg: 
-     DEADLINE: <2019-01-24 Thu 12:30> 
+**** HOMEWORK Sim project 1 [6/8]                                   :comporg: 
+     DEADLINE: <2019-01-29 Tue 12:30> 
      - [X] Sim1-ADD
      - [X] Sim1-NOT
      - [X] Sim1-AND
      - [X] Sim1-OR
      - [ ] Sim1-Sub
      - [X] Sim1-XOR
-     - [ ] Sim1-2sComplement
+     - [X] Sim1-2sComplement
      - [ ] sim1.c
 **** HOMEWORK Assembly project 1                                    :comporg: 
      DEADLINE: <2019-01-31 Thu 12:30>
@@ -424,14 +491,8 @@
      :LAST_REPEAT: [2019-01-18 Fri 20:00]
      :END:
      - State "DONE"       from "HOMEWORK"   [2019-01-18 Fri 20:00] 
-**** HOMEWORK Systems Project 1 [0/6]                               :systems: 
+**** HOMEWORK Systems Project 1                                     :systems: 
      DEADLINE: <2019-02-02 Sat 23:59>
-     - [ ] No-Carry Addition
-     - [ ] Chain Addition
-     - [ ] Digit Permutation
-     - [ ] The Straddling Checkerboard
-     - [ ] VIC Incomplete encode
-     - [ ] VIC Incomplete decode
 **** HOMEWORK Systems Project 2                                     :systems: 
      DEADLINE: <2019-02-09 Sat 23:59>
 **** HOMEWORK Systems Project 3                                     :systems: 
@@ -454,10 +515,10 @@
      DEADLINE: <2019-04-27 Sat 23:59>
 **** HOMEWORK Discrete Program 1 [0/3]                             :discrete: 
      DEADLINE: <2019-01-31 Thu 14:00>
-     - [-] VICOperations [2/4]
+     - [-] VICOperations [3/4]
        - [X] No-carry Addition
        - [X] Chain Addition
-       - [ ] Digit Permutation
+       - [X] Digit Permutation
        - [ ] Straddling Checkerboard
      - [ ] EncryptVIC
      - [ ] DecryptVIC
@@ -491,4 +552,6 @@
 **** EXAM Abstract Algebra Midterm 2                                :algebra: 
      SCHEDULED: <2019-04-10 Wed 11:00>
 ** Bookworm
+*** Compatible with .ledger, .hledger, .journal formats
+**** Should parse trasactions into a clj file.
 ** Finance

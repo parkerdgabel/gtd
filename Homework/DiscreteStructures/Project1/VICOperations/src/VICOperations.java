@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  *
  */
@@ -60,8 +62,22 @@ public class VICOperations {
         return _chainAddition(num, num, len);
     }
 
-    private static String _digitPermutation() {
-        return null;
+    /** Main routing to build the permutation
+     * @param sortedWord        a sorted word
+     * @param num               The number to associate
+     * @param map               the map storing the associations
+     * @return
+     */
+    private static HashMap<Character, List<String>> _digitPermutation(String sortedWord, String num, HashMap<Character, List<String>> map) {
+        if (sortedWord.isEmpty()) {
+            return map;
+        } else {
+            Character first = sortedWord.charAt(0);
+            map.putIfAbsent(first, new ArrayList<>());
+            String next = String.valueOf(Integer.valueOf(num) + 1);
+            map.get(first).add(num);
+            return _digitPermutation(sortedWord.substring(1), next, map);
+        }
     }
 
     /**
@@ -74,7 +90,26 @@ public class VICOperations {
         if (word.length() < 10) {
             return null;
         } else {
-            return null;
+            char[] temp = word.toUpperCase().toCharArray();
+            Arrays.sort(temp);
+            HashMap<Character, List<String>> map = _digitPermutation(new String(temp), "0", new HashMap<Character, List<String>>());
+            StringBuilder ret = new StringBuilder();
+            for(char ch : word.toCharArray()) {
+               List<String> lst = map.get(ch);
+               String first = lst.remove(0);
+               map.put(ch, lst);
+               ret.append(first);
+            }
+            return ret.toString();
         }
+    }
+
+    /** Associates letters to numbers.
+     * @param permutation       The given permutation
+     * @param anagram           the anagram to associate
+     * @return                  A list of Strings
+     */
+    public static List<String> straddlingCheckerboard(String permutation, String anagram) {
+        return null;
     }
 }
