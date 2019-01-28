@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb032899-7f85-4161-bbef-9174451e59b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EncryptVIC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EncryptVIC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EncryptVIC/EncryptVIC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptVIC/EncryptVIC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EncryptVIC/EncryptVICTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EncryptVIC/EncryptVICTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EncryptVIC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptVIC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EncryptVICTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptVICTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/VICOperations.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/out/production/VICOperations/VICOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/out/production/VICOperations/VICOperationsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/src/VICOperations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../VICOperations/src/VICOperationsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../inbox.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../inbox.org" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../projects.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects.org" afterDir="false" />
-    </list>
+    <list default="true" id="bb032899-7f85-4161-bbef-9174451e59b2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EncryptVICTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="273">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,6 +65,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -100,7 +82,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -142,7 +123,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VICOperations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -203,9 +184,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-2" width="1368" height="771" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25835866" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.26291794" />
+      <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.26291794" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -243,20 +225,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EncryptVIC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EncryptVICTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="273">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EncryptVIC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

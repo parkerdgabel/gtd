@@ -452,7 +452,7 @@
      - [X] Sim1-2sComplement
      - [ ] sim1.c
 **** HOMEWORK Assembly project 1                                    :comporg: 
-     DEADLINE: <2019-01-31 Thu 12:30>
+     DEADLINE: <2019-02-05 Tue 12:30>
 **** HOMEWORK Sim project 2                                         :comporg: 
      DEADLINE: <2019-02-07 Thu 17:16>
 **** HOMEWORK Assembly project 2                                    :comporg: 
@@ -474,7 +474,7 @@
 **** HOMEWORK Simulation Project 6                                  :comporg: 
      DEADLINE: <2019-04-25 Thu 12:30>
 **** HOMEWORK Computer Organization Homework 1                      :comporg: 
-     DEADLINE: <2019-01-29 Tue 17:00>
+     DEADLINE: <2019-02-03 Sun 17:00>
 **** HOMEWORK Computer Organization Homework 2                      :comporg: 
      DEADLINE: <2019-02-12 Tue 17:00>
 **** HOMEWORK Computer Organization Homework 3                      :comporg: 
@@ -514,13 +514,13 @@
      DEADLINE: <2019-04-20 Sat 23:59>
 **** HOMEWORK Systems Project 11                                    :systems: 
      DEADLINE: <2019-04-27 Sat 23:59>
-**** HOMEWORK Discrete Program 1 [0/3]                             :discrete: 
+**** HOMEWORK Discrete Program 1 [1/3]                             :discrete: 
      DEADLINE: <2019-01-31 Thu 14:00>
-     - [-] VICOperations [3/4]
+     - [X] VICOperations [4/4]
        - [X] No-carry Addition
        - [X] Chain Addition
        - [X] Digit Permutation
-       - [ ] Straddling Checkerboard
+       - [X] Straddling Checkerboard
      - [ ] EncryptVIC
      - [ ] DecryptVIC
 *** Exams                                                              :exam:
@@ -537,7 +537,7 @@
 **** EXAM Discrete midterm 2                                       :discrete: 
      SCHEDULED: <2019-04-11 Thu 14:00>
 **** EXAM Computer Orginization Midterm 1                           :comporg: 
-     SCHEDULED: <2019-01-31 Thu 12:30>
+     SCHEDULED: <2019-02-05 Tue 12:30>
 **** EXAM Computer Orginization Midterm 2                           :comporg: 
      SCHEDULED: <2019-02-14 Thu 12:30>
 **** EXAM Computer Orginization Midterm 3                           :comporg: 
