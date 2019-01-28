@@ -31,6 +31,8 @@
    :END:
 *** APPT Groomingdales  
     SCHEDULED: <2019-01-29 Tue 08:00>
+*** APPT CompOrg office Hours                                       :@school: 
+    SCHEDULED: <2019-01-28 Mon 12:00>
 ** WORK Turn stuff off then on again.
    :PROPERTIES:
    :LAST_REPEAT: [2019-01-18 Fri 19:59]
