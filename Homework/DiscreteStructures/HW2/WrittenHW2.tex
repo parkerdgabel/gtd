@@ -1,0 +1,119 @@
+% Created 2019-02-07 Thu 06:21
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=0.5in]{geometry}
+\author{Parker Gabel}
+\date{\today}
+\title{CS345 Homework 2}
+\hypersetup{
+ pdfauthor={Parker Gabel},
+ pdftitle={CS345 Homework 2},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section{It is in O(n\(^{\text{2}}\)) and \(\Omega\)(n)}
+\label{sec:org12f3586}
+Let n\(_{\text{0}}\) = 1 and c = 1. 
+\subsection{Notice for all n \(\ge\) n\(_{\text{0}}\), if n is odd then f(n) = n \(\le\) n\(^{\text{2}}\) and if n is even then f(n) = n\(^{\text{2}}\) = n\(^{\text{2}}\) so f(n) \(\in\) O(n\(^{\text{2}}\)).}
+\label{sec:org226af0c}
+\subsection{Notice for all n \textgreater{} n\(_{\text{0}}\), if n is odd then f(n) = n = n and if n is even then f(n) = n\(^{\text{2}}\) \textgreater{} n.}
+\label{sec:org3e83882}
+\section{Yes. Since big theta is an equvalence relation, it is reflexive. For every function f(n), f(n) \(\in\) \(\Theta\)(f(n))}
+\label{sec:orgd9c8c44}
+\section{This is reflexive, symmetric, and transitive}
+\label{sec:org41c4520}
+\subsection{Claim: f(n) \(\in\) \(\Theta\)(f(n))}
+\label{sec:org8438db7}
+\subsubsection{Subclaim: f(n) \(\in\) O(f(n))}
+\label{sec:org74ab111}
+Let n\(_{\text{0}}\) be any positive integer and c be 1. Notice that for all n \(\ge\) n\(_{\text{0}}\) , f(n) \(\le\) f(n) (in fact it is strictly equal). So f(n) \(\in\) O(f(n)).
+\subsubsection{Subclaim: f(n) \(\in\) \(\Omega\)(f(n))}
+\label{sec:orgead8068}
+Let n\(_{\text{0}}\) be any positive integer and c be 1. Notice that for all n \textgreater{} n\(_{\text{0}}\) , f(n) \(\ge\) f(n) (in fact it is strictly equal). So f(n) \(\in\) \(\Omega\)(f(n)).
+\paragraph Since f(n) is in both O(f(n)) and \(\Omega\)(f(n)), it is \(\Theta\)(f(n)).
+\subsection{Claim: If f(n) \(\in\) \(\Theta\)(g(n)) then g(n) \(\in\) \(\Theta\)(f(n))}
+\label{sec:org3a01646}
+Assume f(n) \(\in\) \(\Theta\)(g(n)). So f(n) \(\in\) O(g(n)) and f(n) \(\in\) \(\Omega\)(g(n)). So there is some n\(_{\text{0}}\) and c such that for all n \(\ge\) n\(_{\text{0}}\) c\(_{\text{1}}\) g(n) \(\le\) f(n) \(\le\) c\(_{\text{2}}\) g(n) for some c\(_{\text{1}}\) and c\(_{\text{2}}\). So f(n) \(\le\) c\(_{\text{2}}\) g(n) = 1/c\(_{\text{2}}\) f(n) \(\le\) g(n). So c\(_{\text{1}}\) g(n) \(\le\) f(n) = g(n) \(\le\) 1/c\(_{\text{1}}\) f(n). So 1/c\(_{\text{2}}\) f(n) \(\le\) g(n) \(\le\) 1/c\(_{\text{1}}\) f(n). So g(n) \(\in\) \(\Theta\)(f(n)) 
+\subsection{Claim: If f(n) \(\in\) \(\Theta\)(g(n)) and g(n) \(\in\) \(\Theta\)(h(n)) then f(n) \(\in\) \(\Theta\)(h(n)).}
+\label{sec:org0a83033}
+Assume f(n) \(\in\) \(\Theta\)(g(n)) and g(n) \(\in\) \(\Theta\)(h(n)). So there exists a,b,c,d \textgreater{} 0 and n \textgreater{} 0 such that ag(n) \(\le\) f(n) \(\le\) bg(n) and ch(n) \(\le\) g(n) \(\le\) dh(n). So f(n) \(\ge\) ag(n) \(\ge\) a(ch(n)) = ac(h(n)) and f(n) \(\le\) bg(n) \(\le\) b(dh(n)) = bd(h(n)). So ac(h(n)) \(\le\) f(n) \(\le\) bd(h(n)). So f(n) \(\in\) \(\Theta\)(h(n)).
+\section{2, log\(_{\text{3}}\)(n), log\(_{\text{2}}\)(n), n\(^{\text{2/3}}\), 20n, 4n\(^{\text{2}}\), 3\(^{\text{n}}\), n!}
+\label{sec:orge21be12}
+\section{100n, 10n, n, 2\(^{\text{100n}}\)}
+\label{sec:orgd30e0a6}
+\section{}
+\label{sec:orgbfef390}
+\subsection{lim log(n\(^{\text{2}}\))/(log(n) + 5) = 2. Since this is a constant f(n) = \(\Theta\)(n)}
+\label{sec:org1ab3a5e}
+\subsection{lim (nlog(n) + n)/log(n) = \(\infty\). So f(n) grows faster so f(n) \(\in\) \(\Omega\)(g(n))}
+\label{sec:org722b7bb}
+\section{}
+\label{sec:org2783b70}
+\subsection{\(\Theta\)(n\(^{\text{2}}\)). The loop must run n*n times.}
+\label{sec:org0ec48e9}
+\subsection{\(\Theta\)(n log(n)). The outer loop runs n times and the inner loop runs log(n) times}
+\label{sec:orga9a9038}
+\subsection{\(\Theta\)(n log(n)). The outer loop runs log(n) times and the inner loop runs n times}
+\label{sec:org3e67350}
+\subsection{\(\Theta\)(n\(^{\text{2}}\) log(n)). The outer loop is run n times and the inner loop costs n log(n).}
+\label{sec:org72da379}
+\subsection{\(\Theta\)(n\(^{\text{2}}\)). For each time the outer loop is run, the inner loop happens a random amount of times but it is quranteed to run i times for each value of i from 1 to n.}
+\label{sec:orgb00c463}
+\section{}
+\label{sec:org11551c6}
+\begin{verbatim}
+/** @return The position of an element in sorted array A
+with value k. If k is not in A, return A.length. */
+static int binary(int[] A, int k) {
+    if (A[0] > k) {
+	return ERROR
+    }
+    int l = -1;
+    int r = A.length; // l and r are beyond array bounds
+    while (l+1 != r) { // Stop when l and r meet
+	 int i = (l+r)/2; // Check middle of remaining subarray
+	 if (k < A[i]) r = i; // In left half
+	 if (k == A[i]) return i; // Found it
+	 if (k > A[i] && k < A[i + 1]) return i + 1; // k not in array
+	 else: l = i // In right half
+     }
+     return A.length; // Search value not in A
+  }
+\end{verbatim}
+\section{}
+\label{sec:org446cae2}
+\subsection{n \textgreater{} DE / (P + E), E = 1 and P = 4 and D = 30. So n \textgreater{} 30 / 5 = 6. The break even point is six. When n is less than 6 then the linked list requires less space.}
+\label{sec:org3674738}
+\subsection{n \textgreater{} DE / (P + E), E = 32 and P = 4, and D = 40. So n \textgreater{} 32*40 / 36 = 1280 / 36 = 320 / 9 = 35.55. So the break even point is 35. When n is less than 35 then the linked list requires less space.}
+\label{sec:orgac26b0a}
+\section{}
+\label{sec:orgb332bd8}
+\begin{verbatim}
+E x;
+for(int i = 0; i < Q.length(); i++) {
+    x = Q.dequeue();
+    S.push(x);
+}
+ for(int i = 0; i < S.length(); i++) {
+    x = S.pop();
+    Q.enqueue(x);
+}
+\end{verbatim}
+\end{document}

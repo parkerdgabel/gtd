@@ -9,3 +9,61 @@
 ** 7544_ten = 0001110101111000 
 ** 2974_ten = 0000101110011110
 ** -671_ten = 1111110101100001
+* Problem 2
+** (j) 
+   a = 0000 1001 0010 1111
+   b = 0101 1100 0001 1100
+*** Hex
+    a = 92F
+    b = 5C1C
+*** Octal
+    a = 4457
+    b = 56034
+*** a + b
+    a + b = 0110 0101 0010 1011
+    No Carry out or overflow
+*** a - b
+    a - b = 0110 0101 0010 1011
+    No Carry out or overflow
+** (k)
+   a = 0011 1001 1110 1111
+   b = 0011 1101 0010 0010
+*** Hex
+    a = 39EF
+    b = 3D22
+*** Octal
+    a = 34757
+    b = 36442
+*** a + b
+    a + b = 0111 0111 0000 1001
+    No Carry out or overflow
+*** a - b
+    a - b = 1000 1110 0011 1000
+    Carry out not overflow
+** (l)
+   a = 1111 0010 0010 0111
+   b = 0010 0011 0011 0011
+*** Hex
+    a = F227
+    b = 2333
+*** Octal
+    a = 17104
+    b = 21463
+*** a + b
+    a + b = 0110 1101 0011 1100
+    Overflow no carry out
+*** a - b
+    a - b = 1000 1001 0101 1110
+    Overflow no carry out
+* Problem 3
+** (i)
+   add ribbon tonto hermit
+** (j)
+   bne clear, falls, Else
+   lw $s3 1
+   j exit
+Else: lw $s3 0
+** (k)
+   add $s0 3(tonto) kaibab
+   sub $s6 $s0 creek
+   lw $t7 $s6

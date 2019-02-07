@@ -1,4 +1,4 @@
-% Created 2019-01-14 Mon 16:46
+% Created 2019-02-01 Fri 21:50
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -30,14 +30,89 @@
 \maketitle
 
 \section{Problem 1}
-\label{sec:orgf490bfa}
-
+\label{sec:org5a623ea}
 \subsection{7544\(_{\text{ten}}\) = 0001110101111000}
-\label{sec:org968e330}
-
+\label{sec:org697c0a8}
 \subsection{2974\(_{\text{ten}}\) = 0000101110011110}
-\label{sec:orgfb590c3}
-
+\label{sec:orge66a5b1}
 \subsection{-671\(_{\text{ten}}\) = 1111110101100001}
-\label{sec:org53644bd}
+\label{sec:org8b13a54}
+\section{Problem 2}
+\label{sec:orge49335d}
+\subsection{(j)}
+\label{sec:orgd71feb9}
+a = 0000 1001 0010 1111
+b = 0101 1100 0001 1100
+\subsubsection{Hex}
+\label{sec:orgdf9edb8}
+a = 92F
+b = 5C1C
+\subsubsection{Octal}
+\label{sec:org767a490}
+a = 4457
+b = 56034
+\subsubsection{a + b}
+\label{sec:org902b65b}
+a + b = 0110 0101 0010 1011
+No Carry out or overflow
+\subsubsection{a - b}
+\label{sec:org65aaf34}
+a - b = 0110 0101 0010 1011
+No Carry out or overflow
+\subsection{(k)}
+\label{sec:orga34b9c3}
+a = 0011 1001 1110 1111
+b = 0011 1101 0010 0010
+\subsubsection{Hex}
+\label{sec:org79c0b5c}
+a = 39EF
+b = 3D22
+\subsubsection{Octal}
+\label{sec:orgeb1b10e}
+a = 34757
+b = 36442
+\subsubsection{a + b}
+\label{sec:org37fd307}
+a + b = 0111 0111 0000 1001
+No Carry out or overflow
+\subsubsection{a - b}
+\label{sec:org5ea55e7}
+a - b = 1000 1110 0011 1000
+Carry out not overflow
+\subsection{(l)}
+\label{sec:org6d377d4}
+a = 1111 0010 0010 0111
+b = 0010 0011 0011 0011
+\subsubsection{Hex}
+\label{sec:orga351544}
+a = F227
+b = 2333
+\subsubsection{Octal}
+\label{sec:org60fca2f}
+a = 17104
+b = 21463
+\subsubsection{a + b}
+\label{sec:org6ca9744}
+a + b = 0110 1101 0011 1100
+Overflow no carry out
+\subsubsection{a - b}
+\label{sec:org0ea37bd}
+a - b = 1000 1001 0101 1110
+Overflow no carry out
+\section{Problem 3}
+\label{sec:org08fceeb}
+\subsection{(i)}
+\label{sec:org3a1b848}
+add ribbon tonto hermit
+\subsection{(j)}
+\label{sec:orgcfe0549}
+   bne clear, falls, Else\n
+   lw \$s3 1\n
+   j exit
+Else: lw \$s3 0
+\subsection{(k)}
+\label{sec:org4fbf176}
+add \$s0 3(tonto) kaibab\n
+sub \$s6 \$s0 creek\n
+lw \$t7 \$s6
 \end{document}

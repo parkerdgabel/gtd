@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/sim1.dir/sim1.c.o CMakeFiles/sim1.dir/test_13_carryOut.c.o CMakeFiles/sim1.dir/test_15_subtract1.c.o  -o sim1 

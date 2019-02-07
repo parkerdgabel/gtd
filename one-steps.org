@@ -1,6 +1,4 @@
 * One-Steps
 ** TODO Get mu4e working.
-** TODO clean up init and reconsider hydra setup 
 ** TODO Apply to Repay Intership
-** TODO Apply to USAA internship
 ** TODO Plan Valentin's Day

@@ -1,0 +1,3 @@
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/cmake-build-debug/CMakeFiles/sim1.dir
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/cmake-build-debug/CMakeFiles/edit_cache.dir

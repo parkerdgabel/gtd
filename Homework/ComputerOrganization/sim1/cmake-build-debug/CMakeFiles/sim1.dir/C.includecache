@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/sim1.c
+sim1.h
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/sim1.h
+
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/sim1.h
+
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/test_13_carryOut.c
+stdio.h
+-
+memory.h
+-
+sim1.h
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/sim1.h
+
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/test_15_subtract1.c
+stdio.h
+-
+memory.h
+-
+sim1.h
+/home/garlic/gtd/Homework/ComputerOrganization/sim1/sim1.h
+

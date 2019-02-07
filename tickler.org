@@ -1,14 +1,19 @@
 * Tickler
 ** Bills
 *** BILL [#A] Pay Rent.
-   DEADLINE: <2019-02-01 Fri +1m>
+   DEADLINE: <2019-03-01 Fri +1m>
    :PROPERTIES:
-   :LAST_REPEAT: [2019-01-10 Thu 11:20]
+   :LAST_REPEAT: [2019-02-04 Mon 08:40]
    :END:
+   - State "DONE"       from "BILL"       [2019-02-04 Mon 08:40]
    - State "DONE"       from "BILL"       [2019-01-10 Thu 11:20]
   [2018-12-27 Thu 11:39]
 *** BILL [#A] Pay Water bill 
-  DEADLINE: <2019-02-01 Fri +1m> 
+  DEADLINE: <2019-03-01 Fri +1m>
+  :PROPERTIES:
+  :LAST_REPEAT: [2019-02-01 Fri 08:16]
+  :END:
+  - State "DONE"       from "BILL"       [2019-02-01 Fri 08:16]
 *** BILL [#A] Pay electric bill
    DEADLINE: <2019-02-17 Sun +1m>
    :PROPERTIES:
@@ -29,10 +34,6 @@
    :PROPERTIES:
    :ORDERED:  t
    :END:
-*** APPT Groomingdales  
-    SCHEDULED: <2019-01-29 Tue 08:00>
-*** APPT CompOrg office Hours                                       :@school: 
-    SCHEDULED: <2019-01-28 Mon 12:00>
 ** WORK Turn stuff off then on again.
    :PROPERTIES:
    :LAST_REPEAT: [2019-01-18 Fri 19:59]

@@ -1,0 +1,15 @@
+#+TITLE: Asm1 Report
+#+AUTHOR: Parker Gabel
+#+LATEX_CLASS: article
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+DATE: \today
+#+OPTIONS: toc:nil
+
+* Adress of Median
+  0x10010054
+* Two instructions
+** lui $1, 0x00001001
+** ori $16, $1, 0x00000054
+* Hex encoding
+** 0x3c011001, 1001 is the constant
+** 0x34300054, 0054 is the constant

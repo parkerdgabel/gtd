@@ -1,0 +1,103 @@
+% Created 2019-02-07 Thu 05:24
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=0.5in]{geometry}
+\author{Parker Gabel}
+\date{\today}
+\title{CS345 Homework 2}
+\hypersetup{
+ pdfauthor={Parker Gabel},
+ pdftitle={CS345 Homework 2},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section{It is in O(n\(^{\text{2}}\)) and \(\Omega\)(n)}
+\label{sec:org85eeb9c}
+Let n\(_{\text{0}}\) = 1 and c = 1. 
+\subsection{Notice for all n \(\ge\) n\(_{\text{0}}\), if n is odd then f(n) = n \(\le\) n\(^{\text{2}}\) and if n is even then f(n) = n\(^{\text{2}}\) = n\(^{\text{2}}\) so f(n) \(\in\) O(n\(^{\text{2}}\)).}
+\label{sec:org048672d}
+\subsection{Notice for all n \textgreater{} n\(_{\text{0}}\), if n is odd then f(n) = n = n and if n is even then f(n) = n\(^{\text{2}}\) \textgreater{} n.}
+\label{sec:org838191e}
+\section{Yes. Since big theta is an equvalence relation so it is reflexive. For every function f(n), f(n) \(\in\) \(\Theta\)(f(n))}
+\label{sec:org067027f}
+\section{This is reflexive, symmetric, and transitive}
+\label{sec:orged453e8}
+\subsection{Claim: f(n) \(\in\) \(\Theta\)(f(n))}
+\label{sec:org331d1cc}
+\subsubsection{Subclaim: f(n) \(\in\) O(f(n))}
+\label{sec:orgc31ea77}
+Let n\(_{\text{0}}\) be any positive integer and c be 1. Notice that for all n \(\ge\) n\(_{\text{0}}\) , f(n) \(\le\) f(n) (in fact it is strictly equal). So f(n) \(\in\) O(f(n)).
+\subsubsection{Subclaim: f(n) \(\in\) \(\Omega\)(f(n))}
+\label{sec:orgd4d97dd}
+Let n\(_{\text{0}}\) be any positive integer and c be 1. Notice that for all n \textgreater{} n\(_{\text{0}}\) , f(n) \(\ge\) f(n) (in fact it is strictly equal). So f(n) \(\in\) \(\Omega\)(f(n)).
+\paragraph Since f(n) is in both O(f(n)) and \(\Omega\)(f(n)), it is \(\Theta\)(f(n)).
+\subsection{Claim: If f(n) \(\in\) \(\Theta\)(g(n)) then g(n) \(\in\) \(\Theta\)(f(n))}
+\label{sec:org34a0f8f}
+Assume f(n) \(\in\) \(\Theta\)(g(n)). So f(n) \(\in\) O(g(n)) and f(n) \(\in\) \(\Omega\)(g(n)). So there is some n\(_{\text{0}}\) and c such that for all n \(\ge\) n\(_{\text{0}}\) c\(_{\text{1}}\) g(n) \(\le\) f(n) \(\le\) c\(_{\text{2}}\) g(n) for some c\(_{\text{1}}\) and c\(_{\text{2}}\). 
+\section{2, log\(_{\text{3}}\)(n), log\(_{\text{2}}\)(n), n\(^{\text{2/3}}\), 20n, 4n\(^{\text{2}}\), 3\(^{\text{n}}\), n!}
+\label{sec:org8de6d46}
+\section{100n, 10n, n, 2\(^{\text{100n}}\)}
+\label{sec:orgd7e777c}
+\section{}
+\label{sec:orgd46c386}
+\subsection{lim log(n\(^{\text{2}}\))/(log(n) + 5) = 2. Since this is a constant f(n) = \(\Theta\)(n)}
+\label{sec:org23919e3}
+\subsection{lim (nlog(n) + n)/log(n) = \(\infty\). So f(n) grows faster so f(n) \(\in\) \(\Omega\)(g(n))}
+\label{sec:org9972afc}
+\section{}
+\label{sec:orgf8342c8}
+\subsection{\(\Theta\)(n\(^{\text{2}}\))}
+\label{sec:org7357bf5}
+\subsection{\(\Theta\)(n log(n))}
+\label{sec:org46416ba}
+\subsection{\(\Theta\)(n log(n))}
+\label{sec:orgca9ff93}
+\subsection{\(\Theta\)(n\(^{\text{3}}\) log(n))}
+\label{sec:orgb231af5}
+\subsection{}
+\label{sec:org5329d73}
+\section{}
+\label{sec:org45c4f32}
+\section{}
+\label{sec:org2dfe727}
+\begin{verbatim}
+/** @return The position of an element in sorted array A
+with value k. If k is not in A, return A.length. */
+static int binary(int[] A, int k) {
+    if (A[0] > k) {
+	return ERROR
+    }
+    int l = -1;
+    int r = A.length; // l and r are beyond array bounds
+    while (l+1 != r) { // Stop when l and r meet
+	 int i = (l+r)/2; // Check middle of remaining subarray
+	 if (k < A[i]) r = i; // In left half
+	 if (k == A[i]) return i; // Found it
+	 if (k > A[i] && k < A[i + 1]) return i + 1; // k not in array
+	 else: l = i // In right half
+     }
+     return A.length; // Search value not in A
+  }
+\end{verbatim}
+\section{}
+\label{sec:org7423c9c}
+\subsection{n \textgreater{} DE / (P + E), E = 1 and P = 4 and D = 30. So n \textgreater{} 30 / 5 = 6. The break even point is six. When n is less than 6 then the linked list requires less space.}
+\label{sec:orgf2265b4}
+\end{document}

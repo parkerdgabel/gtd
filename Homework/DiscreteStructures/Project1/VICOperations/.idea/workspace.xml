@@ -6,17 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a6f0602-f745-4b1b-86f3-2cb0b2f93122" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/Sim1_SUB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/Sim1_SUB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/sim1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/sim1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/test_13_carryOut" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/test_13_carryOut" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/test_15_subtract1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ComputerOrganization/sim1/test_15_subtract1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EncryptVIC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EncryptVIC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/VICOperations/VICOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VICOperations/VICOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VICOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VICOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VICOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VICOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../inbox.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../inbox.org" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../projects.org" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../projects.org" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VICOperations/VICOperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VICOperations/VICOperationsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,26 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VICOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="502">
               <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/VICOperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="147">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +77,26 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="VICOperations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VICOperations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VICOperations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VICOperations" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -171,9 +179,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VICOperationsTest - 2019.01.22 at 20h 56m 18s.xml">
-      <configuration name="VICOperationsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VICOperationsTest - 2019.01.22 at 20h 57m 13s.xml">
       <configuration name="VICOperationsTest" configurationId="JUnit" />
     </history-entry>
@@ -201,6 +206,9 @@
     <history-entry file="VICOperationsTest - 2019.01.22 at 21h 47m 00s.xml">
       <configuration name="VICOperationsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VICOperationsTest - 2019.01.28 at 09h 28m 50s.xml">
+      <configuration name="VICOperationsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -213,21 +221,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-2" width="1368" height="771" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.32978722" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4978038" weight="0.25835866" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4978038" visible="true" weight="0.25835866" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007599" side_tool="true" weight="0.38323355" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49924013" weight="0.3825397" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49924013" weight="0.38172922" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.3984496" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -297,21 +304,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VICOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="502">
           <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VICOperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="147">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
