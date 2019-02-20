@@ -1,0 +1,135 @@
+% Created 2019-02-19 Tue 14:13
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=0.5in]{geometry}
+\author{Parker Gabel}
+\date{\today}
+\title{Computer Organization Homework 2}
+\hypersetup{
+ pdfauthor={Parker Gabel},
+ pdftitle={Computer Organization Homework 2},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Problem 1}
+\label{sec:org60b48fa}
+\subsection{}
+\label{sec:orgae494ed}
+\begin{verbatim}
+la     $t3, cbq
+lw     $t3, 0($t3)
+sub    $t1, $s1, $s0
+la     $s5, bnsf
+lw     $s5, 0($s5)
+sub    $t2, $s5, $s2
+slt    $t0, $t2, $t1
+bne    $t0, $zero, ELSE
+sw     $t3, 0($t2)
+ELSE:
+\end{verbatim}
+\subsection{}
+\label{sec:orgb330fb3}
+\begin{verbatim}
+la    $t0, erie
+sw    $t0, 0($t0)
+la    $t1, epsw
+sw    $t1, 0($t1)
+
+slt   $t7, $s0, $t0
+bne   $t7, $zero, ELSE
+slt   $t7, $t0, $t1
+bne   $t7, $zero, ELSE
+sw    $s0, 0($t1)
+ELSE:
+\end{verbatim}
+\section{Problem 2}
+\label{sec:orgc1f7ec8}
+\subsection{All even bits}
+\label{sec:orge9414b6}
+\begin{verbatim}
+addi $t0, $zero, 0xAA
+sll  $t0, $t0, 2
+and  $t0, $so, $t0
+sw   $t0, 0($t0)
+\end{verbatim}
+\section{Problem 3}
+\label{sec:org75f4f59}
+\subsection{(d)}
+\label{sec:org30ff555}
+W = A(notB)C + AB(notC) + ABC
+X = (notA)(notB)(notC) + (notA)BC + A(notB)C + AB(notC)
+Y = (notA)(notB)C + (notA)B(notC) + ABC
+Z = (notA)(notB)(notC) + (notA)BC + A(notB)(notC) + AB(notC)
+
+A---0
+
+B---0   And--Z\(_{\text{0}}\)
+
+C---0
+
+A---0
+
+B---    And--Z\(_{\text{1}}\)
+
+C---
+		     Or--Z
+A---
+
+B---0   And--Z\(_{\text{2}}\)
+
+C---0
+
+A---
+
+B---    And--Z\(_{\text{3}}\)
+
+C---0
+\section{Problem 4}
+\label{sec:orgfaa4082}
+\subsection{}
+\label{sec:org69492b3}
+\begin{verbatim}
+   la    $s0, pow
+   lw    $s0, 0($s0)
+
+   addi  $t0, $zero, 1
+   addi  $t1, $zero, 0
+LOOP:
+   slt   $t2, $s0, $t1
+   bne   $t2, $zero, LOOP_END
+   sll   $t0, $t0, 1
+   addi  $t1, $t1, 1
+   j     LOOP
+LOOP_END:
+\end{verbatim}
+\section{Problem 5}
+\label{sec:org9c108e0}
+\subsection{bNegate = 0 and aluOp = 01}
+\label{sec:org124b09d}
+\subsubsection{And = 0, 1, 0, 0}
+\label{sec:org9411a62}
+\subsubsection{Or  = 1, 0, 1, 1}
+\label{sec:org255d895}
+\subsubsection{Add = 1, 0, 1, 1}
+\label{sec:org7b346cf}
+\subsubsection{Out = 0, 1, 0, 0}
+\label{sec:orgdc47b04}
+\end{document}

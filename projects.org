@@ -361,6 +361,109 @@
 ****** Lecture 12
        [2019-02-06 Wed]
 ******* 
+****** Lecture 13
+       [2019-02-11 Mon]
+******* Let \omega = e^{2\pi i/n} then \omega^n = 1 so \omega \in C is a zero of the polynomial x^n - 1. We can factor this polynomial
+	x^n - 1 = (X - 1)(X^{n-1} + X^{n - 2} + ... + X + 1)
+	As \omega \ne 1 we have \omega is a zero of h so \omega^{n-1} + \omega^{n-2} + ... + \omega + 1 = 0
+	So |\omega^{n-1} + ... + \omega + 1| \le |\omega^{n-1}| + ... + |\omega| + 1 = n
+******* Pricipal Ideal Domain
+******** An Integral Domain R is called a pricipal Ideal Domain(PID) if every Ideal of R is a pricipal Ideal. :definition:
+******** Assume R is a PID and r,s \in R are non-zero. 
+	 As R is a PID we have <r, s> = <d> for some d \in R. Hence, r = ad and s = bd for some a,b \in R
+	 A good notion of common divisors.
+******** Example: Every ideal in Z if of the form nZ so is principal. Hence, Z is a PID
+******** Theorem: If F is a field then F[x] is a PID                :theorem:
+******** Proof: We already know F[X] is an integral domain            :proof:
+	 Assume f \in F[X]. Assume I \sub F[X] is an ideal.
+	 If I = {0} = <0> then this is principal so assume I \ne {0}
+	 We choose an element g \ne 0 \in I such that the deg(g) \le deg(h) for all h \in I.
+	 Let f \in I then by the division algorithm there exists polynomial q,r \in F[X] such that f = gq + r and either r = 0 or deg(r) \lt deg(g).
+	 We have r = f -gq \in I so by the minimality of deg(g) we have r = 0 so f \in <g>. This shows I = <g>
+******** Theorem: If I \sub F[X] is a non-zero ideal then g \in I generates I iff g has minimal amongst all polynomials in F[X]. :theorem:
+****** Lecture 14
+       [2019-02-13 Wed]
+******* Second Isomorphism theorem
+******** If R is a ring and S \sub R is a subring and I \sub R an Ideal then (S + I)/I is isomorphic to S/S intersect I :theorem:
+	 Use this in 1 homework 5
+******** Divisibility and Factorization
+********* Assume R is an Integral Domain then f \ne 0 \in R, with f a non-unit is called 
+********** Irreducible if whenever f = ab, with a,b \in R then either a is a unit or b is a unit :definition:
+********** Prime if whenever f | ab then either f | a or f | b, for all a, b \in R
+********* Example: R = Z then +/- p \in Z, with p a prime number, is a prime element
+********* Lemma: If f \in R is prime then f is irreducible            :theorem:
+********* Proof: Assume f = ab for some a, b \in R                      :proof:
+	  so f | ab we have either f | a or f | b because f is prime.
+	  Up to relabeling we can assume f | a.
+	  So a = fd for some d \in R.
+	  So f = (fd)b \to f(1 - bd) = 0
+	  Since R is an integral domain it has no zero divisors and f \ne 0 we must hav db = 1 so b is a unit.
+********* Lemma: If R is a PID then f \in R is irreducible iff f is prime. :theorem:
+********* Proof: Assume f is irreducible and f | ab with a, b \in R.    :proof:
+	  As R is a PID there exists some element d \in R <f, a> = <d>.
+	  As f \in <d> we have f = dr for some r \in R
+	  So either d is a unit or r is a unit because f is irreducible.
+	  Assume first that d is a unit then <d> = <1> = R so 1 = fx +ay for some x, y \in R
+	  So b = fbx + aby. As f | fbx and f | aby we must have f | b.
+	  Now if r is a unit then <f> = <d> so <f> = <a> = <f, a> = <d>. As f \in <a> we must have f | a.
+****** Lecture 15
+       [2019-02-15 Fri]
+******* Irreducible and Prime elements in an Integral Domain
+******** Polynomial Rings
+********* Let R be an Integral Domain and assume f \in R[X] is a unit.
+	  This means fg = 1 for some g \in R[X]. As R is an Integral Domain we have 0 = deg(fg) = deg(f) + deg(g)
+	  So def(f) = deg(g) = 0 This means f = cx^0 is a constant polynomial for some c \in R and g = dx^0 for some d \in R.
+	  So now we have cd = 1 in R. So c is aunit in R and d = c^-1
+	  This shows that the U(R[X]) = {cx^0 | c \in U(R)}
+	  If R = F is a field then U(F[X]) = {f \in F[x] | f \ne 0 and deg(f) = 0}
+********* In the Laurent Polynomial Ring R[X, X^-1] show that U(R[X, X^-1]) = {cX^k | c \in R is a unit and k \in Z}
+********* X + 1 \in R[X, X^-1] is irreducible
+********* Can we tell when a polynomial is irreducible?
+********* Thereom: Reducibility test.                               :theorem:
+	  If F is a field and f \in F[X] is a non-zero polynomial such that deg(f) \in {2, 3} then f is irreducible iff f has a zero in F.
+********* Proof: Assume a \in F is a zero of f                          :proof:
+	  Then by the factor theorem we have f = g(X - a) for some g \in F[X]. Note deg(f) = deg(g) + 1 so deg(g) > 0 which implies g is not a unit.
+	  So f is irreducible.
+	  Conversly assume f is reducible so f = gh for some g, h \in F[X]. Now, deg(f) = deg(g) + deg(h) \in {2, 3}
+	  This implies either deg(g) = 1 or deg(h) = 1.
+	  Without loss of generality we assume deg(g) = 1.
+	  This means g = aX + b for some a, b \in F.
+	  We can write g = a(X + a^-1 b) because F is a field.
+	  As g(-ab^-1) = 0. We must have f(-a^-1 b) = 0
+********* Divisibility and Ideals
+	  If R is an Integral Domain then f, g \in R we have g | f iff <f> \sub <g>. So if g | f then f = gh sor some h \in R.
+	  Hence f \in <g> so <f> \sub <g>. Converse is the 
+****** Lecture 16
+       [2019-02-18 Mon]
+******* Divisibility and Ideals 
+******** If R is an integral domain and f, g \in R then g | f iff <f> \sub <g>.
+	 This is useful in a PID.
+******** Lemma: If R is a PID and f \in R then f is irreducible iff <f> is maximal :theorem:
+******** Proof: Assume f is irreducible and M \sub R is an ideal such that <f> \sub M. :proof:
+	 Note <f> \ne {0} because f \ne 0. As R is a PID we have M = <g> for some g \in R. By our previous remade we have glf because <f> \sub <g>.
+	 That means f = gh for some h \in R. As f is irreducible either g is a unit or h is a unit. If g is a unit then 1 = g^-1 g \in <g>.
+	 So <g> = R. Now if h is a unit then g = h^-1 f \in <f>. So <g> \sub <f> which shows that <f> = <g>. Hence, <f> is a maximal ideal.
+	 Conversely assume <f> is maximal.
+	 Firstly as <f> \ne 0 we have f \ne 0 and as <f> \ne R we have f is not a unit.
+	 If f were a unit then 1 = f^-1 f \in <f> which implies <f> = R, a contradiction.
+	 Assume f = gh for some g, h \in R
+	 As g | f we have <f> = <g> or <g> = R.
+	 If <g> = R then 1 \in <g> which implies g is a unit.
+	 Now assume <f> = <g>. This means g \in <f> so g = fa for some a \in R.
+	 Putting this back in the expression we get that f = fah \to f(1 - ah) = 0
+	 As R has no zero divisors and f \ne 0.
+	 We must have 1 - ah = 0 so h is a unit. Hence f is irreducible. 
+******** Corollary: If R is a PID and f \in R is irreducible the R/<f> is a field.
+******** Example: R[X] / <x^2 + 1> is a field, which is isomorphic to C.
+******** Example: The polynomial x^2 - 2x + 6 \in Q[X]. Its zeros are 1 +/- (sqrt -5) \in C so the polynomial is irreducible in Q[X]. The quotient Q[X]/<X^2 - 2X +6> is a field.
+	 One can show that this is isomorphic to a subfield of C, written Q((sqrt -5)), this is the smallest subfield of C containing (sqrt -5).
+******** Assume F is a field then R = F[X] is a PID. Let 0 \ne f \in R be a nonzero element. By the division algorithm.
+	 If g \in R such that either r = 0 or deg(r) < deg(f). This means
+	 g + <f> = qf + r + <f> = r + <f>
+	 So we can assume each element of R/<f> is represented by a polynomial whose degree is strictly less than that of f.
+	 If g_1, g_2 \in R have degree strictly less than f then
+	 g_1 + <f> = g_2 + <f> \to g_1 = g_2
+	 Assume |F| < \infin is finite then this shows that |F[X]/<f>| = |F|^{deg(f)} 
 **** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
@@ -443,6 +546,36 @@
 ******** Example: f(n) = 7n + 8 \in O(n)
 ********* Let c = 15. So 7n + 8 \le 15n for all n \ge 1
 ********* Proof by induction.
+****** Test 1 review
+******* Review Stuff
+******** S 2, ODSA 3
+******** T(n) = cT(n - 1) + c_0. This is the 1 + 2 + ... + n-1 + n = n(n+1)/2
+******** \sum_{i=1}2^i = 2^{n+1} - 1
+******** n^logn = n
+******** \Theta(log_2 n) = \Theta(log_3 n)
+******* Lists/Stacks/Queus
+******** S, 4, ODSA 4
+******** Space complexity of all of these.
+******** Basic operaitions complexity
+******** C = capacity of array, E is size of elements, P is pointer size, n = num of things
+********* EC = size of array
+********* (E + P)n = size of linked list
+********* Break even point is EC = (E + P)n
+******* Algo analysis
+******** S 3, 14.2, ODSA 4
+******** \Omega, O, o, \Theta, \omega
+******** \omega: If for all c \in R^{+} there exists n_o \in Z s.t. f(n) > cg(n) for all n \ge n_0
+******** Complexity anaysis with recursion
+******** If your computer were 10 times faster...chapter is faster computer or faster algorithm.
+******** Know the families of functions and their orderings.log(n) < v < nlog(n) < n^2 < 2^n < n!
+******* Graphs
+******** S 11, ODSA 14
+******** Definitions
+********* Cycle: A path that starts and ends at the same node and length of the path > 0
+********** Simple cycle: A cycle that doesn't repeat vertices and doesn't repeat any edges
+********** Acyclic graph: No simple cycles
+******** DFS, BFS, Dijkstra's
+********* Complexity depends on graph representative
 **** Systems Programming (Koffler 218)                              :systems:
      <2019-01-10 Thu 08:00-09:15 +1w>
      <2019-01-15 Tue 08:00-09:15 +1w>
@@ -518,20 +651,17 @@
 ******** >> shift operation moves all bits to the right by n amount
 *** Homework                                                       :homework:
 **** HOMEWORK Zybooks reading.                                      :comporg: 
-     DEADLINE: <2019-02-12 Tue 23:59 +7d>
+     DEADLINE: <2019-02-26 Tue 23:59 +7d>
      :PROPERTIES:
-     :LAST_REPEAT: [2019-02-05 Tue 09:51]
+     :LAST_REPEAT: [2019-02-19 Tue 07:56]
      :END:
+     - State "DONE"       from "HOMEWORK"   [2019-02-19 Tue 07:56]
+     - State "DONE"       from "HOMEWORK"   [2019-02-12 Tue 07:52]
      - State "DONE"       from "HOMEWORK"   [2019-02-05 Tue 09:51]
      - State "DONE"       from "TODO"       [2019-01-29 Tue 08:45]
      - State "DONE"       from "HOMEWORK"   [2019-01-22 Tue 22:44]
-     - State "DONE"       from "HOMEWORK"   [2019-01-14 Mon 10:07]
-**** HOMEWORK Sim project 2                                         :comporg: 
-     DEADLINE: <2019-02-07 Thu 17:16>
-**** HOMEWORK Assembly project 2                                    :comporg: 
-     DEADLINE: <2019-02-14 Thu 12:30>
 **** HOMEWORK Simulation Project 3                                  :comporg: 
-     DEADLINE: <2019-02-21 Thu 12:30>
+     DEADLINE: <2019-02-28 Thu 12:30>
 **** HOMEWORK Assembly Project 3                                    :comporg: 
      DEADLINE: <2019-03-14 Thu 12:30>
 **** HOMEWORK Simulation Project 4 Milestone 1                      :comporg: 
@@ -547,7 +677,7 @@
 **** HOMEWORK Simulation Project 6                                  :comporg: 
      DEADLINE: <2019-04-25 Thu 12:30>
 **** HOMEWORK Computer Organization Homework 2                      :comporg: 
-     DEADLINE: <2019-02-12 Tue 17:00>
+     DEADLINE: <2019-02-19 Tue 17:00>
 **** HOMEWORK Computer Organization Homework 3                      :comporg: 
      DEADLINE: <2019-03-12 Tue 17:00>
 **** HOMEWORK Computer Organization Homework 4                      :comporg: 
@@ -557,17 +687,15 @@
 **** HOMEWORK Computer Organization Homework 6                      :comporg: 
      DEADLINE: <2019-04-23 Tue 17:00>
 **** HOMEWORK Abstract Algebra Homework                             :algebra: 
-     DEADLINE: <2019-02-08 Fri 11:00 +7d>
+     DEADLINE: <2019-02-22 Fri 11:00 +7d>
      :PROPERTIES:
-     :LAST_REPEAT: [2019-02-04 Mon 08:39]
+     :LAST_REPEAT: [2019-02-18 Mon 10:58]
      :END:
+     - State "DONE"       from "HOMEWORK"   [2019-02-18 Mon 10:58]
+     - State "DONE"       from "HOMEWORK"   [2019-02-11 Mon 08:07]
      - State "DONE"       from "HOMEWORK"   [2019-02-04 Mon 08:39]
      - State "DONE"       from "HOMEWORK"   [2019-01-26 Sat 06:17]
      - State "DONE"       from "HOMEWORK"   [2019-01-18 Fri 20:00] 
-**** HOMEWORK Systems Project 2                                     :systems: 
-     DEADLINE: <2019-02-09 Sat 23:59>
-**** HOMEWORK Systems Project 3                                     :systems: 
-     DEADLINE: <2019-02-16 Sat 23:59>
 **** HOMEWORK Systems Project 4                                     :systems: 
      DEADLINE: <2019-02-23 Sat 23:59>
 **** HOMEWORK Systems Project 5                                     :systems: 
@@ -598,7 +726,7 @@
 **** EXAM Discrete midterm 2                                       :discrete: 
      SCHEDULED: <2019-04-11 Thu 14:00>
 **** EXAM Computer Orginization Midterm 2                           :comporg: 
-     SCHEDULED: <2019-02-14 Thu 12:30>
+     SCHEDULED: <2019-02-21 Thu 12:30>
 **** EXAM Computer Orginization Midterm 3                           :comporg: 
      SCHEDULED: <2019-03-14 Thu 12:30>
 **** EXAM Computer Orginization Midterm 4                           :comporg: 
@@ -611,7 +739,3 @@
      SCHEDULED: <2019-02-27 Wed 11:00>
 **** EXAM Abstract Algebra Midterm 2                                :algebra: 
      SCHEDULED: <2019-04-10 Wed 11:00>
-** Bookworm
-*** Compatible with .ledger, .hledger, .journal formats
-**** Should parse trasactions into a clj file.
-** Finance

@@ -1,0 +1,117 @@
+% Created 2019-02-19 Tue 10:02
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=0.5in]{geometry}
+\author{Parker Gabel}
+\date{\today}
+\title{Computer Organization Homework 2}
+\hypersetup{
+ pdfauthor={Parker Gabel},
+ pdftitle={Computer Organization Homework 2},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\section{Problem 1}
+\label{sec:orgc78885a}
+\subsection{}
+\label{sec:org4755da0}
+\begin{verbatim}
+la     $t3, cbq
+lw     $t3, 0($t3)
+sub    $t1, $s1, $s0
+la     $s5, bnsf
+lw     $s5, 0($s5)
+sub    $t2, $s5, $s2
+slt    $t0, $t2, $t1
+bne    $t0, $zero, ELSE
+sw     $t3, 0($t2)
+ELSE:
+\end{verbatim}
+\subsection{}
+\label{sec:org7df3022}
+\begin{verbatim}
+la    $t0, erie
+sw    $t0, 0($t0)
+la    $t1, epsw
+sw    $t1, 0($t1)
+
+slt   $t7, $s0, $t0
+bne   $t7, $zero, ELSE
+slt   $t7, $t0, $t1
+bne   $t7, $zero, ELSE
+sw    $s0, 0($t1)
+ELSE:
+\end{verbatim}
+\section{Problem 2}
+\label{sec:orgf0a7ef3}
+\subsection{}
+\label{sec:orgb0bfbad}
+\section{Problem 3}
+\label{sec:orgb1a9c59}
+\subsection{(d)}
+\label{sec:orge36f2bb}
+W = A(notB)C + AB(notC) + ABC
+X = (notA)(notB)(notC) + (notA)BC + A(notB)C + AB(notC)
+Y = (notA)(notB)C + (notA)B(notC) + ABC
+Z = (notA)(notB)(notC) + (notA)BC + A(notB)(notC) + AB(notC)
+
+A---0
+
+B---0   And--Z\(_{\text{0}}\)
+
+C---0
+
+A---0
+
+B---    And--Z\(_{\text{1}}\)
+
+C---
+		     Or--Z
+A---
+
+B---0   And--Z\(_{\text{2}}\)
+
+C---0
+
+A---
+
+B---    And--Z\(_{\text{3}}\)
+
+C---0
+\section{Problem 4}
+\label{sec:orgac9c4ee}
+\subsection{}
+\label{sec:orga754b83}
+\begin{verbatim}
+   la    $s0, pow
+   lw    $s0, 0($s0)
+
+   addi  $t0, $zero, 1
+   addi  $t1, $zero, 0
+LOOP:
+   slt   $t2, $s0, $t1
+   bne   $t2, $zero, LOOP_END
+   sll   $t0, $t0, 1
+   addi  $t1, $t1, 1
+   j     LOOP
+LOOP_END:
+\end{verbatim}
+\end{document}

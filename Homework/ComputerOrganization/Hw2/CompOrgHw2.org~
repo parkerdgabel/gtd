@@ -1,0 +1,83 @@
+#+TITLE: Computer Organization Homework 2
+#+AUTHOR: Parker Gabel
+#+LATEX_CLASS: article
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+DATE: \today
+#+OPTIONS: toc:nil
+
+* Problem 1
+** 
+   #+BEGIN_SRC asm
+   la     $t3, cbq
+   lw     $t3, 0($t3)
+   sub    $t1, $s1, $s0
+   la     $s5, bnsf
+   lw     $s5, 0($s5)
+   sub    $t2, $s5, $s2
+   slt    $t0, $t2, $t1
+   bne    $t0, $zero, ELSE
+   sw     $t3, 0($t2)
+   ELSE:
+   #+END_SRC
+** 
+   #+BEGIN_SRC asm
+   la    $t0, erie
+   sw    $t0, 0($t0)
+   la    $t1, epsw
+   sw    $t1, 0($t1)
+
+   slt   $t7, $s0, $t0
+   bne   $t7, $zero, ELSE
+   slt   $t7, $t0, $t1
+   bne   $t7, $zero, ELSE
+   sw    $s0, 0($t1)
+   ELSE:
+   #+END_SRC 
+* Problem 2
+** 
+* Problem 3
+** (d)
+   W = A(notB)C + AB(notC) + ABC
+   X = (notA)(notB)(notC) + (notA)BC + A(notB)C + AB(notC)
+   Y = (notA)(notB)C + (notA)B(notC) + ABC
+   Z = (notA)(notB)(notC) + (notA)BC + A(notB)(notC) + AB(notC)
+   
+   A---0
+       
+   B---0   And--Z_0
+
+   C---0
+
+   A---0
+
+   B---    And--Z_1
+   
+   C---
+                        Or--Z
+   A---
+
+   B---0   And--Z_2
+
+   C---0
+   
+   A---
+
+   B---    And--Z_3
+
+   C---0
+* Problem 4
+** 
+   #+BEGIN_SRC asm
+   la    $s0, pow
+   lw    $s0, 0($s0)
+
+   addi  $t0, $zero, 1
+   addi  $t1, $zero, 0
+LOOP:
+   slt   $t2, $s0, $t1
+   bne   $t2, $zero, LOOP_END
+   sll   $t0, $t0, 1
+   addi  $t1, $t1, 1
+   j     LOOP
+LOOP_END:
+   #+END_SRC 

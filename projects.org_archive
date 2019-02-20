@@ -47,3 +47,59 @@ Archived entries from file /home/garlic/Documents/OrgDocs/gtd/projects.org
     - [X] Straddling Checkerboard
   - [X] EncryptVIC
   - [X] DecryptVIC
+
+* DONE Sim project 2                                                :comporg: 
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-11 Mon 08:06
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+  - State "DONE"       from "HOMEWORK"   [2019-01-14 Mon 10:07]
+
+* DONE Sim project 2                                                :comporg: 
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-11 Mon 08:07
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+  - State "DONE"       from "HOMEWORK"   [2019-01-14 Mon 10:07]
+  DEADLINE: <2019-02-07 Thu 17:16>
+
+* DONE Assembly project 2                                           :comporg: 
+  DEADLINE: <2019-02-14 Thu 12:30>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-11 Mon 08:07
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+
+* DONE Systems Project 2                                            :systems: 
+  DEADLINE: <2019-02-09 Sat 23:59>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-11 Mon 08:08
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+
+* DONE Systems Project 3                                            :systems: 
+  DEADLINE: <2019-02-16 Sat 23:59>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-18 Mon 10:58
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
