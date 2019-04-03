@@ -1,5 +1,6 @@
 #+TAGS: algebra(a) discrete(d) systems(u) comporg(c) notes(n) homework(w) exam(e) definition proof theorem
-* Projects  
+#+STARTUP: indent hidestars
+* Projects
   This file is for all things that require multiple steps to complete.
 ** School
 *** Classes
@@ -464,7 +465,249 @@
 	 If g_1, g_2 \in R have degree strictly less than f then
 	 g_1 + <f> = g_2 + <f> \to g_1 = g_2
 	 Assume |F| < \infin is finite then this shows that |F[X]/<f>| = |F|^{deg(f)} 
-**** Discrete Algorithms (Gould-Simpson 906)                       :discrete:
+****** Lecture 17
+       [2019-02-20 Wed]
+******* Last Time: If F is a field and f \in F[X], an irreducible polynomial then K = F[X]/<f> is a field.
+******* Last Time: If |F| is finite and deg(f) = n then |K| = |F|^n 
+******* Remarks on constructing fields.
+******** We have a ring homomorphism \phi: F \to K, given by \phi(a) = aX^0 + <f>,which is injective. ]
+	 As \phi(1) = 1_K = 1_F X^0 + <f>. We have \phi(F) \sub K is a subfield isomorphic to F. 
+	 This is an example of a field extension, denoted F \sub K
+******** We get a ring homomorphism \phi^bar: F[X] \to K[Y].
+	 Assume deg(f) = n and f = \sum_{i=0}b_i x^i with b_i \in F. Let \lambda = X + <f> \in K then
+	 \phi^bar(f)(\lambda) = (\sum_{i=0}\phi(b_i)y^i)(\lambda) = \sum_{i=0}\phi(b_i)\lambda^i = \sum_{i=0}(b_i X^0 + <f>)(X^i + <f>) = \sum_{i=0}b_i X^i + <f> = (\sum_{i=0}b_i X^i) + <f> = <f>
+	 This shows f has a zero in K
+******** Example
+********* F = Q and f = x^2 - 2 \in Q[X].
+	  The zeros of f \in R[X] are +/-(sqrt 2) so f \in Q[X] is irreducible so K = Q[X]/<x^2 - 2> is a field.
+	  Let \epsilon_(sqrt 2): Q[X] \to R be the evaluation map. This is a ring homomorphism, whose image is Q[(sqrt 2)] = {a + b(sqrt 2) | a,b \in Q}
+******** Review constructing a field of four elements.
+******* Finite Fields
+******** Lemma: If F is a finite field then |F| = p^n for some n \gt 0 where char(F) = p \gt 0. :theorem:
+******** Proof: Assume q is a prime dividing |F|                      :proof:
+	 Then by Cauchy's Theorem there exists an element of (F, +), say x \in F, of order q.
+	 As char(F) = p we have px = (p1_F)x = 0.
+	 This means the order of x divides p so q|p which means q = p
+******** Question: FOr each prime p and integer n \gt 0 is there a field of size p^n?
+******** One approach is to find a polynomial f \in F_p[X] which is irreducible of degree n then F_p[X]/<f> is a field of size |F_p|^n = p^n.
+	 We work inductivly and consider only the case where n is prime.
+****** Exam Review
+       [2019-02-25 Mon]
+******* Use the FIrst Isomorphism theorem. It is not a triviality but an important part of the subject
+******* If \phi: R \to S is a ring homomorphism and {a_1,..., a_k} generate the group (R, +) then \phi is uniquely determined by \phi(a_1),...,\phi(a_k)
+******* For Z to Z_n find what \phi(1) is and \phi(1) must be idempotent
+******* Group Rings
+******** G a group and R a unital ring then RG is the set of functions G \to R. For g \in G we define \delta_g: G \to R by
+	 \delta_g(x) = {1_r if g=x, else 0_r if g \ne x}
+	 We know that if \phi: G \to R is a function then \phi = \sum_{g \in G}a_g \delta_g and a_g = \phi(g) \in R
+	 Here we have (a\psi)(x) = a\psi(x) \in R
+	 For any \psi \in RG and a \in R 
+******** Lemma: We have (a\delta_g)(b\delta_h) = ab\delta_gh for all a,b \in R and g,h \in G
+******* Factor Rings
+******** Problem: Show that f = x^2 + x + 1 \in F_5[X] is irreducible
+******** Proof In F_5 we have f(1) = 3 \ne 0
+	 f(2) = 4 + 2 + 1 \ne 0
+	 f(3) = 9 + 3 + 1 = 3 \ne 0
+	 f(4) = (-1)^2 + (-1) + 1 = 1 \ne 0
+	 So by the reducibility test for degree 2 polynomials we have f is irreducible.
+	 This means R = F_5[X]/<f> is a field because I = <f> is maximal. 
+	 All elements of R are of the form aX + b + I with a,b \in F_5.
+	 So, (X + 2 + I)(3X + 4 + I) = (X + 2)(3X + 4) + I = 3X^2 + 4X + 6X + 8 + I = 3X^2 + 3 + I = 3(X^2 + X + 1) + 2X + I = 2X + I
+	 3X^2 + 3 = q(X^2 + X + 1) + r
+******** Problem In Z direct sum Z show that I = {(a,0) | a \in Z} is a prime ideal but not maximal
+******** Proof: \phi:Z direct sum Z \to Z, (a,b) \to b is a ring homomorphism
+	 And the kernel is I so I is an Ideal
+	 Now show that R/I is an integral domain but not a field
+	 Now by the first isomorphism by the first isomorphism theorem. 
+****** Lecture 19
+       [2019-03-01 Fri]
+******* If F is a finite field of characteristic p > 0, necessarily a prime, then |F| = p^n for some integer n > 0
+******* We know if f \in F[X] is an irreducible polynomial of degree deg(f) = n then K = F[X]/<f> is a field and if F is finite so is K and |K| = |F|^n
+******* Basic Idea: Pick a prime p > 0. We know F_p is a field of size p. Assume K is a field of size p^n and let r > 0 be a prime number.
+******** Aim: SHow that the field K of size p^n has an irreducible polynomial, f \in K[X], of deg(r). The K[X]/<f> is a finite field of size |K|^r = (p^n)^r = p^nr
+******** Criteria for existence of multiple zeros.
+********* Assume K is a field and f \in K[X] is a polynomial. We say \alpha \in K is a zero if f(\alpha) = 0 or (x - \alpha) | f
+********* We say \alpha is a zero of multiplicity n > 0 if (x- \alpha)^n | f but (x - \alpha)^{n+1} doesn't divide f.
+********* When does f have a zero with multiplicity > 1
+********* Definition: The derivative with respect to X is the map \delta_X : K[X] \to K[X] defined by \delta_x(\sum a_i x^i) = \sum ia_i x^{i-1} (zero when i = 0)
+********** This definition does not rely on limits
+********* Lemma: For any f,g \in K[X] the following hold:
+********** \delta_x[f + g] = \delta_x(f) + \delta_x(g)
+********** \delta_x[af] = a\delta_x(f) for any a \in K
+********** \delta_x[fg] = f\delta_x(g) + g\delta_x[f]
+********* Lemma: Condition for multiple zeros of multiplicity > 1 then there exists a non-constant polynomial h \in K[X] dividing both f and \delta_x(f)
+********* Proof: Assume \alpha \in K is a zero of multiplicity m > 1
+********** So we must have (x - \alpha)^2 divides f.
+********** Hence f = (x - \alpha)^2 g.
+********** Taking the derivative \delta_x(f) = (x - \alpha)^2 \delta_x(g) + \delta_x((x - \alpha)^2)g = (x - \alpha)^2 \delta_x(g) + 2(x - \alpha)g
+********** So h = X - \alpha divides both f and \delta_x(f)
+********* Thereom: The existence if finite fields                   :theorem:
+********* Lemma: Let R be a unital ring and assume 0 \le s \le t are integers such that X^s - 1 | X^t - 1 in R[X] then s | t
+********** Let I = <X^s - 1> \sub R[X] then X^s + I = (X^s - 1) + 1 + I = 1 + I 
+********** So X + I \in U(R/I) is a unit of finite order
+********** In fact, this element has order s because if 0 < i < s such that X^i + I = 1 + I then X^{i-1} - 1 \in I
+********** So x^i - 1 = (x^s - 1)f for some f \in R[X]. Comparing degrees we see that i = s + deg(f) \ge s a contradiction.
+********** Now as X^s - 1 | X^t - 1 this implies X^t - 1 \in I so X^t + I = 1 + I
+********** This means  that order of X + I divides s | t.
+********* Lemma: Assume q = p^n is a power of a prime p > 0. If 0 < s \le t are integers such that q^s - 1 | q^6 - 1 then s | t
+********* Theorem: If F is a finite field and r > 0 is a prime then there exists an irreducible polynomial f \in F[X] of degree r > 0 :theorem:
+********* Proof: Let q = |F| = p^a be the order of F.
+********** Consider X^{q^r} - X \in F[X] then \delta_x(X^{q^r} - X) = q^r X^{q - 1} - 1 = -1
+********** Because F has characteristic p > 0.
+********** This tells us that this polynomial and its derivative have no non-constant common divisor.
+********** SO this polynomial has no repeated zeros in F
+****** Lecture 20
+       [2019-03-10 Sun]
+******* Unique Factorization Domains (UFD) and Divisibility 
+******** A ring R is a UFD if R is and Integral Domain and for every non-zero non-unit f \in R the following hold: 
+********* f = p_1... p_n with p_i \in R
+********* if f = p_1 ...p_n = q_1 ... q_n with p_i, q_i \in R irreducibles then n=m and there is a permutation \sigma \in S_n and units u_i \in U(R) such that q_i = U_i P \sigma(i) for all 1 \le i \le n.
+******** Example of UFD
+********* The main example of a UFD is Z. We have the irreducibles in Z are the primes and every n > 0 has a decomposition as a product of primes n = p_1 ... p_n with p_i > 0. This is unique up to permuting the primes. A general irreducible element in Z is of the form +/-p with p > 0 a prime.
+********** -n = (-p_1)p_2 ... P_n = p_1(-p_2)...p_n 
+******** In a general ring we don't have ordering so we can't make sense of "greater than". In the general setting of rings 6 = 2 * 3 = (-2) * (-3) are two perfectly valid decompositions of 6 as a product of irreducibles. 
+******** Remark: R an Integral Domain and a \in R
+a = p_1 a_1 with p_1 irreducible
+= p_1 p_2 a_2
+This may not ever terminate, in the sense that you may never arrive at an a_i which is irreducible.
+******** Conditions 2 comes up a lot so we give it a name.
+********* Definition: Two elements, f,g \in R, of a commutative unital ring R are called associates if f | g and g | f.
+********* Remark "are associates" is an equivalence relation on R.
+******** Lemma: If R is an Integral Domain then for any f,g \in R non-zero the following are equivalent:
+********* f and g are associates
+********* f = ug for some unit u \in U(R)
+********* g = vf for some unit v \in U(R)
+******** Proof of Lemma
+********* ii implies iii clearly
+********* ii implies i clearly 	 
+********* i implies ii
+If f | g and g | f then there exists a,b \in R such that g = af and f = bg so g = abg which implies (1- ab)g = 0. As g \ne 0 and R is an Integral Domain we have 1 -ab = 0 so ab = 1.
+******** Greatest Common Divisor 
+Recall that d \in R is a common divisor of a,b \in R if d | a and d | b.
+********* Definition: Assume R is an integral Domain. A gcd of a_1,..., a_n \in R (not all zero) is an element d \in R such that
+********** d is common divisor of a_1,... a_n
+********** If e \in R is a common divisor of a_1,..., a_n then e | d
+********* Remark: Could define an ordering on R by setting e \le d iff e | d.
+********* Note: if d_1, d_2 \in R are two gcds of a_1,..., a_n \in R (not all zero) then by ii d_1 | d_2 and d_2 | d_1, so d_1 and d_2 are associates. THis means d_1 = ud_2 for some u \in U(R)
+********* Remark: Ideally we would only study PID but these are bad for a number if reasons.
+********** If R is a PID then R[X] is not necessarily a PID, e.g., take R = Z
+*******  
+****** Lecture 21
+[2019-03-22 Fri]
+******* Remark: Let f \ne 0 \in R, an Integral Domain, and consider the set S = {fu | u \in U(R)} = fU(R) then the following are equivalent: 
+******** f is a gcd of a_0,....,a_n \in R (not all zero)
+******** any g \in S is a gcd of a_0, ..., a_n \in R
+******* Lemma: If R is a UFD then any elements a_1,..., a_n \in R (not all zero) have a gcd.
+******* Proof:
+We argue by induction on n. If n = 1 then a_1 \ne 0 so d = a, is a gcd. Assume n
+> 1. If asubn = 0 then some asubi with 1 \le i \le n is non-zero so there exists a
+gcd of a_1,..., a_n-1, say d and d = d, is still a gcd of a_1,...,a_n. If
+a_1=...=a_n-1=0 then a_n \ne 0 and d = a_n is a gcd of a_1,..., a_n. We can assume A-n
+\ne 0 and some a_i with 1 \le i \le n is non-zero. By induction there is a gcd of
+a_1,...,a_n-1, say d_1.
+If either d1 or a_n is a unit then d = 1 is a gcd of d, and a_n, hence also a gcd
+of a_1,...,a_n. We can assume both d_1 and a_n are non-zero non-units. As R is a
+UFD, we can write d_1 = p_1...p_2 and a_n=q_1...q_t as a product of irreducibles p_i,q_j
+\in R. After rearranging we can find an integer k \ge 0 such that p_i is an associate
+of q_i if i \le k and if i > k then p_i is not an associate of any q_j with j >
+k. Now d = p_1...p_k is a gcd of d_1 and a_n hence d is a gcd of a_1,...,a_n.
+******* Example:
+******** Consider the polynomial ring Z[X]. 
+Take as faith that this is a UFD.
+******* Question: Let F be the field of fractions of R. If f \in R[X] is irreducible then is f still irreducible when considered as an element in F[X]?
+The key is R = Z and F = Q.
+******* Def: A polynomial f = a_0 + a_1x +... + a_nx^n \in R[X] is said to have content c = c(f) if c is a gcd of a_0,...,a_n. We say f is primitive if it has content 1. 
+******* Example: f = -15 + 21X + X^3 \in Z[X] has content one so f is primitive.
+******* Example g = 12 + 21X - 15X^2 - 99X^3 has content -3.
+******* Lemma: If f,g \in R[X] are non-zero primitive polynomials then fg is primitive.
+****** Lecture 22
+[2019-03-27 Wed]
+******* Thereom: If R is a UFD, F is its field of fractions, If f \in R[X] is irreducible and primitive, then f is irreducible over F
+******* Example: Consider 6x^2 + x -2 \in Z[X]
+******* Eisenstein's Criterion
+******** Another irreducible test.
+******** Eisenstein's Irreducibility Test
+********* If R is a UFD with field of fractions F, Assume p \in R is prime
+********* And f(x) = a_{n}x^2 + a_{n-1}x^{n-1} + ... + a_{1}x + a_0 \in R[X] with p doesn not divide a_n, p | a_{n-1}, p | a_{n-2}, p | a_0 and p^2 not divide a_0
+********* Then f is irreducible over F.
+****** Lecture 23 
+[2019-04-01 Mon]
+******* If R is a UFD then R[X] is a UFD
+******** Multivariate Polynomials
+Let G = <X_1,..., X_n> = Zo...0Z be an infinite abelian group with each X_i
+generating z copy of Z.
+If R is a unital ring then we have the group ring RG whose elements are of the
+form \sum a_i_1...i_n X_1^i1 ... X_n^in. We have RG is the Laurent polynomial ring in
+n-variables. The polynomial ring is 
+{\sum a_i,...,i_n X_1^in ...X_n^in | i_j \ge 0}
+********* Example: Z[X, Y]
+********** Some polynomials in this ring are X + Y, 2X^2 Y - 3X, 1 = 1X^0 Y^0 
+********* Remark: R[X_1,..., X_n] = (R[X_1,..., X_{n-1}])[X_n]
+By downwards induction one gets that R[X_1,..., X_n] is a UFD.
+********* Show R[X] is a UFD in a special
+Assume R is a UFD and f \in R[X] is primitive with deg(f) \ge 1. Then f can be
+uniquely factorized as a product of irreducibles up to order and associates.
+********* Proof: If n \ge 1 is an Integer we let X_m = {(f_1,..., f_n) | f = f_1... f_n with deg(f_i) \ge 1} \sub R[X]^m
+If (f_1,..., f_n) \in X_m then deg(f) = deg(f_1) + ... + deg(f_m) \ge |+ ... +| = m This
+shows that if X_m \ne \empty then m \le deg(f). We have (f) \in X_1 \ne\empty.
+Chose (f_1,..., f_m) \in X_m. We claim each f_i is irreducible. We claim each f_i is
+irreducible.
+Assume f_i = gh is reducible with g, h \in R[X] non-zero non-units. As f is
+primitive we have c(f) = c(f_1)...c(f_m) is a unit so each c(f_i) is a unit. So f_i
+is primative. Taking contents we get c(f_i) = c(g)c(h) so c(g) and c(h) are
+units. This means deg(g), deg(h) \ge 1 otherwise g = c(g)X^0 is a unit. This
+implies
+f = f_1 ... f_{i-1}ghf_{i+1}...f_m
+contradicting the maximality of m. This shows f can be factorized as a product
+of irreducibles. Assume
+f = f_1 ... f_m = q_1 ... q_n with f_i, q_i \in R[X] irreducible. The above argument
+shows they're primitive.
+Let F be a field of fractions of R. Each f_i, q_i is irreducible over F. This
+means (*) gives two decomposition of f into irreducibles in F[X]. As F[X] is a
+UFD this means m=n and, up to reordering, f_i is an associate of q_i. This means
+f_i = u_i q_i for some unit u_i \in F[X]. Essentially i_i is an element of F that can
+be written as u_i = a_i/b_i with a_i, b_i \in R and a_i, b_i \ne 0. This means
+b_i f_i = a_i q_i.
+Taking contents on both sides we get b_i = a_i v_i for some unit v_i \in R. This
+shows that a_i and b_i are associates. This shows f_i and q_i are associates in R[X]
+because u_i = a_i/b_i = v_i^-1 \in R.
+****** Lecture 24
+[2019-04-03 Wed]
+******* Last Time: If R is a UFD and f \in R[X] is primitive with deg(f) \ge 1 the f can be uniquely factorized as a product of irreducibles.
+******* Theorem: If R is a UFD then R[X] is a UFD.
+Assume f \in R[X] is a non-zero non-unit. If the deg(f) = 0 then f \in R is a UFD,
+so f can be uniquely factorized in R hence also in R[X]. So we can assume deg(f)
+\gt 0.
+We can write f = cg with c \in R the content of f and g \in R[X] a primitive
+polynomial.
+Note deg(g) = deg(f) > 0.
+If c is a unit in R then we have f is primitive so f can be uniquely factorized
+by the previous proposition. We may assume that c is a non-unit. As R is a UFD
+we have c = c_1 ... c_n for some c_i \in R irreducible. Moreover by the previous
+proposition we have g =g_1 ... g_m with g_j \in R[X] irreducible. This means
+f = c_1 ... c_n g_1 ... g_n can be factorized as a product of irreducibles.
+We now check uniqueness. 
+Assume f = q_1 ... q_r is a decomposition with each q_i \in R[X] irreducible.
+Rearranging, we can assume all the degree zero terms come first. So we have 
+f = b_1 ... b_s h_1 ... h_t with b_i \in R irreducible and h_j \in R[X] with deg(h_j) >
+0 irreducible.
+Taking contents we get that 
+c_1 ... c_n = ub_1 ... b_s for some u \in U(R). As R is a UFD we must have n = s and,
+after reordering, c_i is an associate of b_i. Cancelling off the contents we get
+that g_1 ... g_m = vh_1 ... h_t for some unit v \in U(R). By the proposition we know
+unique factorization holds. So m = t and up to reordering, g_i is an associate of h_i.
+******* What can we do with finite fields
+******** If n \ge 1 is an integer and R is a ring
+We have GL_n(R) = {A \in Mat_{nxn}(R) | det(A) \in U(R)}, a group under multiplication.
+******** Examples
+********* If R = Z then det(A) \in U(R) iff det(A) \in {1, -1}
+********* If R is a field then det(A) \in U(R) iff det(A) \ne 0.
+********* If R has infinite cardnality then, in general, GL_n(R) has infinite cardnality.
+********* If R is finite cardnality then GL_n(R) is always finite.
+********** Take R = F a finite field. This gives lots of finite groups!
+********** Proposition: If F is a finite field of size q then  
+|GL_n(F)| = (q^n - 1)(q^n - q)...(q^n - q^{n-1})
+**** Discrete Algorithms (Gould-Simpson 906)                    :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
      <2019-01-11 Fri 14:00-14:50 +1w>
@@ -576,7 +819,46 @@
 ********** Acyclic graph: No simple cycles
 ******** DFS, BFS, Dijkstra's
 ********* Complexity depends on graph representative
-**** Systems Programming (Koffler 218)                              :systems:
+****** Searching
+******* Linear search
+******** If the array is sorted, just walk down the list until you find the key
+******* Binary search
+******** Complexity
+********* Best Case \Theta(1) if the value is right in the middle
+********* Worst case \Theta(log(n))
+********* Average Case: 
+Key will be in the list, all keys in list equally likely to be searched.
+Worst Case \ge n/2(log(n))/n = 1/2log(n) \in \Theta(log(n))
+******* Dictionary Search
+Keys are uniformly A, low, high, binary search ind = (high + low)/2
+ind = low + floor[(Key - A[low])/(A[high] - A[low])(high - low)]
+It's basically binary search after that
+****** Hashing
+The Ideal hash function distributes keys evenly across buckets.
+******* Collision: k_1 \ne k_2 but h(k_1) = h(k_2)
+******** Easiest thing to do is Open Hashing/Chaining
+********* Each bucket is a list of things. If a collision occurs just append to the list.
+******** Closed Hashing(Open addressing)
+********* Linear probing
+********** If there is a collision just place the collision into the nearest open bucket. 
+********** If you have to access it you just hash then probe the list until you find the key.
+********** The sequence of values checked is the probe sequence
+home = pos = h(k)
+#+BEGIN_SRC java
+for(int i = 1; HT(pos) != empty; ++i;) {
+	pos = (home + p(k, i)) % M;
+}
+HT(pos);
+#+END_SRC
+********* Primary clustering
+********** Probing is offset by a constant multiplication. The offset must be coprime to M.
+********* Quadratic probing 
+********** Probing happens as an offset of a quadratc function.
+********** If M is prime then i^2 visits at least 1/2 the slots
+********** If M is a multiple of 2 p(k, i) = (i^2 + i)/2 visits all slots
+********* Pseudorandom probing
+********** Come up with a permutation of 1 - n-1 i.e. 0 2 4 7 3 5 9 8 1 6
+**** Systems Programming (Koffler 218)                           :systems:
      <2019-01-10 Thu 08:00-09:15 +1w>
      <2019-01-15 Tue 08:00-09:15 +1w>
 ***** Notes                                                           :notes:
@@ -649,61 +931,58 @@
 ******** & bitwise AND takes an Integer and performs ands on its bits.
 ******** Masking is bitwise anding with a number that has ones in the bits we are interested in.
 ******** >> shift operation moves all bits to the right by n amount
+****** Lecture Ops 
+[2019-03-26 Tue]
+******* Finding the proper opcode
 *** Homework                                                       :homework:
-**** HOMEWORK Zybooks reading.                                      :comporg: 
-     DEADLINE: <2019-02-26 Tue 23:59 +7d>
+**** HOMEWORK Zybooks reading.                                   :comporg: 
+     DEADLINE: <2019-04-16 Tue 23:59 +7d>
      :PROPERTIES:
-     :LAST_REPEAT: [2019-02-19 Tue 07:56]
+     :LAST_REPEAT: [2019-04-03 Wed 08:39]
      :END:
+     - State "DONE"       from "HOMEWORK"   [2019-04-03 Wed 08:39]
+     - State "DONE"       from "HOMEWORK"   [2019-04-03 Wed 08:39]
+     - State "DONE"       from "HOMEWORK"   [2019-03-26 Tue 10:44]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 09:01]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:55]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:54]
+     - State "DONE"       from "HOMEWORK"   [2019-02-28 Thu 12:36]
      - State "DONE"       from "HOMEWORK"   [2019-02-19 Tue 07:56]
      - State "DONE"       from "HOMEWORK"   [2019-02-12 Tue 07:52]
      - State "DONE"       from "HOMEWORK"   [2019-02-05 Tue 09:51]
      - State "DONE"       from "TODO"       [2019-01-29 Tue 08:45]
      - State "DONE"       from "HOMEWORK"   [2019-01-22 Tue 22:44]
-**** HOMEWORK Simulation Project 3                                  :comporg: 
-     DEADLINE: <2019-02-28 Thu 12:30>
-**** HOMEWORK Assembly Project 3                                    :comporg: 
-     DEADLINE: <2019-03-14 Thu 12:30>
-**** HOMEWORK Simulation Project 4 Milestone 1                      :comporg: 
-     DEADLINE: <2019-03-21 Thu 12:30>
 **** HOMEWORK Assembly Project 4                                    :comporg:
-     DEADLINE: <2019-04-04 Thu 12:30>
+     DEADLINE: <2019-04-16 Tue 12:30>
 **** HOMEWORK Simulation Project 4 Milestone 2                      :comporg: 
-     DEADLINE: <2019-03-28 Thu 12:30>
+     DEADLINE: <2019-04-09 Thu 12:30>
 **** HOMEWORK Simulation Project 5                                  :comporg: 
      DEADLINE: <2019-04-11 Thu 12:30>
 **** HOMEWORK Assembly Project 5                                    :comporg: 
      DEADLINE: <2019-04-18 Thu 12:30>
 **** HOMEWORK Simulation Project 6                                  :comporg: 
      DEADLINE: <2019-04-25 Thu 12:30>
-**** HOMEWORK Computer Organization Homework 2                      :comporg: 
-     DEADLINE: <2019-02-19 Tue 17:00>
-**** HOMEWORK Computer Organization Homework 3                      :comporg: 
-     DEADLINE: <2019-03-12 Tue 17:00>
-**** HOMEWORK Computer Organization Homework 4                      :comporg: 
-     DEADLINE: <2019-03-26 Tue 17:00>
 **** HOMEWORK Computer Organization Homework 5                      :comporg: 
      DEADLINE: <2019-04-09 Tue 17:00>
 **** HOMEWORK Computer Organization Homework 6                      :comporg: 
      DEADLINE: <2019-04-23 Tue 17:00>
-**** HOMEWORK Abstract Algebra Homework                             :algebra: 
-     DEADLINE: <2019-02-22 Fri 11:00 +7d>
+**** HOMEWORK Abstract Algebra Homework                          :algebra: 
+     DEADLINE: <2019-04-05 Fri 11:00 +7d>
      :PROPERTIES:
-     :LAST_REPEAT: [2019-02-18 Mon 10:58]
+     :LAST_REPEAT: [2019-03-29 Fri 08:03]
      :END:
+
+     - State "DONE"       from "HOMEWORK"   [2019-03-29 Fri 08:03]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:57]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:56]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:55]
+     - State "DONE"       from "HOMEWORK"   [2019-03-01 Fri 11:01]
+     - State "DONE"       from "HOMEWORK"   [2019-02-26 Tue 08:22]
      - State "DONE"       from "HOMEWORK"   [2019-02-18 Mon 10:58]
      - State "DONE"       from "HOMEWORK"   [2019-02-11 Mon 08:07]
      - State "DONE"       from "HOMEWORK"   [2019-02-04 Mon 08:39]
      - State "DONE"       from "HOMEWORK"   [2019-01-26 Sat 06:17]
      - State "DONE"       from "HOMEWORK"   [2019-01-18 Fri 20:00] 
-**** HOMEWORK Systems Project 4                                     :systems: 
-     DEADLINE: <2019-02-23 Sat 23:59>
-**** HOMEWORK Systems Project 5                                     :systems: 
-     DEADLINE: <2019-03-16 Sat 23:59>
-**** HOMEWORK Systems Project 6                                     :systems: 
-     DEADLINE: <2019-03-23 Sat 23:59>
-**** HOMEWORK Systems Project 7                                     :systems: 
-     DEADLINE: <2019-03-30 Sat 23:59>
 **** HOMEWORK Systems Project 8                                     :systems: 
      DEADLINE: <2019-04-06 Sat 23:59>
 **** HOMEWORK Systems Project 9                                     :systems: 
@@ -713,29 +992,17 @@
 **** HOMEWORK Systems Project 11                                    :systems: 
      DEADLINE: <2019-04-27 Sat 23:59>
 *** Exams                                                              :exam:
-**** EXAM Systems midterm                                           :systems:
-     SCHEDULED: <2019-02-28 Thu 08:00>
 **** EXAM Systems Final                                             :systems:
      SCHEDULED: <2019-05-09 Thu 08:00>
 **** EXAM Computer Orginization final                               :comporg: 
      SCHEDULED: <2019-05-08 Wed 13:00-15:00>
 **** EXAM Discrete final                                           :discrete: 
      SCHEDULED: <2019-05-06 Mon 15:30-17:30>
-**** EXAM Discrete midterm 1                                       :discrete: 
-     SCHEDULED: <2019-02-21 Thu 14:00>
 **** EXAM Discrete midterm 2                                       :discrete: 
      SCHEDULED: <2019-04-11 Thu 14:00>
-**** EXAM Computer Orginization Midterm 2                           :comporg: 
-     SCHEDULED: <2019-02-21 Thu 12:30>
-**** EXAM Computer Orginization Midterm 3                           :comporg: 
-     SCHEDULED: <2019-03-14 Thu 12:30>
-**** EXAM Computer Orginization Midterm 4                           :comporg: 
-     SCHEDULED: <2019-03-28 Thu 12:30>
 **** EXAM Computer Orginization Midterm 5                           :comporg: 
      SCHEDULED: <2019-04-11 Thu 12:30>
 **** EXAM Computer Orginization Midterm 6                           :comporg:
      SCHEDULED: <2019-04-25 Thu 12:30>
-**** EXAM Abstract Algebra Midterm 1                                :algebra: 
-     SCHEDULED: <2019-02-27 Wed 11:00>
 **** EXAM Abstract Algebra Midterm 2                                :algebra: 
-     SCHEDULED: <2019-04-10 Wed 11:00>
+     SCHEDULED: <2019-04-17 Wed 11:00>

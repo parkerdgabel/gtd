@@ -1,0 +1,234 @@
+% Created 2019-03-27 Wed 23:08
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Parker Gabel}
+\date{\textit{<2019-03-25 Mon>}}
+\title{Homework3}
+\hypersetup{
+ pdfauthor={Parker Gabel},
+ pdftitle={Homework3},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section{11.3}
+\label{sec:orgdbb8bce}
+\subsection{(a)}
+\label{sec:org6420135}
+\[
+\begin{matrix}
+ 0 & 10 & 0 & 20 & 0 & 2 \\
+ 10 & 0 & 3 & 5 & 0 & 0 \\
+ 0 & 3 & 0 & 0 & 15 & 0 \\
+ 20 & 5 & 0 & 0 & 11 & 10 \\
+ 0 & 0 & 15 & 11 & 0 & 3 \\
+ 2 & 0 & 0 & 10 & 3 & 0 \\
+\end{matrix}
+\]
+\subsection{(b)}
+\label{sec:orgae25bc1}
+Vertex -> (Vertex \#, Weight)\\
+\begin{center}
+\begin{tabular}{rllll}
+1 & (2, 10) & (4, 20) & (6, 2) & \\
+2 & (2, 10) & (3, 3) & (4, 5) & \\
+3 & (2, 3) & (5, 15) &  & \\
+4 & (1, 20) & (2, 5) & (5, 11) & (6, 10)\\
+5 & (3, 15) & (4, 11) & (4, 11) & (6, 3)\\
+6 & (1, 2) & (4, 10) & (5,3) & \\
+\end{tabular}
+\end{center}
+\subsection{(c)}
+\label{sec:org8278120}
+The adjacency matrix has no overhead for pointers so\\
+\(\Theta\)(Matrix) = 2|V\(^{\text{2}}\)| = 2(6\(^{\text{2}}\)) = 2(36) = 72\\
+The list does have that overhead so\\
+\(\Theta\)(List) = 4|V| + 4|E| = 4(6) + 4|9| = 60\\
+So the list uses less space\\
+\subsection{(d)}
+\label{sec:org6bb01b5}
+\(\Theta\)(Matrix) = 2|V\(^{\text{2}}\)| = 72\\
+\(\Theta\)(List) = 4|V| + 2|E|\\
+\section{11.4}
+\label{sec:org2f63a73}
+Tree represented by an adjaceny list.\\
+\begin{center}
+\begin{tabular}{rlll}
+1 & (6, 2) & (2, 10) & \\
+6 & (5, 3) & (1, 2) & \\
+5 & (5, 15) & (2, 10) & \\
+2 & (1, 10) & (3, 3) & (4, 5)\\
+4 & (2, 5) & (5, 11) & \\
+3 & (2, 3) &  & \\
+\end{tabular}
+\end{center}
+\section{11.14}
+\label{sec:org2d444eb}
+We produce a DFS tree and check if any of the nodes in the tree point to any of\\
+its ancestors. We assume an appropriate graph and vertex class has been implemented.\\
+\begin{verbatim}
+class IsCyclic {
+static private boolean _isCyclic(Vertex node, HashSet<String, Boolean> visited,
+HashSet<String, Boolean> stack) {
+    if (stack.get(node.name())) {
+	return true;
+    }
+    if (visited.get(node.name())) {
+	return false;
+    }
+    visited.get(node.name()) = true;
+    stack.get(node.name()) = true;
+    for (Vertex child : graph.getChildren(node)) {
+	if (_isCyclic(child, visited, stack)){
+	    return true;
+	}
+    }
+    stack.get(node.name()) = false;
+    return false;
+    }
+
+    public static boolean isCyclic(Graph graph) {
+	// This function returns a HashSet with the name of each vertex as a key and
+	// The bolean is set to false
+	HashSet<String, Boolean> visited = newGraphSet(graph);
+	HashSet<String, Boolean> stack = newGraphSet(graph);
+	for(Vertex vertex : graph.getVertices()) {
+	    if (_isCyclic(vertex, visited, stack)) {
+		return true;
+	    }
+	}
+	return false;
+    }
+}
+\end{verbatim}
+Notice this has the same complexity as a DFS so it is \(\Theta\)(|V| + |E|).\\
+\section{11.17}
+\label{sec:orga61c042}
+3 -> 2 -> 4 -> 1 -> 6 -> 5\\
+3 -> (2, 3)\\
+2 -> (4, 5)\\
+4 -> (6, 2)\\
+\section{11.20}
+\label{sec:org81dbf35}
+If the graph has two or more edges with the same weight it is possible\\
+to produce different trees. Each algorithm has a point at which they\\
+must choose some edge with the minimum weight and if two or edges have\\
+the same weight this choice is ambiguous. Depending on the\\
+implementation of each respective algorithm there may be a different\\
+choice of edge. This would result in a different MST. If the graph had\\
+all unique weights then the MST would be necessarily unique and the\\
+two algorithms would always produce the same MST.\\
+\section{11.22}
+\label{sec:orgbb425ac}
+Yes both work fine with negative weights. In Prim's, the least weight\\
+edged connected to a vertex not in the tree is added. If that edge\\
+happens to have a negative weight that is not a problem. The algorithm\\
+just continues. Likewise, In Kruskal's, the least weight edge that\\
+connects two components is added. If that is negative then that isn't\\
+a problem.\\
+\section{11.23}
+\label{sec:org87dd012}
+Dijkstra's algorithm produces a tree that contains the shortest path\\
+from a source vertex to every other vertex that is reachable in the\\
+graph. If the graph is connected then this is a tree that contains\\
+every vertex so it is a spanning tree.  It is not necessarily a\\
+MST. Dijkstra's algorithm is concerned with minimizing the path\\
+between the source vertex and every other vertex. A MST is a tree with\\
+the minimum total weight. The minimum weight from a source to another\\
+vertex may not result in a minimum weight in the MST. Consider the\\
+following graph.\\
+1 -> (2, 5) -> (3, 5) -> (4, 5)\\
+2 -> (1, 5) -> (4, 1)\\
+3 -> (1, 5)\\
+4 -> (1, 5) -> (2, 1)\\
+Let the source vertex be 1. Dijkstra's algorithm would find the\\
+shortest path from 1 to 4 is just the edge connecting 1 and 4 but the\\
+MST would not have this edge. The MST would have the edges 1 to 3, 1\\
+to 2 and 2 to 4. So Dijkstra's algorithm does not necessarily produce\\
+an MST.\\
+\section{7.4}
+\label{sec:orgebb9c21}
+It would reduce the number of comparisons made as the binary search on\\
+the sorted part would find the position to place the element in at\\
+most log\(_{\text{2}}\)(n) with n equal to the length of the sorted part of the\\
+array. It would not change the asymptotic running time of the\\
+algorithm however because the swaps still have the same running time\\
+so it is still O(n\(^{\text{2}}\)).\\
+\section{7.6}
+\label{sec:org9a4b834}
+\subsection{Insertion Sort}
+\label{sec:org8a8cab4}
+Insertion Sort is stable because if an element that appears before the element\\
+to be inserted is equal to the element to be inserted, the comparison in the\\
+algorithm will dictate that it is never be inserted before that element.\\
+\subsection{Bubble Sort}
+\label{sec:org52a8edb}
+Bubble sort is stable because the algorithm progressively compares elements\\
+in the array and only swaps them if there is an inversion. So this algorithm\\
+will always maintain the relative ordering of elements that are equal.\\
+\subsection{Selection Sort}
+\label{sec:org0fc48b7}
+Selection sort is not stable because the algorithm swaps the minimum element in\\
+the unsorted part of the array with the first position in the array and this may\\
+invert the order of two equal elements. The algorithm can be stable if instead\\
+of swapping, it inserts the minimum element at the first position in the\\
+unsorted array and pushes the following elements back one position. This would\\
+guarantee that the relative ordering of equal elements would remain.\\
+\subsection{Shell sort}
+\label{sec:org1daecbe}
+Shell sort is not stable because the algorithm relies on swapping non-adjacent\\
+elements. This may result in two equal elements inverting their position if they\\
+are in separate sub lists. It can't be made stable because the non-adjacent\\
+swapping is the fundamental reason why the algorithm works.\\
+\subsection{Merge sort}
+\label{sec:org828dc73}
+Merge sort is stable because when merging lists, two elements are swapped only\\
+if the left value is strictly greater than the right value. This would leave the\\
+equal values in their original order.\\
+\subsection{Quick sort}
+\label{sec:org3a15463}
+Quick sort is not stable because the partition algorithm swaps non-adjacent\\
+elements and most partition schemes would swap a value that is equal to the\\
+pivot with an element that is less than the pivot if those values were in\\
+positions that could be swapped by the partition algorithm. The algorithm could\\
+be made stable by adding some logic in the partition algorithm that checks if\\
+the index of the equal element was less than the resulting pivot position. If\\
+its index is less then it is placed in the lesser partition otherwise it is\\
+place in the greater partition.\\
+\section{7.9}
+\label{sec:org75fe8ce}
+The worst case for quick sort occurs when a maximum or minimum element\\
+is chosen as a pivot. The findPivot method implemented in 7.5 choses\\
+the median index as its pivot so any permutation with 0 or 7 at\\
+position 3(zero-origin indexing) will cause a worst case to occur.\\
+
+[0 1 2 7 3 4 5 6]\\
+\section{7.19}
+\label{sec:org7ae21c0}
+Notice that for n calls to merge sort, you first call mergesort on one\\
+list, then two list, then 4 lists and so on\\
+
+1 + 2 + 4 + 8 +\ldots{} = \(\sum_{\text{i=0}}^{\text{n}}\) 2\(^{\text{i}}\) = 2\(^{\text{n+1}}\) - 1\\
+
+When mergsort is called on the final set of lists of size 2\(^{\text{n}}\) in this\\
+series, insertion sort is run instead. So the amount of insertion\\
+sorts run is\\
+
+2\(^{\text{n}}\) = (n + 1)/2\\
+\end{document}
