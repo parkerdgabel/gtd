@@ -1,0 +1,49 @@
+#+OPTIONS: \t:t ':nil *:t -:t ::t <:t H:3 \n:t ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:nil todo:t |:t
+#+TITLE: Homework 5
+#+DATE: <2019-04-09 Wed>
+#+AUTHOR: Parker Gabel
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.1 (Org mode 9.1.9)
+* Problem 1
+** 1(h)
+*** Opcode = 100000
+*** rs = 110011
+*** rt = 000000
+*** offset = 0000 0000 0101 0000
+*** Final = 100000 110011 000000 0000 0000 0101 0000
+** 1(i)
+*** opcode = 000100
+*** rs = 100011
+*** rt = 010000
+*** funct = 000000
+*** shamnt = 000000
+* Prob 2
+** 2(h)
+*** 1010 0101 0101 1000 0011 1011 1100 1001
+*** opcode = 101001 = sb
+*** rs = 010101
+*** rt = 100000
+*** imm = 1011 1100 1001
+*** This is sb $s0 0($a0)
+** 2(i)
+*** 0000 0010 0000 1011 0000 1000 0010 0011
+*** opcode = 0
+*** rs = 100000
+*** rt = 101100
+*** funct = 100011
+*** This is add $t4 $t1 $s0
+* Prob 3
+** 3(e)
+*** Intruction 2 lw depends on $t0 set in instruction 1
+*** Instruction 4 depends on $t1 set in instruction 2 and $t2 set in intruction 3
+** 3(f)
+*** Instruction 3 depends on instruction 1 and 2
+*** Instruction 4 depends on instruction 3
+* Prob 4
+** 4(d)
+*** 

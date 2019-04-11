@@ -1,0 +1,114 @@
+% Created 2019-04-09 Tue 14:09
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Parker Gabel}
+\date{\textit{<2019-04-09 Tue>}}
+\title{Homework 5}
+\hypersetup{
+ pdfauthor={Parker Gabel},
+ pdftitle={Homework 5},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section{Problem 1}
+\label{sec:org152399c}
+\subsection{1(h)}
+\label{sec:orgccf5f6e}
+\subsubsection{Opcode = 100000}
+\label{sec:org63de640}
+\subsubsection{rs = 110011}
+\label{sec:org5bd467d}
+\subsubsection{rt = 000000}
+\label{sec:orgd5147ae}
+\subsubsection{offset = 0000 0000 0101 0000}
+\label{sec:org347b896}
+\subsubsection{Final = 100000 110011 000000 0000 0000 0101 0000}
+\label{sec:org59d86a5}
+\subsection{1(i)}
+\label{sec:org06f1ae5}
+\subsubsection{opcode = 000100}
+\label{sec:orgc4b5391}
+\subsubsection{rs = 100011}
+\label{sec:orgfbc2494}
+\subsubsection{rt = 010000}
+\label{sec:org0c5062b}
+\subsubsection{funct = 000000}
+\label{sec:orgb0aaf8d}
+\subsubsection{shamnt = 000000}
+\label{sec:org6eb9f5e}
+\section{Prob 2}
+\label{sec:orgea21a08}
+\subsection{2(h)}
+\label{sec:org333e9bf}
+\subsubsection{1010 0101 0101 1000 0011 1011 1100 1001}
+\label{sec:orgb99c014}
+\subsubsection{opcode = 101001 = sb}
+\label{sec:orgbac6b7a}
+\subsubsection{rs = 010101}
+\label{sec:org812c323}
+\subsubsection{rt = 100000}
+\label{sec:org1645d83}
+\subsubsection{imm = 1011 1100 1001}
+\label{sec:org4360589}
+\subsubsection{This is sb \$s0 0(\$a0)}
+\label{sec:org88b721c}
+\subsection{2(i)}
+\label{sec:org448c3ad}
+\subsubsection{0000 0010 0000 1011 0000 1000 0010 0011}
+\label{sec:org1a5782b}
+\subsubsection{opcode = 0}
+\label{sec:orgf6fde2e}
+\subsubsection{rs = 100000}
+\label{sec:org8acf267}
+\subsubsection{rt = 101100}
+\label{sec:org2dd0f4b}
+\subsubsection{funct = 100011}
+\label{sec:orgcd6b34c}
+\subsubsection{This is add \$t4 \$t1 \$s0}
+\label{sec:org77bad16}
+\section{Prob 3}
+\label{sec:orgaa45bab}
+\subsection{3(e)}
+\label{sec:org656efe2}
+\subsubsection{Intruction 2 lw depends on \$t0 set in instruction 1}
+\label{sec:org806afdb}
+\subsubsection{Instruction 4 depends on \$t1 set in instruction 2 and \$t2 set in intruction 3}
+\label{sec:org753e870}
+\subsection{3(f)}
+\label{sec:org1cae346}
+\subsubsection{Instruction 3 depends on instruction 1 and 2}
+\label{sec:org131de2e}
+\subsubsection{Instruction 4 depends on instruction 3}
+\label{sec:org5bf2398}
+\section{Prob 4}
+\label{sec:org16bdf49}
+\subsection{4(d)}
+\label{sec:org034ba45}
+\begin{verbatim}
+int problemPartD() {
+int acc = 0;
+int val;
+do {
+val = getAValue();
+acc += val;
+} while(val != 0)
+}
+\end{verbatim}
+\end{document}
