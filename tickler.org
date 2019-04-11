@@ -43,11 +43,12 @@
     <2019-04-15 Mon +1m>
 *** BILL Pay Credit Card Bill 
     :PROPERTIES:
-    :LAST_REPEAT: [2019-03-25 Mon 09:00]
+    :LAST_REPEAT: [2019-04-05 Fri 13:12]
     :END:
+    - State "DONE"       from "BILL"       [2019-04-05 Fri 13:12]
     - State "DONE"       from "BILL"       [2019-03-25 Mon 09:00]
     - State "DONE"       from "BILL"       [2019-03-25 Mon 09:00]
-    <2019-04-04 Thu +1m>
+    <2019-05-04 Sat +1m>
 ** Appointments
    :PROPERTIES:
    :ORDERED:  t
@@ -56,6 +57,8 @@
  SCHEDULED: <2019-04-18 Thu 10:00>
 *** APPT Dog grooming                                               :@home: 
  SCHEDULED: <2019-04-18 Thu 14:30>
+*** APPT Rhea dental appointment at old pueblo  
+ SCHEDULED: <2019-04-12 Fri 07:30>
 ** WORK Turn stuff off then on again.
    :PROPERTIES:
    :LAST_REPEAT: [2019-01-18 Fri 19:59]

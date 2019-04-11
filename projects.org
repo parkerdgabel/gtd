@@ -707,6 +707,81 @@ We have GL_n(R) = {A \in Mat_{nxn}(R) | det(A) \in U(R)}, a group under multipli
 ********** Take R = F a finite field. This gives lots of finite groups!
 ********** Proposition: If F is a finite field of size q then  
 |GL_n(F)| = (q^n - 1)(q^n - q)...(q^n - q^{n-1})
+****** Lecture 25
+[2019-04-05 Fri]
+*******   
+****** Lecture 26
+[2019-04-08 Mon]
+******* Norms and Euclidean Domains
+******** Consider the ring R = Z[d^{-2}] = {a + bd^{-2} | a,b \in Z} where d is a square-free integer different that 1.
+********* A map N| R -> N_0, called a norm defined by N(a + bd^{-2}) = |a^2 - db^2|
+********* If d < 0 and z = a + bd^{-2} then Z(z) = zconj(z)
+********** N(z) = 0 iff z = 0
+********** N(zw) = N(z)N(w) for all z,w \in R
+********** z \in R is a unit iff N(z) = 1
+********** If N(z) is prime in Z then z \in R is irreducible
+********* Example: (d = -3) The ring R = Z[(-3)^{-2}] is not a UFD 
+********** We have z = a + bd^{-2} \in R is a unit iff N(z) = a^2 + 3b^2 = 1, which happens iff a = +/- 1 and b = 0
+********** Claim if N(z) = 4 then z is irreducible.
+*********** Assume z = xy with x,y \in R then 4 = N(z) = N(x)N(y)
+*********** If neither x nor y is a unit then we must have N(x) = N(y) = 2
+*********** However, the equation c^2 + 3d^2 = 2 has no solutions in Z so no such elements exist.
+*********** We know 2 has N(2) = 4. Also 1 + -3^{-2} has norm 4
+*********** (1 + -3^{-2}) (1 - (-3)^{-2}) = 4.
+*********** As the units of R are +/-1 it is clear that 1 + (-3)^{-2} and 2 are associates
+*********** So R is not a UFD
+********* Example: (d=4)
+********** Claim that 7 \in R = Z[5^{-2}] is irreducible.
+*********** Assume 7 = xy with x,y \in R then 49=N(7)=N(x)N(y).
+*********** If neither x nor y is a unit then we must have N(x) = N(y) = 7
+*********** Claim there are no solutions to |a^2 - 5b^2| = 7
+*********** Need to show there's no solution to either a^2 - 5b^2 = 7 or a^2 - 5b^2 = -7.
+*********** We only need to show that a must be divisible by 5.
+*********** Reducing mod 5 we get that a^2 \equiv 2 and a^2 \equiv 3
+****** Lecture 27
+[2019-04-10 Wed]
+******* Def: \Phi_n = gcd(X^n - 1/ (x^d - 1) | 1 \le d \lt n. d | n) \in Z[X]
+******* Unproved Facts
+******** \Phi_n is always irreducible in Z[X]
+******** X^n - 1 = \Pi_{1 \le d \le n | d | n}\Phi_d
+******* Example: R = Z[5^{-2}] are there elements with N(z) = 7
+******** Are there solutions to a^2 - 5b^2 = +/-7 in Z
+******** If there is a solution then a^2 \equiv 2 or a^2 \equiv 3 would have a solution in F_5
+******* Consider R = Z[i] \subset C the Gaussian Integers
+******** For x = a + bi \in Z[i] then we define d(x) = a^2 + b^2 = |x|^2
+******** Claim: If x, y \in R and y \ne 0 then there exists q,r \in R such that x = qy + r and either r = 0 or d(r) \lt d(y)
+******** WARNING: q and r are not necessarily unique.
+******** Proof:
+********* Consider xy^-1 = s + ti \in Q[i]
+********** Note x/y = x/y y_bar/y_bar = xy_bar/yy_bar and yy_bar \in Z
+********* We chose m,n \in Z such that |s - m| \le 1/2 and |t - n| \le 1/2.
+********* So s = m + u and t = n + v with u,v \in Q and |u|, |v| \le 1/2
+********* So, xy^-1 = s + ti = (m + in) + (u + iv) \to x = y(m + in) + y(u + iv)
+********* Let q = m + in and r = y(u + iv).
+********** Note r = x - qy \in Z[i]
+********* Assume R is non-zero then d(r) = rr_bar = d(y)d(u^2 + v^2) \le d(y)(1/4 + 1/4) = d(y)/2 \lt d(y) 
+********* Remark: This proof actually shows that we can arrange that d(r) \le d(y) / 2
+******* Definition: A Euclidean Domain is a pair (R, d) consisting of an Integral Domain R and a function d: R \ {0} -> N_0 such that
+******** d(a) \le d(ab) for all a,b \in R \ {0}
+******** If a \in R and b \in R \ {0} the there exists q, r \in R such that a = qb + r and either r = 0 or d(r) \lt d(b).
+******* Examples: 
+******** R = Z and d(a) = |a|
+******** R = F[X] with F a field and d(f) = deg(f)
+******** R = Z[i] and d(z) = zz_bar
+******* Lemma: If R is an ED then R is a PID
+******* Proof: Assume I \sub R is a non-zero ideal.
+******** Pick 0 \ne f \in I with d(f) \le d(g) for all g \in I
+******** If g \in I then there exists q,r \in R such that g = qf + r and either r = 0 or d(r) \lt d(f).
+********* We have r = g - qf \in I so if r \ne 0 then r contradicts our choice for f. Hence r is 0 and g = qf \in <f>
+********* This shows I = <f>
+******* We have ED \to PID \to UFD
+******* Also UFD not \to PID not \to ED
+******* If (R, d) is an ED then d is called a measure or norm.
+******* Primes in the gaussian integers
+******** Question: What are the irreducible elements in Z[i]?
+********* Assume a + bi \in Z[i] is a unit then this is the case if and only if d(a + bi) = 1
+********* So U(Z[i]) = {+/-1, +/-i}
+********* We know if p > is a prime integer then p \in Z is irreducible is p \in Z[i], irreducible?
 **** Discrete Algorithms (Gould-Simpson 906)                    :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
@@ -891,7 +966,7 @@ HT(pos);
 ******** Compiles to machine language
 ******** We must compile with gcc -Wall and get rid of all warnings
 ****** Lecture 6
-       [2019-01-31 Thu]
+[2019-01-31 Thu] 
 **** Computer Organization (Pacheco ILC 141)                        :comporg:
      <2019-01-10 Thu 12:30-13:45 +1w>
      <2019-01-15 Tue 12:30-13:45 +1w>
@@ -967,11 +1042,12 @@ HT(pos);
 **** HOMEWORK Computer Organization Homework 6                      :comporg: 
      DEADLINE: <2019-04-23 Tue 17:00>
 **** HOMEWORK Abstract Algebra Homework                          :algebra: 
-     DEADLINE: <2019-04-05 Fri 11:00 +7d>
+     DEADLINE: <2019-04-12 Fri 11:00 +7d>
      :PROPERTIES:
-     :LAST_REPEAT: [2019-03-29 Fri 08:03]
+     :LAST_REPEAT: [2019-04-05 Fri 10:59]
      :END:
 
+     - State "DONE"       from "HOMEWORK"   [2019-04-05 Fri 10:59]
      - State "DONE"       from "HOMEWORK"   [2019-03-29 Fri 08:03]
      - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:57]
      - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:56]
@@ -1006,3 +1082,4 @@ HT(pos);
      SCHEDULED: <2019-04-25 Thu 12:30>
 **** EXAM Abstract Algebra Midterm 2                                :algebra: 
      SCHEDULED: <2019-04-17 Wed 11:00>
+    

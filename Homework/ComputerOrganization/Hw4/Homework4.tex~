@@ -1,4 +1,4 @@
-% Created 2019-03-26 Tue 12:32
+% Created 2019-04-09 Tue 09:52
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -28,7 +28,7 @@
 
 \maketitle
 \section{Problem 1}
-\label{sec:org6ffb083}
+\label{sec:org423dd5c}
 \begin{center}
 \begin{tabular}{lrlllrl}
 Instruction & ALUsrc & aluOp bInv & B J & MemWrite MemRead & MemToReg & RegDst RegWrite\\
@@ -45,9 +45,9 @@ SLT & 1 & 4    1 & 1 1 & 0        0 & x & 0       0\\
 \end{tabular}
 \end{center}
 \section{Problem 2}
-\label{sec:orgba63124}
+\label{sec:org64fcf48}
 \subsection{2(g)}
-\label{sec:orgf99ce4b}
+\label{sec:orgc79b675}
 \begin{verbatim}
 int foo = 3;
 char* caseIsImportant = calloc(4, sizeof(char));
@@ -55,7 +55,7 @@ char* caseIsImportant = calloc(4, sizeof(char));
 printf("%c", caseIsImportant[foo]);
 \end{verbatim}
 \subsection{2(h)}
-\label{sec:org6962376}
+\label{sec:org69d7f33}
 \begin{verbatim}
 for(int i = 100; i < $s7; i--) {
     printf("%d\n", i);
