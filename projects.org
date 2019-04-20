@@ -54,10 +54,10 @@
 *********** (-1)a=-a
 *********** (-1)(-1)=1
 ****** Lecture 2
-       [2019-01-11 Fri]
+[2019-01-11 Fri]
 ******* Lemma (Multiplication)                              :theorem:
 ******** a0 = 0 = 0a \forall a \in R
-******** (-a)b=a(-b)=-ab \forall a,n \in R
+******** (-a)b=a(-b)=-ab \forall a,b \in R
 ******* Proof                                                         :proof:
 ******** a0 + 0 = a0 = a(0 + 0) = a0 + a0 \to 0 = a0 
 ******** a(-b) ab = a(-b + b) = a0 = 0 \to a(-b) = -ab. A symmetric arg gives (-a)b=-ab
@@ -79,7 +79,7 @@
 ******** For any integer n\gt0 we have nZ \subset Z is a subring 
 ******** The gaussian integers Z[i] = {a+bi | a,b\in Z} are a subring of C
 ******* Units
-******** Def: If R is a unital ring then an element a \in R is called a unit if there exsists an element b \in R such that ab=1=ba. :definition:
+******** Def: If R is a unital ring then an element a \in R is called a unit if there exists an element b \in R such that ab=1=ba. :definition:
        As for groups we have b is uniquely determined by a and we denote it by a^-1.
        The set U(R) of all units is a group under the multiplication on R.
 ******* Examples of Units
@@ -95,65 +95,62 @@
 ******* Examples of Integral Domains
 ******** Z is an Integral Domain. 
 ******** If p \gt 0 is a prime then Z/pZ is an Integral Domain.  
-	 Assume a,b \in Z such that
-	 (a + pZ)(b + pZ) = ab + pZ = pZ
-	 then ab \in pZ so p divides ab.
-	 As p is a prime either p | a or p |b so either a \in pZ or b \in pZ so either
-	 a + pZ = pZ or b + pZ = pZ.
+Assume a,b \in Z such that (a + pZ)(b + pZ) = ab + pZ = pZ then ab \in pZ
+so p divides ab.  As p is a prime either p | a or p |b so either a \in pZ or b \in
+pZ so either a + pZ = pZ or b + pZ = pZ.
 ******** If n \gt 0 is non-prime then Z/nZ has zero divisors. 
-	 If n = 8 then
-	 (2 + 8Z)(4 + 8Z) = 8 + 8Z = 8Z 
+If n = 8 then (2 + 8Z)(4 + 8Z) = 8 + 8Z = 8Z
 ******* Lemma: If R is an Integral Domain then for any a,b,c \in R with a \ne 0 we have ab = ac \to b = c. :theorem:
 ******* Proof                                                         :proof:
-	ab = ac this implies a(b-c) = 0 so b-c = 0 because a \ne 0 which gives b = c.
+ab = ac this implies a(b-c) = 0 so b-c = 0 because a \ne 0 which gives b = c.
 ****** Lecture 3
-       [2019-01-14 Mon]
+[2019-01-14 Mon]
 ******* Last Time: Integral Domains. A commutative unital ring with no zero divisors.  
 ******* Remark: We say a is a left zero divisor if there exists a b\in R such that ab=0. resp. ba=0.
 ******* Remark: It is a two-sided zero divisor if it is both a left and right zero divisor.
 ******* In a commutative ring we have left divisor \to right divisor \to two-sided divisor.
 ******* Def: A field is a unital commutative ring in which every non-zero element is a unit. :definition:
 ******* Equivalently a field is a ring (R,\plus,\times) in which both (R,\plus) and (R,\times) are abelian groups. :definition:
-******* Example Q\sub R\sub C are fields.
+******* Example Q \sub R \sub C are fields.
 ******* Theorem: A finite Integral Domain is a field.               :theorem:
 ******* Proof: Assume R is a finite Integral Domain.                  :proof:
-	Let a\in R be a non-zero element then we claim there exists an integer k\gt=1 such that a^k=1.
-	If this holds then aa^(k-1)=1=a^(k-1)a=a^-1.
-	If a=1 the claim is clearly true so assume a\ne1.
-	Consider the list a, a^2 ,a^3,... then as R is finite we must have a^i=a^j for some i \lt j.
-	Hence a^j = a^i a^(j-i). Since this is an Integral Domain we have a^(j-i) = 1.
-	Hence we can take k = j-i.
+Let a\in R be a non-zero element then we claim there exists an integer k\gt=1 such that a^k=1.
+If this holds then aa^(k-1)=1=a^(k-1)a=a^-1.
+If a=1 the claim is clearly true so assume a\ne1.
+Consider the list a, a^2 ,a^3,... then as R is finite we must have a^i=a^j for some i \lt j.
+Hence a^j = a^i a^(j-i). Since this is an Integral Domain we have a^(j-i) = 1.
+Hence we can take k = j-i.
 ******* Corollary: For any prime p \gt 0 we have Z_p is a field.       :theorem:
 ******* Remark: For any prime power q = p^a, there exists a unique field k with |k|=q. The field is not Z/qZ. 
 ******* Example: Let Q[\radic2] = {a + b\radic2 | a,b \in Q}
-	Then Q[\radic2] \sub R is a field.
-	We know that (a+b\radic2)^-1 = \frac{1}{a+b\radic2}.
-	Rationalize the denominator.
+Then Q[\radic2] \sub R is a field.
+We know that (a+b\radic2)^-1 = \frac{1}{a+b\radic2}.
+Rationalize the denominator.
 ******* Characteristic of a ring
 ******** Def: Characteristic of a ring is defined as follows.    :definition:
-	 Let n \gt 0 be the least positive integer such that nx=x+...+x=0 for all x \in R. 
-	 If no such n exists then we say R has characteristic 0 and otherwise it has characteristic n. 
-	 We denote by char(R) the characteristic.
+Let n \gt 0 be the least positive integer such that nx=x+...+x=0 for all x \in R.
+If no such n exists then we say R has characteristic 0 and otherwise it has
+characteristic n.  We denote by char(R) the characteristic.
 ******** Example: Z \sub Q \sub R \sub C have characteristic 0.
 ******** Example: Z_p has characteristic p\gt0
 ******** Example: char(M_n(R)) = char(R)
 ******** Example: char(R[x]) = char(R)
 ******** Lemma: If R is a unital ring then n = char(R) is the least positive integer such that n1 = 0, if it exists, or n = 0. :theorem:
 ******** Proof: For all x \in R we have nx = x + ...+x = 1x+...+1x=(1+...+1)x=(n1)x :proof:
-	 If n1 = 0 then for all x \in R we have nx = (n1)x = 0x = 0.
+If n1 = 0 then for all x \in R we have nx = (n1)x = 0x = 0.
 ******** Theorem: If R is an Integral Domain then either char(R) = 0 or char(R) = p a prime.:theorem:
 ******** Proof: Suppose n = char(R) \gt 0 and assume n = st with 1 \lt= s,t \lt= n :proof:
-	 We have 0 = (1+...+1)n = (1+...+1)t+...(1+...+1)t)s = (1+...+1)s(1+...+1)t
-	 As R is an Integral Domain either s1 = 0 or t1 = 0. 
-	 If s1 = 0 then s = char(R) = n and likewise if t1 = 0. Hence n is a prime.
+We have 0 = (1+...+1)n = (1+...+1)t+...(1+...+1)t)s = (1+...+1)s(1+...+1)t
+As R is an Integral Domain either s1 = 0 or t1 = 0. 
+If s1 = 0 then s = char(R) = n and likewise if t1 = 0. Hence n is a prime.
 ******** The characteristic has a big difference on the ring.
 ******** Lemma: If p \gt 0 is a prime then p | \binom{p}{i} for all 0 \lt i \lt p :theorem:
 ******** Proof: assume p \gt 0 is prime.                                :proof:
-	 We have \binom{p}{i} = p!\i!(p-i)! so N\binom{p}{i} = p! where N = i!(p-1)!.
-	 We must have p | N\binom{p}{i} so either p | N or p | \binom{p}{i}. 
-	 By assumption N = a_1 ...a_k with a_i \lt p so we cannot have p | N.
-	 Assume now that R is a commutative ring with char(R) = p \gt 0 a prime. By the binomial theorem for any a, b \in R then
-	 (a + b)^p = \sum_u_=0 \binom{p}{i} a^i b^(p-1) = a^P + b^P. So npr = 0 for all n \ge 0, r \in R because if 0 \lt i \lt p then \binom{p}{i}a^i b^(p-i) = 0 
+We have \binom{p}{i} = p!\i!(p-i)! so N\binom{p}{i} = p! where N = i!(p-1)!.
+We must have p | N\binom{p}{i} so either p | N or p | \binom{p}{i}. 
+By assumption N = a_1 ...a_k with a_i \lt p so we cannot have p | N.
+Assume now that R is a commutative ring with char(R) = p \gt 0 a prime. By the binomial theorem for any a, b \in R then
+(a + b)^p = \sum_u_=0 \binom{p}{i} a^i b^(p-1) = a^P + b^P. So npr = 0 for all n \ge 0, r \in R because if 0 \lt i \lt p then \binom{p}{i}a^i b^(p-i) = 0 
 ****** Lecture 4
        [2019-01-16 Wed]
 ******* Corollary: Assume R is an integral domain with characteristic p \gt 0 then if a \in R satisfies a^P = 1 then a = 1. :theorem:
@@ -166,19 +163,19 @@
 ******* Compare this with the case R = C then we have p distinct elements a \in R such that a^P = 1. Thses are e^(2\pi i/p) with 0 \le i \le p.
 ******* Integral Domains are important when discussing solutions of polynomial equations.
 ******** x^2 - 4x + 3 = (x - 3)(x - 1) \in Z[x]
-	 As Z is an Integral Domains we have either x - 3 = 0 or x - 1 =0 so either x = 3 or x =1.
-	 Reducing mod 12 we get a polynomial x^2 - 4 x + 3. In Z_12 we have x = 7 and x = 9 are also solutions  of the polynomial.
+As Z is an Integral Domains we have either x - 3 = 0 or x - 1 =0 so either x = 3 or x =1.
+Reducing mod 12 we get a polynomial x^2 - 4 x + 3. In Z_12 we have x = 7 and x = 9 are also solutions  of the polynomial.
 ******* Fields are bad.
-	If R_1 ,...,R_k are rings then we can form an abelian group R \directsum ... R_k wunder addition. This can be made into a ring with
-	multiplication componentwise. 
-	It is unital, resp., commutative, iff all R_i are unital, resp., commutative
-	If R_1 , R_2 are fields then R_1 \directsum R_2 is not a field. 
-	If R_1 , R_2 are Integral Domains then R_1 \directsum R_2 is not an integral domain. 
-	Pick a \in R_1 and b \in R_2 non-zero elements then (a,0)(0,b) = (a0,0b) = (0,0)
+If R_1 ,...,R_k are rings then we can form an abelian group R \directsum ... R_k wunder addition. This can be made into a ring with
+multiplication componentwise. 
+It is unital, resp., commutative, iff all R_i are unital, resp., commutative
+If R_1 , R_2 are fields then R_1 \directsum R_2 is not a field. 
+If R_1 , R_2 are Integral Domains then R_1 \directsum R_2 is not an integral domain. 
+Pick a \in R_1 and b \in R_2 non-zero elements then (a,0)(0,b) = (a0,0b) = (0,0)
 ******* Ideals and Factor Rings
 ******** Let I \subset R be a subring of a ring R. We have I is a subgroup of the abelian R under addition.
-	 As I is necessarily normal we can form the factor group R/I under addition. When does the multiplication in R 
-	 give R/I a ring structure?
+As I is necessarily normal we can form the factor group R/I under addition. When does the multiplication in R 
+give R/I a ring structure?
 ******** Def: A subring  I \sub R of a ring R is called a left, resp., right, ideal if for all r \in R and x \in I we have rx \in I, resp., xr \in I :definition:
 ******** We say I is a two-sided Ideal if it is both a left and right ideal.
 ******** Lemma: A non-empty subset I \sub R is an ideal if               :proof:
@@ -193,110 +190,110 @@
 ********** RxR = {rxs | r,s \in R} two-sided ideal
 ********** If R is commutative then Rx = xR = RxR and is sometimes denoted by <x>.
 ********* If R is a ring and f \in R[x] is a polynomial then set l(f) = min{i \in N_0 | a_i \ne 0}.
-	  if n \ge 0 is an integer then I = {f \in R[x]} then l(f) \ge n is an ideal in R[x].
+if n \ge 0 is an integer then I = {f \in R[x]} then l(f) \ge n is an ideal in R[x].
 ****** Lecture 5
-       [2019-01-18 Fri]
+[2019-01-18 Fri]
 ******* Let R be an Integral Domain and let n \ge 0 an integer. 
-	We define I \sub R[x] to be the set of all polynomials f = \sum_i\in_N a_i x^i with m(f) = min{i\in N | a_i \ne 0} \ge n
-	then let g \sum_i\in_N b_i x^i \in R[x]. If f = 0 \in I then gf = 0 \in I.
-	Assume 0 \ne gf \in I.
-	By definition of multiplication we have \sum_i\in_N \sum_j\in_N a_i b_j x^(i + j)
-	Assume a_i b_j \ne 0 then a_i \ne 0 and b_j = 0
-	so i \ge m(f) and j \ge m(g) so this implies that i + j \ge m(f) \ge n.
-	Hence gf \in I. It's easy to see that g - f \in I. For all g*f \in I and I \ne empty.
-	So by the ideal test I \sub R[x] is an ideal
+We define I \sub R[x] to be the set of all polynomials f = \sum_i\in_N a_i x^i with m(f) = min{i\in N | a_i \ne 0} \ge n
+then let g \sum_i\in_N b_i x^i \in R[x]. If f = 0 \in I then gf = 0 \in I.
+Assume 0 \ne gf \in I.
+By definition of multiplication we have \sum_i\in_N \sum_j\in_N a_i b_j x^(i + j)
+Assume a_i b_j \ne 0 then a_i \ne 0 and b_j = 0
+so i \ge m(f) and j \ge m(g) so this implies that i + j \ge m(f) \ge n.
+Hence gf \in I. It's easy to see that g - f \in I. For all g*f \in I and I \ne empty.
+So by the ideal test I \sub R[x] is an ideal
 ******* x^n, x^n^+1, x^n^+2,...\in I.
-	If g = \sum_i\in_N a_i x^i \in R[x] is a polynomial then g + I = \sum_(i=0)^(n-1) a_i x^i + I
+If g = \sum_i\in_N a_i x^i \in R[x] is a polynomial then g + I = \sum_(i=0)^(n-1) a_i x^i + I
 ******* Theorem: Exsistence of factor Rings.                        :theorem:
-	Let R be a ring and I \sub R a subring. The binary operation R/I \times R/I \to R/I defined by (s + I)(t + I) = st + I is well defined iff I is an ideal.
-	Moreover, if I is an Ideal then R/I is a ring(called the quotient ring or factor ring). It is an excersice to show if the multiplication is well defined then R/I is a ring.
-	Assume first that I is an ideal and let s, s_1, t, t_1 \in R be such that s + I = s_1 + I and t + I = t_1 + I
-	So there exists elements in the ideal such that s_1 = s + a and t_1 = t + b.
-	Now s_1 t_1 = (s + a) (t + b) = st + sb + at + ab. So sb + at + ab \in I as I is an Ideal.
-	This means (s_1 + I)(t_1 + I) = s_1 t_1 + I = st + I = (s + I)(t + I). So the multiplication is well defined.
-	Conversly assume I is not an Ideal then there exists r \in R and a \in I such that either ra \notin I or ar \notin I then
-	I \ne ra + I = (r + I)(a + I) = (r + I)(0 + I) = r0 + I = I
-	So the multiplication is not well-defined.
+Let R be a ring and I \sub R a subring. The binary operation R/I \times R/I \to R/I defined by (s + I)(t + I) = st + I is well defined iff I is an ideal.
+Moreover, if I is an Ideal then R/I is a ring(called the quotient ring or factor ring). It is an excersice to show if the multiplication is well defined then R/I is a ring.
+Assume first that I is an ideal and let s, s_1, t, t_1 \in R be such that s + I = s_1 + I and t + I = t_1 + I
+So there exists elements in the ideal such that s_1 = s + a and t_1 = t + b.
+Now s_1 t_1 = (s + a) (t + b) = st + sb + at + ab. So sb + at + ab \in I as I is an Ideal.
+This means (s_1 + I)(t_1 + I) = s_1 t_1 + I = st + I = (s + I)(t + I). So the multiplication is well defined.
+Conversly assume I is not an Ideal then there exists r \in R and a \in I such that either ra \notin I or ar \notin I then
+I \ne ra + I = (r + I)(a + I) = (r + I)(0 + I) = r0 + I = I
+So the multiplication is not well-defined.
 ******* Example Let R = Reals[x] then we have a principal ideal I = <x^2 + 1> = {r(x^2 + 1) | r \in R} 
-	If f \in R is a polynomial then by the division algorithm there exists polynomials q,r \in R such that f = q(x^2 + 1) + r.
-	Moreover we have deg(r) \lt 2. This means that r = aX +b with a,b \in Reals.
-	The quotient ring R/I = {(aX + b) + I | a,b \in Reals}
-	Note: x^2 + I = x^2 = (x^2 + 1) + I = -1 + I
+If f \in R is a polynomial then by the division algorithm there exists polynomials q,r \in R such that f = q(x^2 + 1) + r.
+Moreover we have deg(r) \lt 2. This means that r = aX +b with a,b \in Reals.
+The quotient ring R/I = {(aX + b) + I | a,b \in Reals}
+Note: x^2 + I = x^2 = (x^2 + 1) + I = -1 + I
 ****** Lecture 6
-       [2019-01-23 Wed]
+[2019-01-23 Wed]
 ******* Prime Ideals and Maximal Ideals
 ******** Def: Prime Ideal                                        :definition:
-	 If R is a commutative ring then a prime ideal of R is a proper Ideal I \sub R such that for any a,b \in R with ab \in I
-	 we have either a \in I or b \in I
+If R is a commutative ring then a prime ideal of R is a proper Ideal I \sub R such that for any a,b \in R with ab \in I
+we have either a \in I or b \in I
 ******** Def: Maximal Ideals                                     :definition:
-	 A maximal Ideal is a proper ideal I \sub R such that for any ideal I \sub J \sub R either I = J or J = R
+A maximal Ideal is a proper ideal I \sub R such that for any ideal I \sub J \sub R either I = J or J = R
 ******** Example: The ideal <x^2 - 1> \in R[x] is neither prime nor maximal
-	 We have x^2 -1 = (x + 1)(x - 1) but x + 1, x - 1 \notin <x^2 - 1> because any non-zero f \in <x^2 - 1> has deg(f) \ge 2
-	 Thus <x^2 - 1> is not a prime ideal.
-	 Also x^2 - 1 \in <x - 1>
-	 so <x^2 - 1> \sub <x - 1> \sub R[x] which implies <x^2 - 1> is not maximal
+We have x^2 -1 = (x + 1)(x - 1) but x + 1, x - 1 \notin <x^2 - 1> because any non-zero f \in <x^2 - 1> has deg(f) \ge 2
+Thus <x^2 - 1> is not a prime ideal.
+Also x^2 - 1 \in <x - 1>
+so <x^2 - 1> \sub <x - 1> \sub R[x] which implies <x^2 - 1> is not maximal
 ******** Example: The ideal <x^2 + 1> \sub R[x] is maximal
-	 We will show that if <x^2 + 1> \sub I \sub R[x]
-	 then there exists a non-zero element c \in R such that c \in I.
-	 This implies 1 = c^-1 c \in I so I = R[x]
-	 Pick an element f \in I such that f \notin <x^2 + 1>. By the division algorithm we have
-	     f = q(x^2 + 1) + r for some q,r \in R[x]
-	 As f \notin <x^2 + 1> we have r \ne 0 and deg(r) \lt 2. This means r = aX + b for a,b \in Reals not both zero.
-	 We have 
-	     aX + b = r = f - q(x^2 + 1) \in I
-	 so (aX - b)(aX + b) = a^2 x^2 - b^2 \in I
-	 Now a^2(x^2 + 1) = a^2 X^2 + a^2 \in I and (a^2 X^2 + a^2) - (a^2 X^2 - b^2) = a^2 + b^2 \in I
+We will show that if <x^2 + 1> \sub I \sub R[x]
+then there exists a non-zero element c \in R such that c \in I.
+This implies 1 = c^-1 c \in I so I = R[x]
+Pick an element f \in I such that f \notin <x^2 + 1>. By the division algorithm we have
+f = q(x^2 + 1) + r for some q,r \in R[x]
+As f \notin <x^2 + 1> we have r \ne 0 and deg(r) \lt 2. This means r = aX + b for a,b \in Reals not both zero.
+We have 
+aX + b = r = f - q(x^2 + 1) \in I
+so (aX - b)(aX + b) = a^2 x^2 - b^2 \in I
+Now a^2(x^2 + 1) = a^2 X^2 + a^2 \in I and (a^2 X^2 + a^2) - (a^2 X^2 - b^2) = a^2 + b^2 \in I
 ******** The Ideal inside <x^2 + 1> \in Z_2[X] is not prime because (x + 1)^2 = x^2 + 1 but x + 1 \notin <x^2 + 1>
 ******** Notation: 
-	 For any Integer n \gt 0 we have the ring Z_n = Z/nZ.
-	 If p \gt 0 is a prime then we have the field F_p = Z/pZ
+For any Integer n \gt 0 we have the ring Z_n = Z/nZ.
+If p \gt 0 is a prime then we have the field F_p = Z/pZ
 ******** Theorem                                                    :theorem:
-	 Assume R is a commutative unital ring and I \sub R is an ideal. Then R/I is an integral domain iff I is a prime ideal.
+Assume R is a commutative unital ring and I \sub R is an ideal. Then R/I is an integral domain iff I is a prime ideal.
 ******** Proof                                                        :proof:
-	 Assume R/I is an Integral Domain and let a,b \in R such that ab \in I.
-	 We have (a + I)(b + I) = ab + I = I
-	 So as R/I is an Integral Domain either a + I = I or b + I = I so either a \in I or b \in I.
-	 Hence I is a prime ideal.
-	 Conversely, assume I is a prime ideal. Firstly R/I is commutative and unital because R is so we need only check R/I has no zero divisors
-	 Assume a + I, b + I \in R/I such that (a + I)(b + I) = ab + I = I then ab \in I.
-	 As I is prime either a \in I or b \in I so either a + I = I or b + I = I.
+Assume R/I is an Integral Domain and let a,b \in R such that ab \in I.
+We have (a + I)(b + I) = ab + I = I
+So as R/I is an Integral Domain either a + I = I or b + I = I so either a \in I or b \in I.
+Hence I is a prime ideal.
+Conversely, assume I is a prime ideal. Firstly R/I is commutative and unital because R is so we need only check R/I has no zero divisors
+Assume a + I, b + I \in R/I such that (a + I)(b + I) = ab + I = I then ab \in I.
+As I is prime either a \in I or b \in I so either a + I = I or b + I = I.
 ******** Theorem:                                                   :theorem:
-	 Assume R is a commutative unital ring and I \sub R is an ideal. Then R/I is a field iff I is maximal.
+Assume R is a commutative unital ring and I \sub R is an ideal. Then R/I is a field iff I is maximal.
 ******** Proof:                                                       :proof:
-	 Suppose R/I is a field and I \sub J \sub R is an Ideal
-	 Assume x \in J but x \notin I. As R/I is a field there exists an element y + I \in R/I such that (x + I)(y + I) = xy + I = 1 + I.
-	 This means xy - 1 \in I \sub J so xy - (xy - 1) = 1 \in J Because xy \in J and I is maximal 
-	 Conversely assume I is maximal then we need to show R/I is a field. As before R/I is commutative and unital because R is,
-	 so we need to show every  non-zero element is invertible.
-	 Pick x \in R with x \notin I. Consider the ideal J = <x> + I = {rx + y | r \in R and y \in I}
-	 Certainly I \sub J and, as x \in J, we have I \sub J. As I is a maximal ideal we must have J = R. This means 1 \in J so 1 = rx + y for some r \in R
-	 and y \in I. Hence 1 + I = rx + y + I = rx + I = (r + I)(x + I).
+Suppose R/I is a field and I \sub J \sub R is an Ideal
+Assume x \in J but x \notin I. As R/I is a field there exists an element y + I \in R/I such that (x + I)(y + I) = xy + I = 1 + I.
+This means xy - 1 \in I \sub J so xy - (xy - 1) = 1 \in J Because xy \in J and I is maximal 
+Conversely assume I is maximal then we need to show R/I is a field. As before R/I is commutative and unital because R is,
+so we need to show every  non-zero element is invertible.
+Pick x \in R with x \notin I. Consider the ideal J = <x> + I = {rx + y | r \in R and y \in I}
+Certainly I \sub J and, as x \in J, we have I \sub J. As I is a maximal ideal we must have J = R. This means 1 \in J so 1 = rx + y for some r \in R
+and y \in I. Hence 1 + I = rx + y + I = rx + I = (r + I)(x + I).
 ******** Example: 
-	 If I <x^2 + x + 1> \in F_2[x] then F_2[x]/I is a field. If \sum_{i=0}a_i x^i is a polynomial and n \ge 2 then
-	     f + I = (f + I) - (x^{n-2}(x^2 + x + 1) + I)
+If I <x^2 + x + 1> \in F_2[x] then F_2[x]/I is a field. If \sum_{i=0}a_i x^i is a polynomial and n \ge 2 then
+f + I = (f + I) - (x^{n-2}(x^2 + x + 1) + I)
 ****** Lecture 7
-       [2019-01-25 Fri]
+[2019-01-25 Fri]
 ******* Group Rings (Homework 1.3)   
 ******** RG, G is a group and R is a ring
-	 RG: Set of function G \to R whose support is finite
+RG: Set of function G \to R whose support is finite
 ********* Assume R is a field
-	  In this case RG is actually a vector space
-	  Addition is pointwise and multiplication is scalar
-	  "Kronecker Functions" x \in G \delta_x : G \to F
-	  \delta_x(y) = 1: x = y or 0: x \ne y so \delta_x \in RG
+In this case RG is actually a vector space
+Addition is pointwise and multiplication is scalar
+"Kronecker Functions" x \in G \delta_x : G \to F
+\delta_x(y) = 1: x = y or 0: x \ne y so \delta_x \in RG
 ********** Claim: {\delta_x}_{x \in G }is a basis of RG and dim FG = |G| and f = \sum_{x \in G }f(x)\delta_x 
 ********** Idea: Define multiplication FG \times FG \to FG on the basis elements: \delta_x * \delta_y = \delta_xy 
 ********** Claim: This is precisely the multiplication of Question 3
-	   (fg)(x) = \sum_{y \in G}f(y)g(y^-1 x)
+(fg)(x) = \sum_{y \in G}f(y)g(y^-1 x)
 ****** Lecture 8 
-       [2019-01-28 Mon]
+[2019-01-28 Mon]
 ******* Group Rings
 ******** Example: Even if R is an integral domain it's not necessarily the case that RG is.
-	 Consider ZG with G = {e, a} a cyclic group of order 2 and e is the identity
-	 However, we have (1e - 1a)(1e + 1a) = 1e + 1a - 1a - 1a^2 = 0 because a^2 = e
+Consider ZG with G = {e, a} a cyclic group of order 2 and e is the identity
+However, we have (1e - 1a)(1e + 1a) = 1e + 1a - 1a - 1a^2 = 0 because a^2 = e
 ******** Example: Consider now QG with G = {e, a} cyclic of order 2.
-	 Let xe + ya \in QG.
-	 If x \ne -y then xe + ya is a unit in QG with inverse (xe + ya)^-1 = (x/(x^2 - y^2))e - (y/(x^2 - y^2))a
+Let xe + ya \in QG.
+If x \ne -y then xe + ya is a unit in QG with inverse (xe + ya)^-1 = (x/(x^2 - y^2))e - (y/(x^2 - y^2))a
 ********* Show that xe (+/-) xa with x \in Q is not a unit in QG. Hence, U(QG) = {xe + ya | x \ne (+/-)y}
 ********* Show that U(ZG) = {(+/-)e, (+/-)a}
 ******* Ring Homomorphisms
@@ -305,26 +302,26 @@
 ********* \phi(ab) = \phi(a)\phi(b)
 ********* A bijective ring homomorphism is a ring isomorphism.
 ******** The natural map \phi: Z \to Z_n defined by \phi(a) = a + nZ is a ring homomorphism 
-	 More generally, if R is a ring and I \sub R is an ideal then \phi: R \to R/I is a ring homomorphism \phi(a) = a + I (the "natural" homomorphism)
+More generally, if R is a ring and I \sub R is an ideal then \phi: R \to R/I is a ring homomorphism \phi(a) = a + I (the "natural" homomorphism)
 ******** Let R be a ring. Any Polynomial f \in R[x] can be considered a function R \to R in the following way
-	 Let f = \sum_{n \in N_0}a_i x^i then for any b \in R we set f(b) =  \sum_{n \in N_0}a_i b^i
-	 If x \in R is a fixed element of the ring then we get a map \epsilon_x: R[x] \to R called the evaluation map defined by
-	     \epsilon_x(f) = f(x)
-	 This is a ring homomorphism.
+Let f = \sum_{n \in N_0}a_i x^i then for any b \in R we set f(b) =  \sum_{n \in N_0}a_i b^i
+If x \in R is a fixed element of the ring then we get a map \epsilon_x: R[x] \to R called the evaluation map defined by
+\epsilon_x(f) = f(x)
+This is a ring homomorphism.
 ********* Assume R is unital with 1 \in R then \epsilon_1(1) = f(1) = \sum_{i \in N_0} a_i
 ******** If R is a ring with prime characteristic p then the map \phi: R \to R defined by \phi(x) = x^p is a ring homomorphism.
 ******** Homomorphism Z_n \to Z_m
 ********* Show there is a homomorphism \phi: Z_25 \to Z_10 of abelian groups under addition, such that \phi(3) = 2.
-	  Any homomorphism is uniquely defined by \phi(1) = k. Indeed we have
-	      \phi(a) = ka for all a \in Z_25
-	  If \phi(1) = 4 then \phi(3) = 12 = 2. We should have \phi(a) = 4a
-	  Assume l \in Z then \phi(a + 25) \cong 4(a + 25l) \cong 4a + 100l \cong 4a
-	  So this map is well defined.
+Any homomorphism is uniquely defined by \phi(1) = k. Indeed we have
+\phi(a) = ka for all a \in Z_25
+If \phi(1) = 4 then \phi(3) = 12 = 2. We should have \phi(a) = 4a
+Assume l \in Z then \phi(a + 25) \cong 4(a + 25l) \cong 4a + 100l \cong 4a
+So this map is well defined.
 ********* We have \phi_k:Z \to Z     x \to kx 
-	  This is a ring homomorphism only when k = k^2
-	      \phi_k(xy) = k(xy)
-	      \phi_k(x)\phi_k(y) = (kx)(ky) = k^2(xy)
-	  As k = k^2 ten 0 = k^2 - k = k(k - 1) so either k = 0 or k = 1
+This is a ring homomorphism only when k = k^2
+\phi_k(xy) = k(xy)
+\phi_k(x)\phi_k(y) = (kx)(ky) = k^2(xy)
+As k = k^2 ten 0 = k^2 - k = k(k - 1) so either k = 0 or k = 1
 ********* When does \phi_k give a homomorphism of rings Z_n \to Z_n?
 ****** Lecture 9
        [2019-01-30 Wed]
@@ -782,6 +779,127 @@ We have GL_n(R) = {A \in Mat_{nxn}(R) | det(A) \in U(R)}, a group under multipli
 ********* Assume a + bi \in Z[i] is a unit then this is the case if and only if d(a + bi) = 1
 ********* So U(Z[i]) = {+/-1, +/-i}
 ********* We know if p > is a prime integer then p \in Z is irreducible is p \in Z[i], irreducible?
+****** Lecture 28
+[2019-04-12 Fri]
+******* Primes in the Gaussian Integer
+******** Recall U(Z[i]) = {1, -1, i, -i}
+******** We want to find all primes hence irreducibles in the UFD Z[i]
+******** Question: Is p > 0 a prime integer irreducible in Z[i]?
+******** Let p = f_1... f_n be a decomposition into irreducibles then p^2 = d(f_1)...d(f_n)
+******** As Z is a UFD we have n = 2 because d(f_i) \ne 1 as f_j is not a unit.
+******** Either n = 1 and d(f_1) = p^2 a n=2 and d(f_1) = d(f_2) = p
+******** Lemma: If p is a prime integer then exactly one of the following holds
+********* Either p \in Z[i] is irreducible
+********* p = a^2 + b^2 for some a,b \in Z 
+********** Proof
+********** If p is reducible then p = fg with f,g \in Z[i] irreducibles and d(f) = d(g) = p
+********** So if f = a + bi then p = d(f) = a^2 + b^2
+********** Conversely if p = a^2 + b^2 = (a + bi)(a - bi)
+********** d(a + bi) = d(a - bi) = p so a +/- bi are irreducible
+******** Corollary: 
+If p > 0 is an odd prime integer and p = a^2 + b^2, for some a,b \in Z, then p =
+\pi\pi_bar where \pi = a + bi and \pi_bar = a - bi are non-associate irreducible elements
+of Z[i] with d(\pi) = d(\pi_bar) = p
+********* There are only four ways they can be associates
+********** a + bi = a - bi \to b = 0 and p = a^2
+********** a + bi = -a +bi \to a = 0 and p = b^2
+********** a + bi = -b -ai \to a = -b and p = 2a^2
+********* All of these contradict our assumption.
+******** Corollary
+If p > 0 is a prime integer with p \equiv 3 (mod 4) the p is irreducible in Z[i]
+********* Assume p = a^2 + b^2, for a, b \in Z, then reducing mod 4 we get 3 \equiv a^2 + b^2 (mod 4).
+********* Squares mod 4 are 0^2 \equiv 2^2 \equiv 0 and 1^2 \equiv 3^2 \equiv 1 so there is no solution mod 4
+******** Theorem: If p > 0 is a prime integer then the following are equivalent
+********* p = 2 or p \equiv 1 (mod 4)
+********* The 4_th cyclotomic polynomial \phi_4 = x^2 + 1 \in F_p[X] is irreducible
+********* p = a^2 + b^2 with a,b \in Z
+********* Proof:
+****** Lecture 29
+[2019-04-15 Mon]
+******* Proof:
+******** Assume \alpha \in Z[i] is prime theb d(\alpha) = \alpha\alpha_bar so \alpha | d(\alpha) in Z[i]
+******** As Z is a UFD we can write d(\alpha) = p_1... p_n as a product of irreducible hence prime elements p_i \in Z
+******** As \alpha is prime we have \alpha | p_i for some p_i.
+******** Hence it suffices to consider the decomposition of each prime integer in Z[i].
+******** 2= -i(1 + i)^2
+******* Remark: The prime: 
+******** 2 is called ramified because 2 = -i(1 + i)^2 repeated
+******** p \equiv 1 (mod 4) is split in Z[i]
+******** p \equiv 3 (mod 4) is inert in Z[i]
+******* Quotients
+******** If \pi \in Z[i] is prime then k_\pi = Z[i]/\pi Z[i] is a field, what kind of field
+******** Lemma: We have an isomorphism of rings Z[X]/<x^2+1> = Z[i]
+******** Proof:
+********* Consider the evaluation map \epsilon_i : Z[x] \to C given by \epsilon_i(f) = f(i). This is a ring isomorphism
+********* Assume f \in Ker(\epsilon_i). 
+********* Then by the division algorithm applied in Q[x] there exists polynomial q,r \in Q[X] such that f = q(x^2 + 1) + r where either r = 0 or deg(r) < 2
+********* Assume r \ne 0 then r = aX + b with a,b \in Q
+********* Now r(i) = 0 so ai + b = 0 but this implies a = b - 0
+********* Check now that q \in Z[X].
+******** Let p > 0 be a prime then under this isomorphism the ideal pZ[i] corresponds to the ideal <x^2 + 1> \sub <p, x^2 + 1> \sub Z[X].
+******** Want to understand Z[i]/pZ[i]
+********* This is the same as understanding (Z[x]/<x^2 + 1>)/(<p, x^2 + 1>/<x^2 + 1>) = Z[x]/<p, x^2 + 1> = (Z[x]/<p>)/(<p, x^2 + 1>/<p>) = F_p[X]/<x^2 + 1>
+******** Proposition: Assume \pi \in Z[i] is prime the k_\pi is a finite field of size d(\pi).
+******** Proof:
+********* Note \pi | p, some prime integer p > 0 so pZ[i] \sub \pi Z[i] \sub Z[i]
+********* If p = 2 then x^2 + 1 = (x + 1)^2
+********* and <x + 1> is maximal in F_p[X]
+********* and F_p[X]/<x+1> = F_p. In this case d(\pi)=2=p
+********* If \pi = p with p \equiv 3 (mod 4) then \phi_4 = x^2 + 1 \in F_p[X] is irreducible so k_\pi = Z[i]/pZ[i] = F_{p^2} and d(\pi)=d(p)=p^2 
+********* Finally consider \pi\pi_bar = p > 0 and p \equiv 1 (mod 4)
+********** In this case \phi_4 is reducible over F_p so there exists a zero \epsilon \in F_p.
+********** The ideal <x - \epsilon> \sub F_p[X] contains <x^2+1> and F_p[X]/<x-\epsilon> = Z[i]/\piZ[i]
+********** Observe F_p[x]/<x-\epsilon> and d(\pi)=p
+******** The field k_\pi is often called the residue field.
+****** Lecture 30
+[2019-04-19 Fri]
+******* Extension Fields
+******** A field E is an extension field of a field F if F \sub E and the operations on F are obtained by restricting those on E. :definition:
+********* Here F is a subfield of E
+******** Examples
+********* If E is a field then E is an extension of its ground field F, which is the unique smallest subfield containing {n1_E | n \in Z}
+******** How big can an extension be?
+******** The degree of a field extension F \sub E is defined to be [E:F] = dim_F(E) :definition:
+******** Remark: If F \sub E is a field extension then E is an F-vector space
+******** Example:
+********* [C:R] = 2 because C = {a + bi | a,b \in R}
+********** So {1, i} is a basis of C an R-vector space
+********* [R:Q] = \infin (the continuum)
+********* Let f = x^2 - x + 1 \in F_3[X] then this is irreducible so F = F_3[X]/<f> is a field.
+********** Let \alpha = X + <f> then we know that F = {a\alpha^2 + b\alpha + c\alpha^0 | a,b,c \in F_3}
+********** We have {\alpha^0, \alpha, \alpha^2} \sub F is a basis as an F_3-vector space so [F:F_3] = 3 = deg(f)
+********** A field F_27^3 then [F_27^3:F_27] = 3 and [F_27^3:F_3] = 9
+********* Lemma: Let F be a field of characteristic p > 0. Then F is finite if and only if n = [F:F_p] < \infin.
+********** If n < \infin then the additive group F^{+} is isomorphic to Z^{n}p = Z_p directsum n times and |F| = p^n
+********** Proof:
+*********** If n = [F:F_p] then F has a finite basis B = {e_1,..., e_n} as an F_p-vector space.
+*********** This means we have an isomorphism of vector spaces F_p^n \to F defined by (a_1,..., a_n) \to a_{1}e_1 + ... + a_{n}e_n
+*********** As this map is bijective we have |F| = |F_p^n| = p^n < \infin and it is an isomorphism of additive groups
+*********** We have F^{+} = Z_p^n.
+*********** Conversely if F is finite then any basis as an F_p-vector space must be finite.
+********* Theorem (Kronecker): Assume F is a field and f \in F[X] is a non-zero, non-unit then there exists an extension field E of F and a zero \alpha \in E of f 
+********** Proof:
+*********** As F[X] is a UFD and f is a non-zero non-unit there exists an irreducible element p \in F[X] such that p | f. 
+*********** As p is irreducible E = F[X]/<p> is a field and \alpha = X + <p> is a zero of p
+*********** As p divides f \alpha is also a zero of f.
+********* Example:
+********** Consider f = x^3 - 1_Q \in Q[X] then f = (x - 1_Q)\phi_3 where \phi_3 = x^2 + x + 1_Q
+********** Let's get a zero of \phi_3
+********** Set F = Q[X]/\phi_3 and let \omega = X + <\phi_3>
+********** So \omega^2 + \omega + 1_F = (X^2 + <\phi_3>) + (x + <\phi_3>) + (1_Q + <\phi_3>) = x^2 + x + 1_Q + <\phi_3> = <\phi_3>
+********** Also we have \omega^3 - 1_F = 0_f so \omega is a non-trivial third root of unity.
+********* An element \zeta in a field in a field F is an n^th root of unity if \zeta^N = 1_F. :definition:
+********** We say it is primitive if \zeta^d \ne 1_f for any d | n.
+*********** Primitive means \zeta is a generator of the group {\zeta \in U(F) | \zeta^n = 1}
+******* Splitting Fields
+******** The polynomial \phi_3 = x^2 + x + 1 \in Q[X] has no zeros in Q hence no linear factors.
+******** However in our extension field F = Q[X]/<\phi_3> we have
+********* (X - \omega)(X - \omega^2) = X^2 - (\omega^2 + \omega)X + 1 = x^2 + x + 1
+******** So in F[x] the polynomial \phi_3 splits as a product of linear factors
+********* X^3 - 1 = (X - 1)(X - \omega)(X - \omega^2)
+******** Assume F \sub E is a field extension. Given a_1, ..., a_n \sub E the smallest subfield of E containing both F and {a_1, ..., a_n}. :definition:
+********* We say f \in F[X] splits in E is there are elements a \in F and a_1, ..., a_n \in E such that f = a(X - a_1)...(X - a_n)
+********* We say E is a splitting field for f over F if E = F(a_1, ..., a_n)
 **** Discrete Algorithms (Gould-Simpson 906)                    :discrete:
      <2019-01-10 Thu 14:00-15:15 +1w>
      <2019-01-15 Tue 14:00-15:15 +1w>
@@ -1011,10 +1129,11 @@ HT(pos);
 ******* Finding the proper opcode
 *** Homework                                                       :homework:
 **** HOMEWORK Zybooks reading.                                   :comporg: 
-     DEADLINE: <2019-04-16 Tue 23:59 +7d>
+     DEADLINE: <2019-04-23 Tue 23:59 +7d>
      :PROPERTIES:
-     :LAST_REPEAT: [2019-04-03 Wed 08:39]
+     :LAST_REPEAT: [2019-04-18 Thu 12:38]
      :END:
+     - State "DONE"       from "HOMEWORK"   [2019-04-18 Thu 12:38]
      - State "DONE"       from "HOMEWORK"   [2019-04-03 Wed 08:39]
      - State "DONE"       from "HOMEWORK"   [2019-04-03 Wed 08:39]
      - State "DONE"       from "HOMEWORK"   [2019-03-26 Tue 10:44]
@@ -1027,26 +1146,22 @@ HT(pos);
      - State "DONE"       from "HOMEWORK"   [2019-02-05 Tue 09:51]
      - State "DONE"       from "TODO"       [2019-01-29 Tue 08:45]
      - State "DONE"       from "HOMEWORK"   [2019-01-22 Tue 22:44]
-**** HOMEWORK Assembly Project 4                                    :comporg:
-     DEADLINE: <2019-04-16 Tue 12:30>
-**** HOMEWORK Simulation Project 4 Milestone 2                      :comporg: 
-     DEADLINE: <2019-04-09 Thu 12:30>
 **** HOMEWORK Simulation Project 5                                  :comporg: 
-     DEADLINE: <2019-04-11 Thu 12:30>
+     DEADLINE: <2019-04-25 Thu 17:00>
 **** HOMEWORK Assembly Project 5                                    :comporg: 
-     DEADLINE: <2019-04-18 Thu 12:30>
+     DEADLINE: <2019-04-30 Thu 17:00>
 **** HOMEWORK Simulation Project 6                                  :comporg: 
      DEADLINE: <2019-04-25 Thu 12:30>
-**** HOMEWORK Computer Organization Homework 5                      :comporg: 
-     DEADLINE: <2019-04-09 Tue 17:00>
 **** HOMEWORK Computer Organization Homework 6                      :comporg: 
      DEADLINE: <2019-04-23 Tue 17:00>
 **** HOMEWORK Abstract Algebra Homework                          :algebra: 
-     DEADLINE: <2019-04-12 Fri 11:00 +7d>
+     DEADLINE: <2019-04-26 Fri 11:00 +7d>
      :PROPERTIES:
-     :LAST_REPEAT: [2019-04-05 Fri 10:59]
+     :LAST_REPEAT: [2019-04-19 Fri 09:15]
      :END:
 
+     - State "DONE"       from "HOMEWORK"   [2019-04-19 Fri 09:15]
+     - State "DONE"       from "HOMEWORK"   [2019-04-18 Thu 12:38]
      - State "DONE"       from "HOMEWORK"   [2019-04-05 Fri 10:59]
      - State "DONE"       from "HOMEWORK"   [2019-03-29 Fri 08:03]
      - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:57]
@@ -1059,12 +1174,8 @@ HT(pos);
      - State "DONE"       from "HOMEWORK"   [2019-02-04 Mon 08:39]
      - State "DONE"       from "HOMEWORK"   [2019-01-26 Sat 06:17]
      - State "DONE"       from "HOMEWORK"   [2019-01-18 Fri 20:00] 
-**** HOMEWORK Systems Project 8                                     :systems: 
-     DEADLINE: <2019-04-06 Sat 23:59>
-**** HOMEWORK Systems Project 9                                     :systems: 
-     DEADLINE: <2019-04-13 Sat 23:59>
 **** HOMEWORK Systems Project 10                                    :systems: 
-     DEADLINE: <2019-04-20 Sat 23:59>
+     DEADLINE: <2019-04-24 Sat 23:59>
 **** HOMEWORK Systems Project 11                                    :systems: 
      DEADLINE: <2019-04-27 Sat 23:59>
 *** Exams                                                              :exam:
@@ -1074,12 +1185,5 @@ HT(pos);
      SCHEDULED: <2019-05-08 Wed 13:00-15:00>
 **** EXAM Discrete final                                           :discrete: 
      SCHEDULED: <2019-05-06 Mon 15:30-17:30>
-**** EXAM Discrete midterm 2                                       :discrete: 
-     SCHEDULED: <2019-04-11 Thu 14:00>
-**** EXAM Computer Orginization Midterm 5                           :comporg: 
-     SCHEDULED: <2019-04-11 Thu 12:30>
 **** EXAM Computer Orginization Midterm 6                           :comporg:
      SCHEDULED: <2019-04-25 Thu 12:30>
-**** EXAM Abstract Algebra Midterm 2                                :algebra: 
-     SCHEDULED: <2019-04-17 Wed 11:00>
-    

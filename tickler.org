@@ -53,12 +53,8 @@
    :PROPERTIES:
    :ORDERED:  t
    :END:
-*** APPT Phyche appointment                                       :@school: 
- SCHEDULED: <2019-04-18 Thu 10:00>
 *** APPT Dog grooming                                               :@home: 
- SCHEDULED: <2019-04-18 Thu 14:30>
-*** APPT Rhea dental appointment at old pueblo  
- SCHEDULED: <2019-04-12 Fri 07:30>
+ SCHEDULED: <2019-04-19 Thu 14:30>
 ** WORK Turn stuff off then on again.
    :PROPERTIES:
    :LAST_REPEAT: [2019-01-18 Fri 19:59]

@@ -1,4 +1,4 @@
-;;; sorting --- Implements various sorting algorithms
+;;; sorting.el --- Implements various sorting algorithms
 ;;; Commentary: Shows various sorting algorithms from cs345
 (require 'cl)
 
