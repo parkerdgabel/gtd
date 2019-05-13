@@ -1,0 +1,1640 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/garlic/Documents/OrgDocs/gtd/projects.org
+
+
+* Archive
+
+** DONE Get refile working properly
+   CLOSED: [2018-12-27 Thu 16:06]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2018-12-27 Thu 16:07
+   :ARCHIVE_FILE: ~/Documents/OrgDocs/gtd/projects.org
+   :ARCHIVE_OLPATH: Projects
+   :ARCHIVE_CATEGORY: projects
+   :ARCHIVE_TODO: DONE
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2018-12-27 Thu 16:06]
+   - State "NEXT"       from "DONE"       [2018-12-27 Thu 16:06]
+   - State "DONE"       from "NEXT"       [2018-12-27 Thu 16:06]
+   :END:
+
+* DONE Set up hledger
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-01-22 Tue 14:13
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/Finance
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :END:
+
+* DONE Discrete Program 1 [3/3]                                    :discrete: 
+  DEADLINE: <2019-01-31 Thu 14:00>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-01-31 Thu 16:48
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+  - [X] VICOperations [4/4]
+    - [X] No-carry Addition
+    - [X] Chain Addition
+    - [X] Digit Permutation
+    - [X] Straddling Checkerboard
+  - [X] EncryptVIC
+  - [X] DecryptVIC
+
+* DONE Sim project 2                                                :comporg: 
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-11 Mon 08:06
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+  - State "DONE"       from "HOMEWORK"   [2019-01-14 Mon 10:07]
+
+* DONE Sim project 2                                                :comporg: 
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-11 Mon 08:07
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+  - State "DONE"       from "HOMEWORK"   [2019-01-14 Mon 10:07]
+  DEADLINE: <2019-02-07 Thu 17:16>
+
+* DONE Assembly project 2                                           :comporg: 
+  DEADLINE: <2019-02-14 Thu 12:30>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-11 Mon 08:07
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+
+* DONE Systems Project 2                                            :systems: 
+  DEADLINE: <2019-02-09 Sat 23:59>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-11 Mon 08:08
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+
+* DONE Systems Project 3                                            :systems: 
+  DEADLINE: <2019-02-16 Sat 23:59>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-18 Mon 10:58
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+
+* DONE Computer Organization Homework 2                             :comporg: 
+  DEADLINE: <2019-02-19 Tue 17:00>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-20 Wed 10:56
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+
+* DONE Computer Orginization Midterm 2                              :comporg: 
+  SCHEDULED: <2019-02-21 Thu 12:30>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-21 Thu 21:22
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Exams
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: exam
+  :END:
+
+* DONE Discrete midterm 1                                          :discrete: 
+  SCHEDULED: <2019-02-21 Thu 14:00>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-21 Thu 21:22
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Exams
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: exam
+  :END:
+
+* DONE Systems midterm                                              :systems:
+  SCHEDULED: <2019-02-28 Thu 08:00>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-28 Thu 12:36
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Exams
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: exam
+  :END:
+
+* DONE Simulation Project 3                                         :comporg: 
+  DEADLINE: <2019-02-28 Thu 12:30>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-28 Thu 12:36
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Homework
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: homework
+  :END:
+
+* DONE Abstract Algebra Midterm 1                                   :algebra: 
+  SCHEDULED: <2019-02-27 Wed 11:00>
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2019-02-28 Thu 12:37
+  :ARCHIVE_FILE: ~/gtd/projects.org
+  :ARCHIVE_OLPATH: Projects/School/Exams
+  :ARCHIVE_CATEGORY: projects
+  :ARCHIVE_TODO: DONE
+  :ARCHIVE_ITAGS: exam
+  :END:
+
+* DONE Computer Orginization Midterm 6                              :comporg:
+SCHEDULED: <2019-04-25 Thu 12:30>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-04-26 Fri 09:27
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Exams
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: exam
+:END:
+
+* DONE Simulation Project 6                                         :comporg: 
+     DEADLINE: <2019-04-25 Thu 12:30>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:28
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* DONE Simulation Project 5                                         :comporg: 
+     DEADLINE: <2019-04-25 Thu 17:00>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:28
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* DONE Systems Project 10                                           :systems: 
+     DEADLINE: <2019-04-24 Sat 23:59>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:28
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* TODO Abstract Algebra Homework                                    :algebra: 
+     DEADLINE: <2019-05-10 Fri 11:00 +7d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2019-04-26 Fri 09:28]
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:29
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: TODO
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+     - State "DONE"       from "TODO"       [2019-04-26 Fri 09:28]
+     - State "DONE"       from "HOMEWORK"   [2019-04-26 Fri 09:28]
+     - State "DONE"       from "HOMEWORK"   [2019-04-19 Fri 09:15]
+     - State "DONE"       from "HOMEWORK"   [2019-04-18 Thu 12:38]
+     - State "DONE"       from "HOMEWORK"   [2019-04-05 Fri 10:59]
+     - State "DONE"       from "HOMEWORK"   [2019-03-29 Fri 08:03]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:57]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:56]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:55]
+     - State "DONE"       from "HOMEWORK"   [2019-03-01 Fri 11:01]
+     - State "DONE"       from "HOMEWORK"   [2019-02-26 Tue 08:22]
+     - State "DONE"       from "HOMEWORK"   [2019-02-18 Mon 10:58]
+     - State "DONE"       from "HOMEWORK"   [2019-02-11 Mon 08:07]
+     - State "DONE"       from "HOMEWORK"   [2019-02-04 Mon 08:39]
+     - State "DONE"       from "HOMEWORK"   [2019-01-26 Sat 06:17]
+     - State "DONE"       from "HOMEWORK"   [2019-01-18 Fri 20:00] 
+
+* DONE Computer Organization Homework 6                             :comporg: 
+     DEADLINE: <2019-04-23 Tue 17:00>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:29
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* DONE Assembly Project 5                                           :comporg: 
+     DEADLINE: <2019-04-30 Thu 17:00>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-05-01 Wed 12:20
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* DONE Systems Project 11                                           :systems: 
+     DEADLINE: <2019-04-27 Sat 23:59>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-05-01 Wed 12:20
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* TODO Zybooks reading.                                             :comporg: 
+     DEADLINE: <2019-05-07 Tue 23:59 +7d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2019-05-01 Wed 12:20]
+     :ARCHIVE_TIME: 2019-05-01 Wed 12:20
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: TODO
+     :ARCHIVE_ITAGS: homework
+     :END:
+     - State "DONE"       from "HOMEWORK"   [2019-05-01 Wed 12:20]
+     - State "DONE"       from "HOMEWORK"   [2019-04-26 Fri 09:29]
+     - State "DONE"       from "HOMEWORK"   [2019-04-18 Thu 12:38]
+     - State "DONE"       from "HOMEWORK"   [2019-04-03 Wed 08:39]
+     - State "DONE"       from "HOMEWORK"   [2019-04-03 Wed 08:39]
+     - State "DONE"       from "HOMEWORK"   [2019-03-26 Tue 10:44]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 09:01]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:55]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:54]
+     - State "DONE"       from "HOMEWORK"   [2019-02-28 Thu 12:36]
+     - State "DONE"       from "HOMEWORK"   [2019-02-19 Tue 07:56]
+     - State "DONE"       from "HOMEWORK"   [2019-02-12 Tue 07:52]
+     - State "DONE"       from "HOMEWORK"   [2019-02-05 Tue 09:51]
+     - State "DONE"       from "TODO"       [2019-01-29 Tue 08:45]
+     - State "DONE"       from "HOMEWORK"   [2019-01-22 Tue 22:44]
+
+* DONE Computer Orginization final                                  :comporg: 
+SCHEDULED: <2019-05-08 Wed 13:00-15:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-11 Sat 17:50
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Exams
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: exam
+:END:
+
+* DONE Discrete final                                              :discrete: 
+SCHEDULED: <2019-05-06 Mon 15:30-17:30>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-11 Sat 17:50
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Exams
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: exam
+:END:
+
+* DONE Systems Final                                                :systems:
+SCHEDULED: <2019-05-09 Thu 08:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-11 Sat 17:50
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Exams
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: exam
+:END:
+
+* Abstract Algebra (Psyche 206)                                     :algebra:
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-11 Sat 17:50
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Classes
+:ARCHIVE_CATEGORY: projects
+:END:
+<2019-01-09 Wed 11:00-11:50 +1w>
+<2019-01-11 Fri 11:00-11:50 +1w>
+<2019-01-14 Mon 11:00-11:50 +1w>
+** Notes                                                             :notes:
+*** Lecture 1
+       [2019-01-09 Wed]
+**** Homeworks or quizes on friday.
+	Alternated randomly. Always get a homework sheet regardless.
+	Buffer: 100 * (Total Points earned) / (Total Possible points) * 0.9
+	Only selected problems will be graded. Participation points for ungraded attempted problems.
+**** Office hour Mon 3, Wed 1 (Math 220), Thu 10  
+**** 100 hw/quizzes, 100 midterms, 100 final
+**** Rings (or how I learned to love the polynomial)
+***** Def: A ring is a triple (R, +, *) where R is a set and +, *: R \times R \to R are two binary ops st :definition:
+****** (R, +) is an abelian group with identity O_r=O\in R 
+****** For all a,b,c \in R
+******* a*(b*c)=(a*b)*c
+******* a*(b+c) = a*b+a*c and (a+b)*c=a*c+b*c
+****** (R,*) is not necessarily a group. It does not necessarily have invereses
+****** We say R is unital if R has a multiplicative id 1_r=1\in R. In a unital ring not every element has a multiplicative inverse.
+****** If n\gt0 an integer then na = a+a+a+...+a and a^n = a*a*...a
+****** In general ab \ne ba for all a,b\in R. If ab = ba for all a,b \in R then R is commutative. 
+****** Examples
+******* Integers, Rationals, Reals, Complex are all commutative unital rings under usual defs
+******* For n\gt0 an int the set nZ={xn | x\in Z} is also a ring. 
+******* If n\gt1 then nZ is not unital because the id is not there.
+******* Assume R is a ring and n\to is an int. Let I={1,...n}. Let M_n(R)={a:I cross I \to R}. M_n(R) is a ring with the ops
+******** (a+b)(i,j) = a(i,j) + b(i,j) 
+******** (ab)(i,j) = \sum_k_\in_I a(i,k)b(k,j) 
+******** (M_r(R), +) is abelian group with id O_M_n_(R)(i,j)=O_r
+******** For any a,b,c\in M_n(R) and i,j\in I we have (a(bc))(i,j)=\sum a(i,k)((bc)(k,j))  
+	                                                        =\sum\sum a(i,k)(b(k,l)c(l,j))
+	                                                        =\sum\sum(a(i,k)b(k,l))c(l,j)
+								=\sum((ab)(i,l))c(l,j)
+								=((ab)c)(i,j)
+******* If n\gt1 then M_n(R) is a non-commutative ring. If R is unital then M_n(R) is also unital.
+******* For n\gt0 an int the set Z/nZ, which is a factor group under +, is also a ring. The multiplication is defined by (a + nZ)(b+nZ)=ab +nZ.
+******* This is well-defined and makes Z/nZ into a ring. This is an example of a quotient ring
+******* Every element has a multiplicative inverse iff n is prime.
+******* Lemma(Rules of multiplication)                        :theorem:
+	   Assume R is a ring. For any a,b,c\in R the following holds 
+******** a0=0=0a 
+******** a(-b)=(-a)b=-ab
+******** (-a)(-b)=ab
+******** a(b-c)=ab-ac and (b-c)a=ba-ca
+	    Moreover if R is unital then
+******** (-1)a=-a
+******** (-1)(-1)=1
+*** Lecture 2
+[2019-01-11 Fri]
+**** Lemma (Multiplication)                                      :theorem:
+***** a0 = 0 = 0a \forall a \in R
+***** (-a)b=a(-b)=-ab \forall a,b \in R
+**** Proof                                                         :proof:
+***** a0 + 0 = a0 = a(0 + 0) = a0 + a0 \to 0 = a0 
+***** a(-b) ab = a(-b + b) = a0 = 0 \to a(-b) = -ab. A symmetric arg gives (-a)b=-ab
+**** Example 
+	Let R be a ring and fix X then let R[X] be the set of polynomials 
+	\sum_i_\in_N_0 a_i X^i, N_0={0,1,2...} where a_i \in R and only finitely many a_i are non-zero.
+	This is a ring under: 
+	(\sum_i_\in_N_0 a^i x^i) + (\sum_i_\in_N_0 b^i x^i) = (\sum_i_\in_N_0 (a^i + b^i)x^i))
+	(\sum_i_\in_N_0 a^i x^i) (\sum_i_\in_N_0 b^i x^i) = \sum_i_\in_N_0(\sum_k=0 a_k b_j_-k) x^i \forall \sum_i\inN_o a_i x^i, \sum_i\inN_o b_i x^i \in R[X]
+**** Definition
+***** If (R,+,*) is a ring then a subset S of R is a subring if (S,+,*) is a ring :definition:
+**** Subring Test                                                :theorem:
+***** If R is a ring and S \subset R a nonempty subset then S is a subring if a-b \in S and ab\in S \forall a,b\in S
+***** Proof                                                       :proof:
+	 By the one step subgroup test we have (S,+) is a subgroup of (R,+). As the semigroup and distributing
+	 properties hold for all elements of R they must hold for all elements of S. The assumption ab\in S implies
+	 * is a binary operation on S.
+**** Example of subrings
+***** For any integer n\gt0 we have nZ \subset Z is a subring 
+***** The gaussian integers Z[i] = {a+bi | a,b\in Z} are a subring of C
+**** Units
+***** Def: If R is a unital ring then an element a \in R is called a unit if there exists an element b \in R such that ab=1=ba. :definition:
+       As for groups we have b is uniquely determined by a and we denote it by a^-1.
+       The set U(R) of all units is a group under the multiplication on R.
+**** Examples of Units
+***** If R = M_2(Z) then U(R) = GL_2(Z). In general U(M_n(Z)) = GL_n(Z). 
+***** If R = Z then U(R) = {1, -1}.
+***** If n \gt 0 then U(Z/nZ) = U(n)
+**** Integral Domains
+***** In Z if ab = 0 then either a = 0 or b = 0 
+***** Let R = M_2(Z) and let a = [0 1; 0 0] and b = [1 0; 0 0] then ab = [0 0; 0 0] and ba = [0 1; 0 0]
+***** If R is a ring the a non-zero element a \in R is called a zero divisor if ab = 0 for some non-zero b \in R :definition:
+***** A ring R is called an Integral Domain if R is commutative and has no zero divisor :definition:
+***** In an Integral Domain we have ab = 0 \to a = 0 or b = 0
+**** Examples of Integral Domains
+***** Z is an Integral Domain. 
+***** If p \gt 0 is a prime then Z/pZ is an Integral Domain.  
+Assume a,b \in Z such that (a + pZ)(b + pZ) = ab + pZ = pZ then ab \in pZ
+so p divides ab.  As p is a prime either p | a or p |b so either a \in pZ or b \in
+pZ so either a + pZ = pZ or b + pZ = pZ.
+***** If n \gt 0 is non-prime then Z/nZ has zero divisors. 
+If n = 8 then (2 + 8Z)(4 + 8Z) = 8 + 8Z = 8Z
+**** Lemma: If R is an Integral Domain then for any a,b,c \in R with a \ne 0 we have ab = ac \to b = c. :theorem:
+**** Proof                                                         :proof:
+ab = ac this implies a(b-c) = 0 so b-c = 0 because a \ne 0 which gives b = c.
+*** Lecture 3
+[2019-01-14 Mon]
+**** Last Time: Integral Domains. A commutative unital ring with no zero divisors.  
+**** Remark: We say a is a left zero divisor if there exists a b\in R such that ab=0. resp. ba=0.
+**** Remark: It is a two-sided zero divisor if it is both a left and right zero divisor.
+**** In a commutative ring we have left divisor \to right divisor \to two-sided divisor.
+**** Def: A field is a unital commutative ring in which every non-zero element is a unit. :definition:
+**** Equivalently a field is a ring (R,\plus,\times) in which both (R,\plus) and (R,\times) are abelian groups. :definition:
+**** Example Q \sub R \sub C are fields.
+**** Theorem: A finite Integral Domain is a field.               :theorem:
+**** Proof: Assume R is a finite Integral Domain.                  :proof:
+Let a\in R be a non-zero element then we claim there exists an integer k\gt=1 such that a^k=1.
+If this holds then aa^(k-1)=1=a^(k-1)a=a^-1.
+If a=1 the claim is clearly true so assume a\ne1.
+Consider the list a, a^2 ,a^3,... then as R is finite we must have a^i=a^j for some i \lt j.
+Hence a^j = a^i a^(j-i). Since this is an Integral Domain we have a^(j-i) = 1.
+Hence we can take k = j-i.
+**** Corollary: For any prime p \gt 0 we have Z_p is a field.    :theorem:
+**** Remark: For any prime power q = p^a, there exists a unique field k with |k|=q. The field is not Z/qZ. 
+**** Example: Let Q[\radic2] = {a + b\radic2 | a,b \in Q}
+Then Q[\radic2] \sub R is a field.
+We know that (a+b\radic2)^-1 = \frac{1}{a+b\radic2}.
+Rationalize the denominator.
+**** Characteristic of a ring
+***** Def: Characteristic of a ring is defined as follows.   :definition:
+Let n \gt 0 be the least positive integer such that nx=x+...+x=0 for all x \in R.
+If no such n exists then we say R has characteristic 0 and otherwise it has
+characteristic n.  We denote by char(R) the characteristic.
+***** Example: Z \sub Q \sub R \sub C have characteristic 0.
+***** Example: Z_p has characteristic p\gt0
+***** Example: char(M_n(R)) = char(R)
+***** Example: char(R[x]) = char(R)
+***** Lemma: If R is a unital ring then n = char(R) is the least positive integer such that n1 = 0, if it exists, or n = 0. :theorem:
+***** Proof: For all x \in R we have nx = x + ...+x = 1x+...+1x=(1+...+1)x=(n1)x :proof:
+If n1 = 0 then for all x \in R we have nx = (n1)x = 0x = 0.
+***** Theorem: If R is an Integral Domain then either char(R) = 0 or char(R) = p a prime.:theorem:
+***** Proof: Suppose n = char(R) \gt 0 and assume n = st with 1 \lt= s,t \lt= n :proof:
+We have 0 = (1+...+1)n = (1+...+1)t+...(1+...+1)t)s = (1+...+1)s(1+...+1)t
+As R is an Integral Domain either s1 = 0 or t1 = 0. 
+If s1 = 0 then s = char(R) = n and likewise if t1 = 0. Hence n is a prime.
+***** The characteristic has a big difference on the ring.
+***** Lemma: If p \gt 0 is a prime then p | \binom{p}{i} for all 0 \lt i \lt p :theorem:
+***** Proof: assume p \gt 0 is prime.                             :proof:
+We have \binom{p}{i} = p!\i!(p-i)! so N\binom{p}{i} = p! where N = i!(p-1)!.
+We must have p | N\binom{p}{i} so either p | N or p | \binom{p}{i}. 
+By assumption N = a_1 ...a_k with a_i \lt p so we cannot have p | N.
+Assume now that R is a commutative ring with char(R) = p \gt 0 a prime. By the binomial theorem for any a, b \in R then
+(a + b)^p = \sum_u_=0 \binom{p}{i} a^i b^(p-1) = a^P + b^P. So npr = 0 for all n \ge 0, r \in R because if 0 \lt i \lt p then \binom{p}{i}a^i b^(p-i) = 0 
+*** Lecture 4
+       [2019-01-16 Wed]
+**** Corollary: Assume R is an integral domain with characteristic p \gt 0 then if a \in R satisfies a^P = 1 then a = 1. :theorem:
+**** Proof:                                                        :proof:
+	By assumption we have a^P - 1 = 0.
+	If p is odd then (-1)^P = -1.
+	So a^P - 1 = a^P + (-1)^P = (a + (-1))^P = (a - 1)^P
+	which implies a - 1 = 0 because R is an Integral Domain.
+	If p = 2 the same argument works given that -1 = 1.
+**** Compare this with the case R = C then we have p distinct elements a \in R such that a^P = 1. Thses are e^(2\pi i/p) with 0 \le i \le p.
+**** Integral Domains are important when discussing solutions of polynomial equations.
+***** x^2 - 4x + 3 = (x - 3)(x - 1) \in Z[x]
+As Z is an Integral Domains we have either x - 3 = 0 or x - 1 =0 so either x = 3 or x =1.
+Reducing mod 12 we get a polynomial x^2 - 4 x + 3. In Z_12 we have x = 7 and x = 9 are also solutions  of the polynomial.
+**** Fields are bad.
+If R_1 ,...,R_k are rings then we can form an abelian group R \directsum ... R_k wunder addition. This can be made into a ring with
+multiplication componentwise. 
+It is unital, resp., commutative, iff all R_i are unital, resp., commutative
+If R_1 , R_2 are fields then R_1 \directsum R_2 is not a field. 
+If R_1 , R_2 are Integral Domains then R_1 \directsum R_2 is not an integral domain. 
+Pick a \in R_1 and b \in R_2 non-zero elements then (a,0)(0,b) = (a0,0b) = (0,0)
+**** Ideals and Factor Rings
+***** Let I \subset R be a subring of a ring R. We have I is a subgroup of the abelian R under addition.
+As I is necessarily normal we can form the factor group R/I under addition. When does the multiplication in R 
+give R/I a ring structure?
+***** Def: A subring  I \sub R of a ring R is called a left, resp., right, ideal if for all r \in R and x \in I we have rx \in I, resp., xr \in I :definition:
+***** We say I is a two-sided Ideal if it is both a left and right ideal.
+***** Lemma: A non-empty subset I \sub R is an ideal if           :proof:
+****** x - y \in I for all x,y \in I
+****** rx \in I and xr \in I for all r \in R and x \in I
+***** Example of Ideals
+****** If R is a ring then {0} \sub R is an ideal.
+****** For any integer n \ge 0, we have nZ \sub Z is an ideal.
+****** Given x \in R we have the following principal ideals: 
+******* Rx = {rx | r \in R} left ideal
+******* xR = {xr | r \in R} right ideal
+******* RxR = {rxs | r,s \in R} two-sided ideal
+******* If R is commutative then Rx = xR = RxR and is sometimes denoted by <x>.
+****** If R is a ring and f \in R[x] is a polynomial then set l(f) = min{i \in N_0 | a_i \ne 0}.
+if n \ge 0 is an integer then I = {f \in R[x]} then l(f) \ge n is an ideal in R[x].
+*** Lecture 5
+[2019-01-18 Fri]
+**** Let R be an Integral Domain and let n \ge 0 an integer. 
+We define I \sub R[x] to be the set of all polynomials f = \sum_i\in_N a_i x^i with m(f) = min{i\in N | a_i \ne 0} \ge n
+then let g \sum_i\in_N b_i x^i \in R[x]. If f = 0 \in I then gf = 0 \in I.
+Assume 0 \ne gf \in I.
+By definition of multiplication we have \sum_i\in_N \sum_j\in_N a_i b_j x^(i + j)
+Assume a_i b_j \ne 0 then a_i \ne 0 and b_j = 0
+so i \ge m(f) and j \ge m(g) so this implies that i + j \ge m(f) \ge n.
+Hence gf \in I. It's easy to see that g - f \in I. For all g*f \in I and I \ne empty.
+So by the ideal test I \sub R[x] is an ideal
+**** x^n, x^n^+1, x^n^+2,...\in I.
+If g = \sum_i\in_N a_i x^i \in R[x] is a polynomial then g + I = \sum_(i=0)^(n-1) a_i x^i + I
+**** Theorem: Exsistence of factor Rings.                        :theorem:
+Let R be a ring and I \sub R a subring. The binary operation R/I \times R/I \to R/I defined by (s + I)(t + I) = st + I is well defined iff I is an ideal.
+Moreover, if I is an Ideal then R/I is a ring(called the quotient ring or factor ring). It is an excersice to show if the multiplication is well defined then R/I is a ring.
+Assume first that I is an ideal and let s, s_1, t, t_1 \in R be such that s + I = s_1 + I and t + I = t_1 + I
+So there exists elements in the ideal such that s_1 = s + a and t_1 = t + b.
+Now s_1 t_1 = (s + a) (t + b) = st + sb + at + ab. So sb + at + ab \in I as I is an Ideal.
+This means (s_1 + I)(t_1 + I) = s_1 t_1 + I = st + I = (s + I)(t + I). So the multiplication is well defined.
+Conversly assume I is not an Ideal then there exists r \in R and a \in I such that either ra \notin I or ar \notin I then
+I \ne ra + I = (r + I)(a + I) = (r + I)(0 + I) = r0 + I = I
+So the multiplication is not well-defined.
+**** Example Let R = Reals[x] then we have a principal ideal I = <x^2 + 1> = {r(x^2 + 1) | r \in R} 
+If f \in R is a polynomial then by the division algorithm there exists polynomials q,r \in R such that f = q(x^2 + 1) + r.
+Moreover we have deg(r) \lt 2. This means that r = aX +b with a,b \in Reals.
+The quotient ring R/I = {(aX + b) + I | a,b \in Reals}
+Note: x^2 + I = x^2 = (x^2 + 1) + I = -1 + I
+*** Lecture 6
+[2019-01-23 Wed]
+**** Prime Ideals and Maximal Ideals
+***** Def: Prime Ideal                                       :definition:
+If R is a commutative ring then a prime ideal of R is a proper Ideal I \sub R such that for any a,b \in R with ab \in I
+we have either a \in I or b \in I
+***** Def: Maximal Ideals                                    :definition:
+A maximal Ideal is a proper ideal I \sub R such that for any ideal I \sub J \sub R either I = J or J = R
+***** Example: The ideal <x^2 - 1> \in R[x] is neither prime nor maximal
+We have x^2 -1 = (x + 1)(x - 1) but x + 1, x - 1 \notin <x^2 - 1> because any non-zero f \in <x^2 - 1> has deg(f) \ge 2
+Thus <x^2 - 1> is not a prime ideal.
+Also x^2 - 1 \in <x - 1>
+so <x^2 - 1> \sub <x - 1> \sub R[x] which implies <x^2 - 1> is not maximal
+***** Example: The ideal <x^2 + 1> \sub R[x] is maximal
+We will show that if <x^2 + 1> \sub I \sub R[x]
+then there exists a non-zero element c \in R such that c \in I.
+This implies 1 = c^-1 c \in I so I = R[x]
+Pick an element f \in I such that f \notin <x^2 + 1>. By the division algorithm we have
+f = q(x^2 + 1) + r for some q,r \in R[x]
+As f \notin <x^2 + 1> we have r \ne 0 and deg(r) \lt 2. This means r = aX + b for a,b \in Reals not both zero.
+We have 
+aX + b = r = f - q(x^2 + 1) \in I
+so (aX - b)(aX + b) = a^2 x^2 - b^2 \in I
+Now a^2(x^2 + 1) = a^2 X^2 + a^2 \in I and (a^2 X^2 + a^2) - (a^2 X^2 - b^2) = a^2 + b^2 \in I
+***** The Ideal inside <x^2 + 1> \in Z_2[X] is not prime because (x + 1)^2 = x^2 + 1 but x + 1 \notin <x^2 + 1>
+***** Notation: 
+For any Integer n \gt 0 we have the ring Z_n = Z/nZ.
+If p \gt 0 is a prime then we have the field F_p = Z/pZ
+***** Theorem                                                   :theorem:
+Assume R is a commutative unital ring and I \sub R is an ideal. Then R/I is an integral domain iff I is a prime ideal.
+***** Proof                                                       :proof:
+Assume R/I is an Integral Domain and let a,b \in R such that ab \in I.
+We have (a + I)(b + I) = ab + I = I
+So as R/I is an Integral Domain either a + I = I or b + I = I so either a \in I or b \in I.
+Hence I is a prime ideal.
+Conversely, assume I is a prime ideal. Firstly R/I is commutative and unital because R is so we need only check R/I has no zero divisors
+Assume a + I, b + I \in R/I such that (a + I)(b + I) = ab + I = I then ab \in I.
+As I is prime either a \in I or b \in I so either a + I = I or b + I = I.
+***** Theorem:                                                  :theorem:
+Assume R is a commutative unital ring and I \sub R is an ideal. Then R/I is a field iff I is maximal.
+***** Proof:                                                      :proof:
+Suppose R/I is a field and I \sub J \sub R is an Ideal
+Assume x \in J but x \notin I. As R/I is a field there exists an element y + I \in R/I such that (x + I)(y + I) = xy + I = 1 + I.
+This means xy - 1 \in I \sub J so xy - (xy - 1) = 1 \in J Because xy \in J and I is maximal 
+Conversely assume I is maximal then we need to show R/I is a field. As before R/I is commutative and unital because R is,
+so we need to show every  non-zero element is invertible.
+Pick x \in R with x \notin I. Consider the ideal J = <x> + I = {rx + y | r \in R and y \in I}
+Certainly I \sub J and, as x \in J, we have I \sub J. As I is a maximal ideal we must have J = R. This means 1 \in J so 1 = rx + y for some r \in R
+and y \in I. Hence 1 + I = rx + y + I = rx + I = (r + I)(x + I).
+***** Example: 
+If I <x^2 + x + 1> \in F_2[x] then F_2[x]/I is a field. If \sum_{i=0}a_i x^i is a polynomial and n \ge 2 then
+f + I = (f + I) - (x^{n-2}(x^2 + x + 1) + I)
+*** Lecture 7
+[2019-01-25 Fri]
+**** Group Rings (Homework 1.3)   
+***** RG, G is a group and R is a ring
+RG: Set of function G \to R whose support is finite
+****** Assume R is a field
+In this case RG is actually a vector space
+Addition is pointwise and multiplication is scalar
+"Kronecker Functions" x \in G \delta_x : G \to F
+\delta_x(y) = 1: x = y or 0: x \ne y so \delta_x \in RG
+******* Claim: {\delta_x}_{x \in G }is a basis of RG and dim FG = |G| and f = \sum_{x \in G }f(x)\delta_x 
+******* Idea: Define multiplication FG \times FG \to FG on the basis elements: \delta_x * \delta_y = \delta_xy 
+******* Claim: This is precisely the multiplication of Question 3
+(fg)(x) = \sum_{y \in G}f(y)g(y^-1 x)
+*** Lecture 8 
+[2019-01-28 Mon]
+**** Group Rings
+***** Example: Even if R is an integral domain it's not necessarily the case that RG is.
+Consider ZG with G = {e, a} a cyclic group of order 2 and e is the identity
+However, we have (1e - 1a)(1e + 1a) = 1e + 1a - 1a - 1a^2 = 0 because a^2 = e
+***** Example: Consider now QG with G = {e, a} cyclic of order 2.
+Let xe + ya \in QG.
+If x \ne -y then xe + ya is a unit in QG with inverse (xe + ya)^-1 = (x/(x^2 - y^2))e - (y/(x^2 - y^2))a
+****** Show that xe (+/-) xa with x \in Q is not a unit in QG. Hence, U(QG) = {xe + ya | x \ne (+/-)y}
+****** Show that U(ZG) = {(+/-)e, (+/-)a}
+**** Ring Homomorphisms
+***** Def: A function \phi: R \to S between two rings R and S is called a ring homomorphism if for all a,b \in R the following hold :definition:
+****** \phi(a + b) = \phi(a) + \phi(b)
+****** \phi(ab) = \phi(a)\phi(b)
+****** A bijective ring homomorphism is a ring isomorphism.
+***** The natural map \phi: Z \to Z_n defined by \phi(a) = a + nZ is a ring homomorphism 
+More generally, if R is a ring and I \sub R is an ideal then \phi: R \to R/I is a ring homomorphism \phi(a) = a + I (the "natural" homomorphism)
+***** Let R be a ring. Any Polynomial f \in R[x] can be considered a function R \to R in the following way
+Let f = \sum_{n \in N_0}a_i x^i then for any b \in R we set f(b) =  \sum_{n \in N_0}a_i b^i
+If x \in R is a fixed element of the ring then we get a map \epsilon_x: R[x] \to R called the evaluation map defined by
+\epsilon_x(f) = f(x)
+This is a ring homomorphism.
+****** Assume R is unital with 1 \in R then \epsilon_1(1) = f(1) = \sum_{i \in N_0} a_i
+***** If R is a ring with prime characteristic p then the map \phi: R \to R defined by \phi(x) = x^p is a ring homomorphism.
+***** Homomorphism Z_n \to Z_m
+****** Show there is a homomorphism \phi: Z_25 \to Z_10 of abelian groups under addition, such that \phi(3) = 2.
+Any homomorphism is uniquely defined by \phi(1) = k. Indeed we have
+\phi(a) = ka for all a \in Z_25
+If \phi(1) = 4 then \phi(3) = 12 = 2. We should have \phi(a) = 4a
+Assume l \in Z then \phi(a + 25) \cong 4(a + 25l) \cong 4a + 100l \cong 4a
+So this map is well defined.
+****** We have \phi_k:Z \to Z     x \to kx 
+This is a ring homomorphism only when k = k^2
+\phi_k(xy) = k(xy)
+\phi_k(x)\phi_k(y) = (kx)(ky) = k^2(xy)
+As k = k^2 ten 0 = k^2 - k = k(k - 1) so either k = 0 or k = 1
+****** When does \phi_k give a homomorphism of rings Z_n \to Z_n?
+*** Lecture 9
+       [2019-01-30 Wed]
+**** Remark about Group Rings
+	For any group ring there is a cononical injective ring homomorphism
+	    R \to RG
+	    r \to re with e the identity in G
+	If f = \sum_{x \in G} a_x x \in RG then rf = (re)f = \sum_{x \in G}(re)(a_x x) = \sum_{x \in G}ra_x x
+	   fr = \sum_{x \in G} a_x rx
+**** If R is unital then there is a canonical inclusion
+	   G \to RG
+	   g \to 1_r g which is a group homomorphism. G \to U(RG) 
+**** Last Time: Every Homomorphism of abelian groups \phi: Z \to Z is of the form \phi_k where k \in Z and \phi_k(a) = ka
+	For which k is this a ring homomorphism?
+	k = \phi_k(1) = \phi_k(11) = \phi_k(1)\phi_k(1) = k^2 but as Z is an integral domain this implies k = 0 or k = 1
+**** Z \to Z_m we have a natural homomorphism of abelian groups 
+	\pi: Z \to Z_m defined by \pi(a) = a + mZ
+	Given \phi_k: Z \to Z we get a homomorphism
+	\delta_k = \pi composed \phi_k: Z \to Z_m and by definition
+	\delta_k(a) = ka + mZ
+	When is this a ring homomorphism?
+	k + mZ = \delta_k(1) = \delta_k(1)\delta_k(1) = k^2 + mZ
+	For \delta_k to be a ring homomorphism we need k \cong k^2
+**** If k \cong k^2 then \phi_k is a ring homomorphism.
+**** Example: Consider the ring homomorphisms Z \to Z_6 the have
+	2^2 \cong 4, 3^2 \cong 3, 4^2 \cong 4, 5^2 \cong 1
+	In this case we get four ring homomorphisms \phi_0, \phi_1, \phi_3, \phi_4
+**** What about Z_n \to Z_m?
+	We have \delta_k: Z \to Z_m is a homomorphism of abelian groups. When is \delta_k: Z_n \to Z_m
+	defined by \delta_k(a + nZ) = \delta_k(a) a homomorphism of abelian 
+***** Question
+*** Lecture 11
+       [2019-02-04 Mon]
+**** 
+*** Lecture 12
+       [2019-02-06 Wed]
+**** 
+*** Lecture 13
+       [2019-02-11 Mon]
+**** Let \omega = e^{2\pi i/n} then \omega^n = 1 so \omega \in C is a zero of the polynomial x^n - 1. We can factor this polynomial
+	x^n - 1 = (X - 1)(X^{n-1} + X^{n - 2} + ... + X + 1)
+	As \omega \ne 1 we have \omega is a zero of h so \omega^{n-1} + \omega^{n-2} + ... + \omega + 1 = 0
+	So |\omega^{n-1} + ... + \omega + 1| \le |\omega^{n-1}| + ... + |\omega| + 1 = n
+**** Pricipal Ideal Domain
+***** An Integral Domain R is called a pricipal Ideal Domain(PID) if every Ideal of R is a pricipal Ideal. :definition:
+***** Assume R is a PID and r,s \in R are non-zero. 
+As R is a PID we have <r, s> = <d> for some d \in R. Hence, r = ad and s = bd for some a,b \in R
+A good notion of common divisors.
+***** Example: Every ideal in Z if of the form nZ so is principal. Hence, Z is a PID
+***** Theorem: If F is a field then F[x] is a PID               :theorem:
+***** Proof: We already know F[X] is an integral domain           :proof:
+Assume f \in F[X]. Assume I \sub F[X] is an ideal.
+If I = {0} = <0> then this is principal so assume I \ne {0}
+We choose an element g \ne 0 \in I such that the deg(g) \le deg(h) for all h \in I.
+Let f \in I then by the division algorithm there exists polynomial q,r \in F[X] such that f = gq + r and either r = 0 or deg(r) \lt deg(g).
+We have r = f -gq \in I so by the minimality of deg(g) we have r = 0 so f \in <g>. This shows I = <g>
+***** Theorem: If I \sub F[X] is a non-zero ideal then g \in I generates I iff g has minimal amongst all polynomials in F[X]. :theorem:
+*** Lecture 14
+       [2019-02-13 Wed]
+**** Second Isomorphism theorem
+***** If R is a ring and S \sub R is a subring and I \sub R an Ideal then (S + I)/I is isomorphic to S/S intersect I :theorem:
+Use this in 1 homework 5
+***** Divisibility and Factorization
+****** Assume R is an Integral Domain then f \ne 0 \in R, with f a non-unit is called 
+******* Irreducible if whenever f = ab, with a,b \in R then either a is a unit or b is a unit :definition:
+******* Prime if whenever f | ab then either f | a or f | b, for all a, b \in R
+****** Example: R = Z then +/- p \in Z, with p a prime number, is a prime element
+****** Lemma: If f \in R is prime then f is irreducible        :theorem:
+****** Proof: Assume f = ab for some a, b \in R                  :proof:
+so f | ab we have either f | a or f | b because f is prime.
+Up to relabeling we can assume f | a.
+So a = fd for some d \in R.
+So f = (fd)b \to f(1 - bd) = 0
+Since R is an integral domain it has no zero divisors and f \ne 0 we must hav db = 1 so b is a unit.
+****** Lemma: If R is a PID then f \in R is irreducible iff f is prime. :theorem:
+****** Proof: Assume f is irreducible and f | ab with a, b \in R. :proof:
+As R is a PID there exists some element d \in R <f, a> = <d>.
+As f \in <d> we have f = dr for some r \in R
+So either d is a unit or r is a unit because f is irreducible.
+Assume first that d is a unit then <d> = <1> = R so 1 = fx +ay for some x, y \in R
+So b = fbx + aby. As f | fbx and f | aby we must have f | b.
+Now if r is a unit then <f> = <d> so <f> = <a> = <f, a> = <d>. As f \in <a> we must have f | a.
+*** Lecture 15
+       [2019-02-15 Fri]
+**** Irreducible and Prime elements in an Integral Domain
+***** Polynomial Rings
+****** Let R be an Integral Domain and assume f \in R[X] is a unit.
+This means fg = 1 for some g \in R[X]. As R is an Integral Domain we have 0 = deg(fg) = deg(f) + deg(g)
+So def(f) = deg(g) = 0 This means f = cx^0 is a constant polynomial for some c \in R and g = dx^0 for some d \in R.
+So now we have cd = 1 in R. So c is aunit in R and d = c^-1
+This shows that the U(R[X]) = {cx^0 | c \in U(R)}
+If R = F is a field then U(F[X]) = {f \in F[x] | f \ne 0 and deg(f) = 0}
+****** In the Laurent Polynomial Ring R[X, X^-1] show that U(R[X, X^-1]) = {cX^k | c \in R is a unit and k \in Z}
+****** X + 1 \in R[X, X^-1] is irreducible
+****** Can we tell when a polynomial is irreducible?
+****** Thereom: Reducibility test.                             :theorem:
+If F is a field and f \in F[X] is a non-zero polynomial such that deg(f) \in {2, 3} then f is irreducible iff f has a zero in F.
+****** Proof: Assume a \in F is a zero of f                      :proof:
+Then by the factor theorem we have f = g(X - a) for some g \in F[X]. Note deg(f) = deg(g) + 1 so deg(g) > 0 which implies g is not a unit.
+So f is irreducible.
+Conversly assume f is reducible so f = gh for some g, h \in F[X]. Now, deg(f) = deg(g) + deg(h) \in {2, 3}
+This implies either deg(g) = 1 or deg(h) = 1.
+Without loss of generality we assume deg(g) = 1.
+This means g = aX + b for some a, b \in F.
+We can write g = a(X + a^-1 b) because F is a field.
+As g(-ab^-1) = 0. We must have f(-a^-1 b) = 0
+****** Divisibility and Ideals
+If R is an Integral Domain then f, g \in R we have g | f iff <f> \sub <g>. So if g | f then f = gh sor some h \in R.
+Hence f \in <g> so <f> \sub <g>. Converse is the 
+*** Lecture 16
+       [2019-02-18 Mon]
+**** Divisibility and Ideals 
+***** If R is an integral domain and f, g \in R then g | f iff <f> \sub <g>.
+This is useful in a PID.
+***** Lemma: If R is a PID and f \in R then f is irreducible iff <f> is maximal :theorem:
+***** Proof: Assume f is irreducible and M \sub R is an ideal such that <f> \sub M. :proof:
+Note <f> \ne {0} because f \ne 0. As R is a PID we have M = <g> for some g \in R. By our previous remade we have glf because <f> \sub <g>.
+That means f = gh for some h \in R. As f is irreducible either g is a unit or h is a unit. If g is a unit then 1 = g^-1 g \in <g>.
+So <g> = R. Now if h is a unit then g = h^-1 f \in <f>. So <g> \sub <f> which shows that <f> = <g>. Hence, <f> is a maximal ideal.
+Conversely assume <f> is maximal.
+Firstly as <f> \ne 0 we have f \ne 0 and as <f> \ne R we have f is not a unit.
+If f were a unit then 1 = f^-1 f \in <f> which implies <f> = R, a contradiction.
+Assume f = gh for some g, h \in R
+As g | f we have <f> = <g> or <g> = R.
+If <g> = R then 1 \in <g> which implies g is a unit.
+Now assume <f> = <g>. This means g \in <f> so g = fa for some a \in R.
+Putting this back in the expression we get that f = fah \to f(1 - ah) = 0
+As R has no zero divisors and f \ne 0.
+We must have 1 - ah = 0 so h is a unit. Hence f is irreducible. 
+***** Corollary: If R is a PID and f \in R is irreducible the R/<f> is a field.
+***** Example: R[X] / <x^2 + 1> is a field, which is isomorphic to C.
+***** Example: The polynomial x^2 - 2x + 6 \in Q[X]. Its zeros are 1 +/- (sqrt -5) \in C so the polynomial is irreducible in Q[X]. The quotient Q[X]/<X^2 - 2X +6> is a field.
+One can show that this is isomorphic to a subfield of C, written Q((sqrt -5)), this is the smallest subfield of C containing (sqrt -5).
+***** Assume F is a field then R = F[X] is a PID. Let 0 \ne f \in R be a nonzero element. By the division algorithm.
+If g \in R such that either r = 0 or deg(r) < deg(f). This means
+g + <f> = qf + r + <f> = r + <f>
+So we can assume each element of R/<f> is represented by a polynomial whose degree is strictly less than that of f.
+If g_1, g_2 \in R have degree strictly less than f then
+g_1 + <f> = g_2 + <f> \to g_1 = g_2
+Assume |F| < \infin is finite then this shows that |F[X]/<f>| = |F|^{deg(f)} 
+*** Lecture 17
+[2019-02-20 Wed]
+**** Last Time: If F is a field and f \in F[X], an irreducible polynomial then K = F[X]/<f> is a field.
+**** Last Time: If |F| is finite and deg(f) = n then |K| = |F|^n 
+**** Remarks on constructing fields.
+***** We have a ring homomorphism \phi: F \to K, given by \phi(a) = aX^0 + <f>,which is injective. ]
+As \phi(1) = 1_K = 1_F X^0 + <f>. We have \phi(F) \sub K is a subfield isomorphic to F. 
+This is an example of a field extension, denoted F \sub K
+***** We get a ring homomorphism \phi^bar: F[X] \to K[Y].
+Assume deg(f) = n and f = \sum_{i=0}b_i x^i with b_i \in F. Let \lambda = X + <f> \in K then
+\phi^bar(f)(\lambda) = (\sum_{i=0}\phi(b_i)y^i)(\lambda) = \sum_{i=0}\phi(b_i)\lambda^i = \sum_{i=0}(b_i X^0 + <f>)(X^i + <f>) = \sum_{i=0}b_i X^i + <f> = (\sum_{i=0}b_i X^i) + <f> = <f>
+This shows f has a zero in K
+***** Example
+****** F = Q and f = x^2 - 2 \in Q[X].
+The zeros of f \in R[X] are +/-(sqrt 2) so f \in Q[X] is irreducible so K = Q[X]/<x^2 - 2> is a field.
+Let \epsilon_(sqrt 2): Q[X] \to R be the evaluation map. This is a ring homomorphism, whose image is Q[(sqrt 2)] = {a + b(sqrt 2) | a,b \in Q}
+***** Review constructing a field of four elements.
+**** Finite Fields
+***** Lemma: If F is a finite field then |F| = p^n for some n \gt 0 where char(F) = p \gt 0. :theorem:
+***** Proof: Assume q is a prime dividing |F|                     :proof:
+Then by Cauchy's Theorem there exists an element of (F, +), say x \in F, of order q.
+As char(F) = p we have px = (p1_F)x = 0.
+This means the order of x divides p so q|p which means q = p
+***** Question: FOr each prime p and integer n \gt 0 is there a field of size p^n?
+***** One approach is to find a polynomial f \in F_p[X] which is irreducible of degree n then F_p[X]/<f> is a field of size |F_p|^n = p^n.
+We work inductivly and consider only the case where n is prime.
+*** Exam Review
+[2019-02-25 Mon]
+**** Use the FIrst Isomorphism theorem. It is not a triviality but an important part of the subject
+**** If \phi: R \to S is a ring homomorphism and {a_1,..., a_k} generate the group (R, +) then \phi is uniquely determined by \phi(a_1),...,\phi(a_k)
+**** For Z to Z_n find what \phi(1) is and \phi(1) must be idempotent
+**** Group Rings
+***** G a group and R a unital ring then RG is the set of functions G \to R. For g \in G we define \delta_g: G \to R by
+\delta_g(x) = {1_r if g=x, else 0_r if g \ne x}
+We know that if \phi: G \to R is a function then \phi = \sum_{g \in G}a_g \delta_g and a_g = \phi(g) \in R
+Here we have (a\psi)(x) = a\psi(x) \in R
+For any \psi \in RG and a \in R 
+***** Lemma: We have (a\delta_g)(b\delta_h) = ab\delta_gh for all a,b \in R and g,h \in G
+**** Factor Rings
+***** Problem: Show that f = x^2 + x + 1 \in F_5[X] is irreducible
+***** Proof In F_5 we have f(1) = 3 \ne 0
+f(2) = 4 + 2 + 1 \ne 0
+f(3) = 9 + 3 + 1 = 3 \ne 0
+f(4) = (-1)^2 + (-1) + 1 = 1 \ne 0
+So by the reducibility test for degree 2 polynomials we have f is irreducible.
+This means R = F_5[X]/<f> is a field because I = <f> is maximal. 
+All elements of R are of the form aX + b + I with a,b \in F_5.
+So, (X + 2 + I)(3X + 4 + I) = (X + 2)(3X + 4) + I = 3X^2 + 4X + 6X + 8 + I = 3X^2 + 3 + I = 3(X^2 + X + 1) + 2X + I = 2X + I
+3X^2 + 3 = q(X^2 + X + 1) + r
+***** Problem In Z direct sum Z show that I = {(a,0) | a \in Z} is a prime ideal but not maximal
+***** Proof: \phi:Z direct sum Z \to Z, (a,b) \to b is a ring homomorphism
+And the kernel is I so I is an Ideal
+Now show that R/I is an integral domain but not a field
+Now by the first isomorphism by the first isomorphism theorem. 
+*** Lecture 19
+[2019-03-01 Fri]
+**** If F is a finite field of characteristic p > 0, necessarily a prime, then |F| = p^n for some integer n > 0
+**** We know if f \in F[X] is an irreducible polynomial of degree deg(f) = n then K = F[X]/<f> is a field and if F is finite so is K and |K| = |F|^n
+**** Basic Idea: Pick a prime p > 0. We know F_p is a field of size p. Assume K is a field of size p^n and let r > 0 be a prime number.
+***** Aim: SHow that the field K of size p^n has an irreducible polynomial, f \in K[X], of deg(r). The K[X]/<f> is a finite field of size |K|^r = (p^n)^r = p^nr
+***** Criteria for existence of multiple zeros.
+****** Assume K is a field and f \in K[X] is a polynomial. We say \alpha \in K is a zero if f(\alpha) = 0 or (x - \alpha) | f
+****** We say \alpha is a zero of multiplicity n > 0 if (x- \alpha)^n | f but (x - \alpha)^{n+1} doesn't divide f.
+****** When does f have a zero with multiplicity > 1
+****** Definition: The derivative with respect to X is the map \delta_X : K[X] \to K[X] defined by \delta_x(\sum a_i x^i) = \sum ia_i x^{i-1} (zero when i = 0)
+******* This definition does not rely on limits
+****** Lemma: For any f,g \in K[X] the following hold:
+******* \delta_x[f + g] = \delta_x(f) + \delta_x(g)
+******* \delta_x[af] = a\delta_x(f) for any a \in K
+******* \delta_x[fg] = f\delta_x(g) + g\delta_x[f]
+****** Lemma: Condition for multiple zeros of multiplicity > 1 then there exists a non-constant polynomial h \in K[X] dividing both f and \delta_x(f)
+****** Proof: Assume \alpha \in K is a zero of multiplicity m > 1
+******* So we must have (x - \alpha)^2 divides f.
+******* Hence f = (x - \alpha)^2 g.
+******* Taking the derivative \delta_x(f) = (x - \alpha)^2 \delta_x(g) + \delta_x((x - \alpha)^2)g = (x - \alpha)^2 \delta_x(g) + 2(x - \alpha)g
+******* So h = X - \alpha divides both f and \delta_x(f)
+****** Thereom: The existence if finite fields                 :theorem:
+****** Lemma: Let R be a unital ring and assume 0 \le s \le t are integers such that X^s - 1 | X^t - 1 in R[X] then s | t
+******* Let I = <X^s - 1> \sub R[X] then X^s + I = (X^s - 1) + 1 + I = 1 + I 
+******* So X + I \in U(R/I) is a unit of finite order
+******* In fact, this element has order s because if 0 < i < s such that X^i + I = 1 + I then X^{i-1} - 1 \in I
+******* So x^i - 1 = (x^s - 1)f for some f \in R[X]. Comparing degrees we see that i = s + deg(f) \ge s a contradiction.
+******* Now as X^s - 1 | X^t - 1 this implies X^t - 1 \in I so X^t + I = 1 + I
+******* This means  that order of X + I divides s | t.
+****** Lemma: Assume q = p^n is a power of a prime p > 0. If 0 < s \le t are integers such that q^s - 1 | q^6 - 1 then s | t
+****** Theorem: If F is a finite field and r > 0 is a prime then there exists an irreducible polynomial f \in F[X] of degree r > 0 :theorem:
+****** Proof: Let q = |F| = p^a be the order of F.
+******* Consider X^{q^r} - X \in F[X] then \delta_x(X^{q^r} - X) = q^r X^{q - 1} - 1 = -1
+******* Because F has characteristic p > 0.
+******* This tells us that this polynomial and its derivative have no non-constant common divisor.
+******* SO this polynomial has no repeated zeros in F
+*** Lecture 20
+[2019-03-10 Sun]
+**** Unique Factorization Domains (UFD) and Divisibility 
+***** A ring R is a UFD if R is and Integral Domain and for every non-zero non-unit f \in R the following hold: 
+****** f = p_1... p_n with p_i \in R
+****** if f = p_1 ...p_n = q_1 ... q_n with p_i, q_i \in R irreducibles then n=m and there is a permutation \sigma \in S_n and units u_i \in U(R) such that q_i = U_i P \sigma(i) for all 1 \le i \le n.
+***** Example of UFD
+****** The main example of a UFD is Z. We have the irreducibles in Z are the primes and every n > 0 has a decomposition as a product of primes n = p_1 ... p_n with p_i > 0. This is unique up to permuting the primes. A general irreducible element in Z is of the form +/-p with p > 0 a prime.
+******* -n = (-p_1)p_2 ... P_n = p_1(-p_2)...p_n 
+***** In a general ring we don't have ordering so we can't make sense of "greater than". In the general setting of rings 6 = 2 * 3 = (-2) * (-3) are two perfectly valid decompositions of 6 as a product of irreducibles. 
+***** Remark: R an Integral Domain and a \in R
+a = p_1 a_1 with p_1 irreducible
+= p_1 p_2 a_2
+This may not ever terminate, in the sense that you may never arrive at an a_i which is irreducible.
+***** Conditions 2 comes up a lot so we give it a name.
+****** Definition: Two elements, f,g \in R, of a commutative unital ring R are called associates if f | g and g | f.
+****** Remark "are associates" is an equivalence relation on R.
+***** Lemma: If R is an Integral Domain then for any f,g \in R non-zero the following are equivalent:
+****** f and g are associates
+****** f = ug for some unit u \in U(R)
+****** g = vf for some unit v \in U(R)
+***** Proof of Lemma
+****** ii implies iii clearly
+****** ii implies i clearly 	 
+****** i implies ii
+If f | g and g | f then there exists a,b \in R such that g = af and f = bg so g = abg which implies (1- ab)g = 0. As g \ne 0 and R is an Integral Domain we have 1 -ab = 0 so ab = 1.
+***** Greatest Common Divisor 
+Recall that d \in R is a common divisor of a,b \in R if d | a and d | b.
+****** Definition: Assume R is an integral Domain. A gcd of a_1,..., a_n \in R (not all zero) is an element d \in R such that
+******* d is common divisor of a_1,... a_n
+******* If e \in R is a common divisor of a_1,..., a_n then e | d
+****** Remark: Could define an ordering on R by setting e \le d iff e | d.
+****** Note: if d_1, d_2 \in R are two gcds of a_1,..., a_n \in R (not all zero) then by ii d_1 | d_2 and d_2 | d_1, so d_1 and d_2 are associates. THis means d_1 = ud_2 for some u \in U(R)
+****** Remark: Ideally we would only study PID but these are bad for a number if reasons.
+******* If R is a PID then R[X] is not necessarily a PID, e.g., take R = Z
+*** Lecture 21
+[2019-03-22 Fri]
+**** Remark: Let f \ne 0 \in R, an Integral Domain, and consider the set S = {fu | u \in U(R)} = fU(R) then the following are equivalent: 
+***** f is a gcd of a_0,....,a_n \in R (not all zero)
+***** any g \in S is a gcd of a_0, ..., a_n \in R
+**** Lemma: If R is a UFD then any elements a_1,..., a_n \in R (not all zero) have a gcd.
+**** Proof:
+We argue by induction on n. If n = 1 then a_1 \ne 0 so d = a, is a gcd. Assume n
+> 1. If asubn = 0 then some asubi with 1 \le i \le n is non-zero so there exists a
+gcd of a_1,..., a_n-1, say d and d = d, is still a gcd of a_1,...,a_n. If
+a_1=...=a_n-1=0 then a_n \ne 0 and d = a_n is a gcd of a_1,..., a_n. We can assume A-n
+\ne 0 and some a_i with 1 \le i \le n is non-zero. By induction there is a gcd of
+a_1,...,a_n-1, say d_1.
+If either d1 or a_n is a unit then d = 1 is a gcd of d, and a_n, hence also a gcd
+of a_1,...,a_n. We can assume both d_1 and a_n are non-zero non-units. As R is a
+UFD, we can write d_1 = p_1...p_2 and a_n=q_1...q_t as a product of irreducibles p_i,q_j
+\in R. After rearranging we can find an integer k \ge 0 such that p_i is an associate
+of q_i if i \le k and if i > k then p_i is not an associate of any q_j with j >
+k. Now d = p_1...p_k is a gcd of d_1 and a_n hence d is a gcd of a_1,...,a_n.
+**** Example:
+***** Consider the polynomial ring Z[X]. 
+Take as faith that this is a UFD.
+**** Question: Let F be the field of fractions of R. If f \in R[X] is irreducible then is f still irreducible when considered as an element in F[X]?
+The key is R = Z and F = Q.
+**** Def: A polynomial f = a_0 + a_1x +... + a_nx^n \in R[X] is said to have content c = c(f) if c is a gcd of a_0,...,a_n. We say f is primitive if it has content 1. 
+**** Example: f = -15 + 21X + X^3 \in Z[X] has content one so f is primitive.
+**** Example g = 12 + 21X - 15X^2 - 99X^3 has content -3.
+**** Lemma: If f,g \in R[X] are non-zero primitive polynomials then fg is primitive.
+*** Lecture 22
+[2019-03-27 Wed]
+**** Thereom: If R is a UFD, F is its field of fractions, If f \in R[X] is irreducible and primitive, then f is irreducible over F
+**** Example: Consider 6x^2 + x -2 \in Z[X]
+**** Eisenstein's Criterion
+***** Another irreducible test.
+***** Eisenstein's Irreducibility Test
+****** If R is a UFD with field of fractions F, Assume p \in R is prime
+****** And f(x) = a_{n}x^2 + a_{n-1}x^{n-1} + ... + a_{1}x + a_0 \in R[X] with p doesn not divide a_n, p | a_{n-1}, p | a_{n-2}, p | a_0 and p^2 not divide a_0
+****** Then f is irreducible over F.
+*** Lecture 23 
+[2019-04-01 Mon]
+**** If R is a UFD then R[X] is a UFD
+***** Multivariate Polynomials
+Let G = <X_1,..., X_n> = Zo...0Z be an infinite abelian group with each X_i
+generating z copy of Z.
+If R is a unital ring then we have the group ring RG whose elements are of the
+form \sum a_i_1...i_n X_1^i1 ... X_n^in. We have RG is the Laurent polynomial ring in
+n-variables. The polynomial ring is 
+{\sum a_i,...,i_n X_1^in ...X_n^in | i_j \ge 0}
+****** Example: Z[X, Y]
+******* Some polynomials in this ring are X + Y, 2X^2 Y - 3X, 1 = 1X^0 Y^0 
+****** Remark: R[X_1,..., X_n] = (R[X_1,..., X_{n-1}])[X_n]
+By downwards induction one gets that R[X_1,..., X_n] is a UFD.
+****** Show R[X] is a UFD in a special
+Assume R is a UFD and f \in R[X] is primitive with deg(f) \ge 1. Then f can be
+uniquely factorized as a product of irreducibles up to order and associates.
+****** Proof: If n \ge 1 is an Integer we let X_m = {(f_1,..., f_n) | f = f_1... f_n with deg(f_i) \ge 1} \sub R[X]^m
+If (f_1,..., f_n) \in X_m then deg(f) = deg(f_1) + ... + deg(f_m) \ge |+ ... +| = m This
+shows that if X_m \ne \empty then m \le deg(f). We have (f) \in X_1 \ne\empty.
+Chose (f_1,..., f_m) \in X_m. We claim each f_i is irreducible. We claim each f_i is
+irreducible.
+Assume f_i = gh is reducible with g, h \in R[X] non-zero non-units. As f is
+primitive we have c(f) = c(f_1)...c(f_m) is a unit so each c(f_i) is a unit. So f_i
+is primative. Taking contents we get c(f_i) = c(g)c(h) so c(g) and c(h) are
+units. This means deg(g), deg(h) \ge 1 otherwise g = c(g)X^0 is a unit. This
+implies
+f = f_1 ... f_{i-1}ghf_{i+1}...f_m
+contradicting the maximality of m. This shows f can be factorized as a product
+of irreducibles. Assume
+f = f_1 ... f_m = q_1 ... q_n with f_i, q_i \in R[X] irreducible. The above argument
+shows they're primitive.
+Let F be a field of fractions of R. Each f_i, q_i is irreducible over F. This
+means (*) gives two decomposition of f into irreducibles in F[X]. As F[X] is a
+UFD this means m=n and, up to reordering, f_i is an associate of q_i. This means
+f_i = u_i q_i for some unit u_i \in F[X]. Essentially i_i is an element of F that can
+be written as u_i = a_i/b_i with a_i, b_i \in R and a_i, b_i \ne 0. This means
+b_i f_i = a_i q_i.
+Taking contents on both sides we get b_i = a_i v_i for some unit v_i \in R. This
+shows that a_i and b_i are associates. This shows f_i and q_i are associates in R[X]
+because u_i = a_i/b_i = v_i^-1 \in R.
+*** Lecture 24
+[2019-04-03 Wed]
+**** Last Time: If R is a UFD and f \in R[X] is primitive with deg(f) \ge 1 the f can be uniquely factorized as a product of irreducibles.
+**** Theorem: If R is a UFD then R[X] is a UFD.
+Assume f \in R[X] is a non-zero non-unit. If the deg(f) = 0 then f \in R is a UFD,
+so f can be uniquely factorized in R hence also in R[X]. So we can assume deg(f)
+\gt 0.
+We can write f = cg with c \in R the content of f and g \in R[X] a primitive
+polynomial.
+Note deg(g) = deg(f) > 0.
+If c is a unit in R then we have f is primitive so f can be uniquely factorized
+by the previous proposition. We may assume that c is a non-unit. As R is a UFD
+we have c = c_1 ... c_n for some c_i \in R irreducible. Moreover by the previous
+proposition we have g =g_1 ... g_m with g_j \in R[X] irreducible. This means
+f = c_1 ... c_n g_1 ... g_n can be factorized as a product of irreducibles.
+We now check uniqueness. 
+Assume f = q_1 ... q_r is a decomposition with each q_i \in R[X] irreducible.
+Rearranging, we can assume all the degree zero terms come first. So we have 
+f = b_1 ... b_s h_1 ... h_t with b_i \in R irreducible and h_j \in R[X] with deg(h_j) >
+0 irreducible.
+Taking contents we get that 
+c_1 ... c_n = ub_1 ... b_s for some u \in U(R). As R is a UFD we must have n = s and,
+after reordering, c_i is an associate of b_i. Cancelling off the contents we get
+that g_1 ... g_m = vh_1 ... h_t for some unit v \in U(R). By the proposition we know
+unique factorization holds. So m = t and up to reordering, g_i is an associate of h_i.
+**** What can we do with finite fields
+***** If n \ge 1 is an integer and R is a ring
+We have GL_n(R) = {A \in Mat_{nxn}(R) | det(A) \in U(R)}, a group under multiplication.
+***** Examples
+****** If R = Z then det(A) \in U(R) iff det(A) \in {1, -1}
+****** If R is a field then det(A) \in U(R) iff det(A) \ne 0.
+****** If R has infinite cardnality then, in general, GL_n(R) has infinite cardnality.
+****** If R is finite cardnality then GL_n(R) is always finite.
+******* Take R = F a finite field. This gives lots of finite groups!
+******* Proposition: If F is a finite field of size q then  
+|GL_n(F)| = (q^n - 1)(q^n - q)...(q^n - q^{n-1})
+*** Lecture 25
+[2019-04-05 Fri]
+****   
+*** Lecture 26
+[2019-04-08 Mon]
+**** Norms and Euclidean Domains
+***** Consider the ring R = Z[d^{-2}] = {a + bd^{-2} | a,b \in Z} where d is a square-free integer different that 1.
+****** A map N| R -> N_0, called a norm defined by N(a + bd^{-2}) = |a^2 - db^2|
+****** If d < 0 and z = a + bd^{-2} then Z(z) = zconj(z)
+******* N(z) = 0 iff z = 0
+******* N(zw) = N(z)N(w) for all z,w \in R
+******* z \in R is a unit iff N(z) = 1
+******* If N(z) is prime in Z then z \in R is irreducible
+****** Example: (d = -3) The ring R = Z[(-3)^{-2}] is not a UFD 
+******* We have z = a + bd^{-2} \in R is a unit iff N(z) = a^2 + 3b^2 = 1, which happens iff a = +/- 1 and b = 0
+******* Claim if N(z) = 4 then z is irreducible.
+******** Assume z = xy with x,y \in R then 4 = N(z) = N(x)N(y)
+******** If neither x nor y is a unit then we must have N(x) = N(y) = 2
+******** However, the equation c^2 + 3d^2 = 2 has no solutions in Z so no such elements exist.
+******** We know 2 has N(2) = 4. Also 1 + -3^{-2} has norm 4
+******** (1 + -3^{-2}) (1 - (-3)^{-2}) = 4.
+******** As the units of R are +/-1 it is clear that 1 + (-3)^{-2} and 2 are associates
+******** So R is not a UFD
+****** Example: (d=4)
+******* Claim that 7 \in R = Z[5^{-2}] is irreducible.
+******** Assume 7 = xy with x,y \in R then 49=N(7)=N(x)N(y).
+******** If neither x nor y is a unit then we must have N(x) = N(y) = 7
+******** Claim there are no solutions to |a^2 - 5b^2| = 7
+******** Need to show there's no solution to either a^2 - 5b^2 = 7 or a^2 - 5b^2 = -7.
+******** We only need to show that a must be divisible by 5.
+******** Reducing mod 5 we get that a^2 \equiv 2 and a^2 \equiv 3
+*** Lecture 27
+[2019-04-10 Wed]
+**** Def: \Phi_n = gcd(X^n - 1/ (x^d - 1) | 1 \le d \lt n. d | n) \in Z[X]
+**** Unproved Facts
+***** \Phi_n is always irreducible in Z[X]
+***** X^n - 1 = \Pi_{1 \le d \le n | d | n}\Phi_d
+**** Example: R = Z[5^{-2}] are there elements with N(z) = 7
+***** Are there solutions to a^2 - 5b^2 = +/-7 in Z
+***** If there is a solution then a^2 \equiv 2 or a^2 \equiv 3 would have a solution in F_5
+**** Consider R = Z[i] \subset C the Gaussian Integers
+***** For x = a + bi \in Z[i] then we define d(x) = a^2 + b^2 = |x|^2
+***** Claim: If x, y \in R and y \ne 0 then there exists q,r \in R such that x = qy + r and either r = 0 or d(r) \lt d(y)
+***** WARNING: q and r are not necessarily unique.
+***** Proof:
+****** Consider xy^-1 = s + ti \in Q[i]
+******* Note x/y = x/y y_bar/y_bar = xy_bar/yy_bar and yy_bar \in Z
+****** We chose m,n \in Z such that |s - m| \le 1/2 and |t - n| \le 1/2.
+****** So s = m + u and t = n + v with u,v \in Q and |u|, |v| \le 1/2
+****** So, xy^-1 = s + ti = (m + in) + (u + iv) \to x = y(m + in) + y(u + iv)
+****** Let q = m + in and r = y(u + iv).
+******* Note r = x - qy \in Z[i]
+****** Assume R is non-zero then d(r) = rr_bar = d(y)d(u^2 + v^2) \le d(y)(1/4 + 1/4) = d(y)/2 \lt d(y) 
+****** Remark: This proof actually shows that we can arrange that d(r) \le d(y) / 2
+**** Definition: A Euclidean Domain is a pair (R, d) consisting of an Integral Domain R and a function d: R \ {0} -> N_0 such that
+***** d(a) \le d(ab) for all a,b \in R \ {0}
+***** If a \in R and b \in R \ {0} the there exists q, r \in R such that a = qb + r and either r = 0 or d(r) \lt d(b).
+**** Examples: 
+***** R = Z and d(a) = |a|
+***** R = F[X] with F a field and d(f) = deg(f)
+***** R = Z[i] and d(z) = zz_bar
+**** Lemma: If R is an ED then R is a PID
+**** Proof: Assume I \sub R is a non-zero ideal.
+***** Pick 0 \ne f \in I with d(f) \le d(g) for all g \in I
+***** If g \in I then there exists q,r \in R such that g = qf + r and either r = 0 or d(r) \lt d(f).
+****** We have r = g - qf \in I so if r \ne 0 then r contradicts our choice for f. Hence r is 0 and g = qf \in <f>
+****** This shows I = <f>
+**** We have ED \to PID \to UFD
+**** Also UFD not \to PID not \to ED
+**** If (R, d) is an ED then d is called a measure or norm.
+**** Primes in the gaussian integers
+***** Question: What are the irreducible elements in Z[i]?
+****** Assume a + bi \in Z[i] is a unit then this is the case if and only if d(a + bi) = 1
+****** So U(Z[i]) = {+/-1, +/-i}
+****** We know if p > is a prime integer then p \in Z is irreducible is p \in Z[i], irreducible?
+*** Lecture 28
+[2019-04-12 Fri]
+**** Primes in the Gaussian Integer
+***** Recall U(Z[i]) = {1, -1, i, -i}
+***** We want to find all primes hence irreducibles in the UFD Z[i]
+***** Question: Is p > 0 a prime integer irreducible in Z[i]?
+***** Let p = f_1... f_n be a decomposition into irreducibles then p^2 = d(f_1)...d(f_n)
+***** As Z is a UFD we have n = 2 because d(f_i) \ne 1 as f_j is not a unit.
+***** Either n = 1 and d(f_1) = p^2 a n=2 and d(f_1) = d(f_2) = p
+***** Lemma: If p is a prime integer then exactly one of the following holds
+****** Either p \in Z[i] is irreducible
+****** p = a^2 + b^2 for some a,b \in Z 
+******* Proof
+******* If p is reducible then p = fg with f,g \in Z[i] irreducibles and d(f) = d(g) = p
+******* So if f = a + bi then p = d(f) = a^2 + b^2
+******* Conversely if p = a^2 + b^2 = (a + bi)(a - bi)
+******* d(a + bi) = d(a - bi) = p so a +/- bi are irreducible
+***** Corollary: 
+If p > 0 is an odd prime integer and p = a^2 + b^2, for some a,b \in Z, then p =
+\pi\pi_bar where \pi = a + bi and \pi_bar = a - bi are non-associate irreducible elements
+of Z[i] with d(\pi) = d(\pi_bar) = p
+****** There are only four ways they can be associates
+******* a + bi = a - bi \to b = 0 and p = a^2
+******* a + bi = -a +bi \to a = 0 and p = b^2
+******* a + bi = -b -ai \to a = -b and p = 2a^2
+****** All of these contradict our assumption.
+***** Corollary
+If p > 0 is a prime integer with p \equiv 3 (mod 4) the p is irreducible in Z[i]
+****** Assume p = a^2 + b^2, for a, b \in Z, then reducing mod 4 we get 3 \equiv a^2 + b^2 (mod 4).
+****** Squares mod 4 are 0^2 \equiv 2^2 \equiv 0 and 1^2 \equiv 3^2 \equiv 1 so there is no solution mod 4
+***** Theorem: If p > 0 is a prime integer then the following are equivalent
+****** p = 2 or p \equiv 1 (mod 4)
+****** The 4_th cyclotomic polynomial \phi_4 = x^2 + 1 \in F_p[X] is irreducible
+****** p = a^2 + b^2 with a,b \in Z
+****** Proof:
+*** Lecture 29
+[2019-04-15 Mon]
+**** Proof:
+***** Assume \alpha \in Z[i] is prime theb d(\alpha) = \alpha\alpha_bar so \alpha | d(\alpha) in Z[i]
+***** As Z is a UFD we can write d(\alpha) = p_1... p_n as a product of irreducible hence prime elements p_i \in Z
+***** As \alpha is prime we have \alpha | p_i for some p_i.
+***** Hence it suffices to consider the decomposition of each prime integer in Z[i].
+***** 2= -i(1 + i)^2
+**** Remark: The prime: 
+***** 2 is called ramified because 2 = -i(1 + i)^2 repeated
+***** p \equiv 1 (mod 4) is split in Z[i]
+***** p \equiv 3 (mod 4) is inert in Z[i]
+**** Quotients
+***** If \pi \in Z[i] is prime then k_\pi = Z[i]/\pi Z[i] is a field, what kind of field
+***** Lemma: We have an isomorphism of rings Z[X]/<x^2+1> = Z[i]
+***** Proof:
+****** Consider the evaluation map \epsilon_i : Z[x] \to C given by \epsilon_i(f) = f(i). This is a ring isomorphism
+****** Assume f \in Ker(\epsilon_i). 
+****** Then by the division algorithm applied in Q[x] there exists polynomial q,r \in Q[X] such that f = q(x^2 + 1) + r where either r = 0 or deg(r) < 2
+****** Assume r \ne 0 then r = aX + b with a,b \in Q
+****** Now r(i) = 0 so ai + b = 0 but this implies a = b - 0
+****** Check now that q \in Z[X].
+***** Let p > 0 be a prime then under this isomorphism the ideal pZ[i] corresponds to the ideal <x^2 + 1> \sub <p, x^2 + 1> \sub Z[X].
+***** Want to understand Z[i]/pZ[i]
+****** This is the same as understanding (Z[x]/<x^2 + 1>)/(<p, x^2 + 1>/<x^2 + 1>) = Z[x]/<p, x^2 + 1> = (Z[x]/<p>)/(<p, x^2 + 1>/<p>) = F_p[X]/<x^2 + 1>
+***** Proposition: Assume \pi \in Z[i] is prime the k_\pi is a finite field of size d(\pi).
+***** Proof:
+****** Note \pi | p, some prime integer p > 0 so pZ[i] \sub \pi Z[i] \sub Z[i]
+****** If p = 2 then x^2 + 1 = (x + 1)^2
+****** and <x + 1> is maximal in F_p[X]
+****** and F_p[X]/<x+1> = F_p. In this case d(\pi)=2=p
+****** If \pi = p with p \equiv 3 (mod 4) then \phi_4 = x^2 + 1 \in F_p[X] is irreducible so k_\pi = Z[i]/pZ[i] = F_{p^2} and d(\pi)=d(p)=p^2 
+****** Finally consider \pi\pi_bar = p > 0 and p \equiv 1 (mod 4)
+******* In this case \phi_4 is reducible over F_p so there exists a zero \epsilon \in F_p.
+******* The ideal <x - \epsilon> \sub F_p[X] contains <x^2+1> and F_p[X]/<x-\epsilon> = Z[i]/\piZ[i]
+******* Observe F_p[x]/<x-\epsilon> and d(\pi)=p
+***** The field k_\pi is often called the residue field.
+*** Lecture 30
+[2019-04-19 Fri]
+**** Extension Fields
+***** A field E is an extension field of a field F if F \sub E and the operations on F are obtained by restricting those on E. :definition:
+****** Here F is a subfield of E
+***** Examples
+****** If E is a field then E is an extension of its ground field F, which is the unique smallest subfield containing {n1_E | n \in Z}
+***** How big can an extension be?
+***** The degree of a field extension F \sub E is defined to be [E:F] = dim_F(E) :definition:
+***** Remark: If F \sub E is a field extension then E is an F-vector space
+***** Example:
+****** [C:R] = 2 because C = {a + bi | a,b \in R}
+******* So {1, i} is a basis of C an R-vector space
+****** [R:Q] = \infin (the continuum)
+****** Let f = x^2 - x + 1 \in F_3[X] then this is irreducible so F = F_3[X]/<f> is a field.
+******* Let \alpha = X + <f> then we know that F = {a\alpha^2 + b\alpha + c\alpha^0 | a,b,c \in F_3}
+******* We have {\alpha^0, \alpha, \alpha^2} \sub F is a basis as an F_3-vector space so [F:F_3] = 3 = deg(f)
+******* A field F_27^3 then [F_27^3:F_27] = 3 and [F_27^3:F_3] = 9
+****** Lemma: Let F be a field of characteristic p > 0. Then F is finite if and only if n = [F:F_p] < \infin.
+******* If n < \infin then the additive group F^{+} is isomorphic to Z^{n}p = Z_p directsum n times and |F| = p^n
+******* Proof:
+******** If n = [F:F_p] then F has a finite basis B = {e_1,..., e_n} as an F_p-vector space.
+******** This means we have an isomorphism of vector spaces F_p^n \to F defined by (a_1,..., a_n) \to a_{1}e_1 + ... + a_{n}e_n
+******** As this map is bijective we have |F| = |F_p^n| = p^n < \infin and it is an isomorphism of additive groups
+******** We have F^{+} = Z_p^n.
+******** Conversely if F is finite then any basis as an F_p-vector space must be finite.
+****** Theorem (Kronecker): Assume F is a field and f \in F[X] is a non-zero, non-unit then there exists an extension field E of F and a zero \alpha \in E of f 
+******* Proof:
+******** As F[X] is a UFD and f is a non-zero non-unit there exists an irreducible element p \in F[X] such that p | f. 
+******** As p is irreducible E = F[X]/<p> is a field and \alpha = X + <p> is a zero of p
+******** As p divides f \alpha is also a zero of f.
+****** Example:
+******* Consider f = x^3 - 1_Q \in Q[X] then f = (x - 1_Q)\phi_3 where \phi_3 = x^2 + x + 1_Q
+******* Let's get a zero of \phi_3
+******* Set F = Q[X]/\phi_3 and let \omega = X + <\phi_3>
+******* So \omega^2 + \omega + 1_F = (X^2 + <\phi_3>) + (x + <\phi_3>) + (1_Q + <\phi_3>) = x^2 + x + 1_Q + <\phi_3> = <\phi_3>
+******* Also we have \omega^3 - 1_F = 0_f so \omega is a non-trivial third root of unity.
+****** An element \zeta in a field in a field F is an n^th root of unity if \zeta^N = 1_F. :definition:
+******* We say it is primitive if \zeta^d \ne 1_f for any d | n.
+******** Primitive means \zeta is a generator of the group {\zeta \in U(F) | \zeta^n = 1}
+**** Splitting Fields
+***** The polynomial \phi_3 = x^2 + x + 1 \in Q[X] has no zeros in Q hence no linear factors.
+***** However in our extension field F = Q[X]/<\phi_3> we have
+****** (X - \omega)(X - \omega^2) = X^2 - (\omega^2 + \omega)X + 1 = x^2 + x + 1
+***** So in F[x] the polynomial \phi_3 splits as a product of linear factors
+****** X^3 - 1 = (X - 1)(X - \omega)(X - \omega^2)
+***** Assume F \sub E is a field extension. Given a_1, ..., a_n \sub E the smallest subfield of E containing both F and {a_1, ..., a_n}. :definition:
+****** We say f \in F[X] splits in E is there are elements a \in F and a_1, ..., a_n \in E such that f = a(X - a_1)...(X - a_n)
+****** We say E is a splitting field for f over F if E = F(a_1, ..., a_n)
+*** Lecture 31
+[2019-04-22 Mon]
+**** Examples of splitting fields
+***** Any polynomial f \in C[X] splits in C
+***** \phi_3 = x^2 + x + 1 \in Q[X] splits in C but if \omega = e^{2i\pi/3} \in C then Q(\omega) = Q(\omega, \omega^2) \sub C is a splitting field for \phi_3 over Q.
+***** We can think of \phi_3 = X^2 + X + 1 \in Q(i)[X] then Q(\omega, i) \sub C is a splitting field for \phi_3 over Q(i). Check Q(\omega, i) \ne Q(\omega) becausn Q(\omega) does not contain a primitive fourth root of unity
+****** \omega not in Q(i) so Q(\omega, i) \ne Q(i)
+***** If p \equiv 1 (mod 4) then F_p is a splitting field for X^2 + 1 \in F_p[X] over F_p.
+**** Theorem: Existence of splitting fields                      :theorem:
+***** Let F be a field and f \in F[X] a non-zero non-unit then there exists a splitting field E for f over F.
+****** Argue by induction on deg(f) \ge 1.
+****** If deg(f) = 1 then F is a splitting field
+****** Now assume deg(f) \gt 1 and the statement holds for all fields and all polynomials g with 1 \le deg(g) \lt deg(f)
+****** So by Kronecker's theorem there exists a field extension F \sub # such that f has a zero, say a_1 \in E
+****** So by the factor theorem we have f = (X - a_1)g for some g \in E[X]. Calculating degrees we have deg(g) \lt deg(f).
+****** So by induction there exists a splitting field E \sub K of g over E.
+****** If a_2, ... , a_n \in K are the zeros of g then F(a_1, ... , a_n) \sub K is a splitting field for f over F
+**** We need to understand the field F(a_1, ... , a_n) \sub E.
+**** Definition: If F \sub E is a field extension then a \in E is said to be algebraic over F if there exists a polynomial 0 \ne f \in F[X] such taht f(a) = 0 :definition:
+***** We say the extension F \sub E is algebraic if every a \in E is algebraic over F.
+***** Note \pi \in R is not algebraic over Q so Q \sub Q(\pi) is not algebraic
+**** Lemma: If F is a field and f \in F[X] is an irreducible polynomial of degree n then E = F[X]/<f> is a field.
+***** Moreover F \sub E is a field extension and if \alpha = X + <f> then {1_E, \alpha, ... , \alpha^{n-1}} is a basis for E as an F-vector space so [E:F] = n
+***** Proof: We already know this
+**** Proposition: Assume F \sub E is a field extension and a \in E is algebraic over F then there exists a unique monic irreducible polynomial p \in F[X] satisfying p(a) = 0
+***** Moreover, we have a well-defined isomorphism F[X]/<p> \to F(a) satisfying X + <p> \to a
+***** Proof: Let \epsilon_a: F[X] \to E be the evaluation map at a \in E.
+****** As a is algebraic over F we must have Ker(\epsilon_a) \ne {0}
+****** We know F[X] is a PID so there exists p \in Ker(\epsilon_a) such that Ker(\epsilon_a) = <p>.
+****** We showed p has minimal degree amongst all non-zero elements of Ker(\epsilon_a).
+****** Assume p = fg for some f, g \in F[X] then 0 = p(a) = f(a)g(a)
+****** Comparing degrees we see that either deg(f) = 0 or deg(g) = 0 so either f or g is a unit.
+****** Hence, p is irreducible
+****** That there is a unique monic choice for p is clear
+****** As p is irreducible F[X]/<p> \cong Im(\epsilon_a) is a field by the First Isomorphism Theorem
+****** So \epsilon_a(X) = a and \epsilon_a(cX^0) = c for any c \in F
+****** So Im(\epsilon_a) contains both F and a.
+****** This means F(a) \sub Im(\epsilon_a).
+****** Moreover if b \in Im(\epsilon_a) then there exists a polynomial f = \sum_{i \in N_0}c_i a^i
+****** If K \sub contains both F and a then Im(\epsilon_a) \sub K which implies Im(\epsilon_a) \sub F(a) so Im(\epsilon_a) = F(a)
+***** Definition: If F \sub E is a field extension and a \in E is algebraic over F then the minimal polynomial of a over F is the unique monic irreducible polynomial p \in F[X] satisfying p(a) = 0
+*** Lecture 32
+[2019-04-24 Wed]
+**** Proposition: Let F \sub E be an algebraic extension and let p(x) \in F[X] a minimal polynomial for a \in E then if f(a) = 0 for f \in F[X] implies p | f
+***** <p(x)> = ker(F[X] \to E : g(x) \to g(a)) implies p | f
+**** Corollary: Assume F \sub E is a field extension let p \in F[X] is a minimal polynomial of a \in E over F with deg(p) = n then F(a) = {c_{n-1}a^{n-1} + ... + c_0 | c_i \in F}
+***** In particilar, { 1, a, a^2, ... , a^{n-1}} is a basis for F(a) over F.
+***** So [F(a):F] = n
+**** F[X]/<p(x)> \cong F(a): x \to a
+**** Example: If p is a prime then \phi_p \in Q[X] is the minimal polynomial of the primitive p_th root of unity e^{2i\pi/p} \in C
+**** Remark if p \in F[X] is a monic and irreducible polynomial and \alpha \in E is a zero of p(x) then p(x) is the minimal polynomial of \alpha.
+**** Example: Let \omega be a 3^rd root of unity then Q(2^-3) and Q(\omega2^-3) have the same minimal polynomial but they aren't the same subfield of C.
+**** Lemma: Assume F \sub E and a \in E is algebraic over F with minimal polynomial p(x).
+***** Moreover assum \phi: F \to F^{'} is a field isomorphism and F^{'} \to E^{'} is a field extension with b \in E^{'} which is a zero of \phi_*(p(x)) where \phi_*: F[X] \to F^{'}[X] is the natural isomorphism
+***** Then there exists an isomorphism \psi: F(a) \to F^{'}(b) such that \psi|F = \phi and \psi(a) = b
+***** Proof: We have isomorphisms F(a)...Cid just drew pictures
+**** Theorem: Assume that \phi:F \to F^{'} is a field isomorphism. If E is a splitting field for f \in F[X] over F and E^{'} is a splitting field for \phi_*(f) \in F[X] over F^{'} then there exists an isomorphism \psi: E \to E^{'} such that \psi_F = \phi
+***** Proof: We induct on the degree of f. If deg(f) = 1 then \psi = \phi does what we need. Assume deg(f) > 1 and let p | f be an irreducible factor. 
+***** Let a \in E be a root of p and b \in E^{'} be a zero of \phi_*(p)
+***** By the previous lemma we have an isomorphism \phi^{~}: F(a) \to F^{'}(b) such that \psi_F = \phi and \psi(a) = b.
+***** Write f(x) = (x - a)g with f \in F(a)[X] then E is a splitting field for g over F(a).
+***** Similarly, \psi^~_*(f) = (x - b)\psi^~_*(g) and E^{'} is a splitting field for 
+**** Corrolary: Uniqueness of Splitting Fields
+***** If F is a field and f \in F[X] then any the splitting Fields are isomorphism
+*** Lecture 34
+[2019-04-29 Mon]
+**** The Primitive Element Theorem
+***** Last time Q(e^{2i\pi/3}, i) = Q(\zeta) where \zeta = e^{2i\pi/12}
+***** [Q(\zeta):Q] = 4
+***** Now the deg(\phi_12) = 4, \phi_12 = X^4 - X^2 + 1
+***** As \zeta is a zero of \phi_12 its min. poly. over Q divides \phi_12
+***** We know the degree of the min. poly. is 4 because this extension has degree 4 so \phi_12 is the min. poly. which means \phi_12 is irreducible
+***** Proposition(Criteria for a multible zero):
+****** I F is a field and f \in F[X] has a multiple zero in some extension F \sub E iff gcd(f, \delta_x(f)) \ne 1
+****** Proof:
+******* Let g be a gcd of f and \delta_x(f).
+******* If \alpha \in E is a multiple zero then we have already seen that X - \alpha divides f and \delta_x(f)
+******** So X - \alpha | g \ne 1
+******* Now assume g \ne 1 and let F \sub E be an extenstion containing a zero \alpha \in E of g
+******** Certainly, X - \alpha | g 
+******** So X - \alpha | f because g | f, which means that f = (X - \alpha)q for some q \in E[X]
+******** Taking the derivative \delta_x(f) = (X - \alpha)\delta_x(q) + q and as X - \alpha | \delta_x(f) we have 0 = \delta_x(f)(\alpha) = q (\alpha)
+******** This implies X - \alpha | q so \alpha is a multiple zero of f
+***** Theorem: Zeros of an Irreducible
+****** If F is a field and f \in F[X] is an irreducible polynomial with a multiple zero then p = char(F) \gt 0 and f(X) = g(X^p) for some g \in F[X]
+****** As f has a multiple zero, we have g = gcd(f, \delta_x(f)) \ne 1 by the previous proposition
+****** As f is irreducible we have g = f up to multiplication by a unit
+****** This means that f | \delta_x(f)
+****** If \delta_x(f) \ne 0 then we have deg(\delta_x(f)) \lt deg(f)
+****** This is a contradiction so we must \delta_x(f) = 0
+****** Let f = a_n x^n + ... + a_1 x + a_0 then \delta_x(f) = na_n x^{n-1} + ... + 2a_2 X + a_1
+****** So \delta_x(f) = 0 iff k_ak = 0 for all 1 \le k \le n
+****** If char(F) = 0 then this implies a_k = 0
+****** So f = a_0 but this is a contradiction because f is irreducible
+****** Assume now that p \gt 0
+****** Then if p does not divide k we must have a_k = 0
+****** We thus have every term of f is of the form X^{pj} with j \ge 0
+***** Remark: A field F is said to be perfect if either char(F) = 0 or p = char(F) \gt 0 and F = {a^p | a \in F}
+****** Every Finite field is perfect
+****** In this setting assume f(x) = g(x^p) = h(x)^p but if f is`` irreducible this can't happen 
+****** In a perfect field this no irreducible polynomial has a multiple zero
+***** Remark: Let R = F_p[t] and let K = F_p(t) be corresponding field of fractions(function field)
+****** This is a field of characteristic p which is not perfect
+***** Theorem(Primitive Element Theorem)
+****** If F is a field of characteristic 0 and a and b are algebraic over F then there is an element c \in F(a,b) such that F(a,b) = F(c)
+****** Proof:
+******* Let p and q \in F[x] be the minimal polynomials for a and b respectively
+******* Pick an extension F \sub E containing all the distict zeros a_1, ... , a_n and b_1, ... , b_m of p and q
+******* Let a_1 = a and b_1 = b
+******* As F has infinitely many elements, there exists a d \in F such that d \ne (a_i - a)/(b - b_j) for all i \ge 1 and j \gt 1
+******* In particular we have a_i \ne a + d(b - b_j) for any j \gt 1
+******* We claim that c = a + db is an element such that F(a, b) = F(c)
+******* Clearly c \in F(a,b) so F(c) \sub F(a,b)
+******* To show F(a,b) \sub F(c) because then a = c - db \in F(c)
+*** Lecture 35
+[2019-05-01 Wed]
+**** Let F \sub E be a field extension and \alpha \in E be algebraic over F then if p \in F[X] is a monic polynomial with p(\alpha) = 0 then p is the min. poly. of \alpha over F iff p is irreducible over F.
+**** Proof of Primitive Element
+***** It suffices to show that b \in F(c).
+****** Consider the polynomials q and r(x) = p(c - dX) over F(c).
+****** As q(b) = 0 and p(b) = 0
+****** We have the min. polynomial s \in F(c)[X] of b over F divides both q and r in F(c)[X].
+****** Any zero of s must also be a zero of q and r.
+****** However if 0 = r(b_j) = p(c - db_j) = p(a + db - db_j) = p(a + d(b - b_j))
+****** This means a_i = a + d(b - b_j) for some i \ge 1.
+****** So if b \ne b_j this contradicts our choice of d.
+****** Hence s = (X - b)^m
+****** But as s is irreducible and char(F) = 0 we must have m = 1
+****** This means b \in F(c)
+**** Consider the extension Q \sub Q(i, \alpha) where i (-1)^{1/2} \in C and \alpha = 2^{1/3} \in R
+***** The min polynomials of i and alpha over Q are x^2 + 1 and x^3 - 2
+***** If \omega = e^{2i\pi/3} then the zeros of X^3 - 2 are \alpha, \omega\alpha, \omega^2 \alpha and the zeros of X^2 + 1 are i, -1
+***** Need d \ne 0 and d \ne -2i/(\alpha - \omega^2 \alpha), -2i/(\alpha - \omega^2 \alpha)
+***** A quick check shows that both of these quotients have non-zero imaginary parts.
+***** We can choose d to be any non-zero real number.
+***** Hence Q(i, \alpha) = Q(i + \alpha) = Q(i\alpha)
+**** Some facts about finite fields
+***** Lemma: Assume G is a finite group of order n = |G|
+****** If for any integer 1 \le d \le n dividing d | n we have |{x \in G | x^d = 1}| then G is cyclic
+****** Proof:
+******* Choose 1 \le d \le n dividing n and let G_d \sub G ne the subset of elements whose order is d.
+******* Assume G_d \ne \empty
+******* So there exists y \in G_d and <y> \sub {x \in G | x^d = 1}
+******* But by our assumption d = |<y>| \le |{x \in G | x^d = 1}| \le d and so equality must hold
+******* So there is a unique cyclic subgroup of order d.
+******* Moreover G_d is the set of generators of that subgroup so |G_d| = \empty(d) = number of generators of Z/dZ
+******* Now as either G_d = \empty or |G_d| = \empty(d) we have n = |G| = \sum_{1\le d \le n}|G_d| = \sum_{1 \le d \le n} \empty(d) = |Z/nZ| = n
+******* So the equality holds and G_d = \empty(d) \ne 0
+******* Hence G_n \ne 0 and G is cyclic.
+***** Corrolary: If F is a finite file then U(F) is cyclioc
+****** The set {x \in U(F) | x^d = 1} is contained in the set {\alpha a zero of X^d - 1} which has size at most d
+***** Corollary: If F_p^n is a finite field and \alpha \in U(F_p^n) is a generator then \alpha is algebraic over F_p of degree n
+****** Proof: Note F_p(\alpha) = F_p^n and [F(\alpha):F_p] = [F_p^n:F_p] = n
+
+* Discrete Algorithms (Gould-Simpson 906)                          :discrete:
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-11 Sat 17:50
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Classes
+:ARCHIVE_CATEGORY: projects
+:END:
+     <2019-01-10 Thu 14:00-15:15 +1w>
+     <2019-01-15 Tue 14:00-15:15 +1w>
+     <2019-01-11 Fri 14:00-14:50 +1w>
+** Notes                                                             :notes:
+*** Lecture 1 
+       [2019-01-10 Thu]
+**** Knights and Knaves 
+***** Knights = always true, Knaves = always false, Normies = can lie or say the truth 
+***** 3 People P M G one of each kind
+****** P: At least one of us is a knave. 
+****** M: *Says nothing*
+******* If P = Knight \to statement is true \to M is a knave.
+******* If P = Knave \to statement is false \to contradiction.
+******* So P = Knight and M = Knave
+****** P: Both of us are Knights
+****** M: P is a Knight
+******* If P = Knight \to Then both are Knights \to M = Knight  
+******* If P = Knave \to P is false \to M is false \to M = Knave
+****** P: G is the Knave
+****** M: P is the Knight
+****** G: I'm a normie
+******* If P = Knight \to G is a knave \to G = Knave \to M = normie  
+******* If P = Knave \to G is not a Knave \to G = normie \to M = Knight \to contradiction
+******* If P = Normie \to G = knave \to M = Knight \to contradiction
+*** Lecture 2
+       [2019-01-15 Tue]
+**** A type is a collection of values                         :definition:
+***** Integers, Boolean etc.
+**** A simple type is a type that can't be broken up into smaller types. :definition:
+**** An aggregate type is a type that is not a simple type    :definition:
+**** A data type is a type and operations on that type        :definition:
+**** An abstract data type is the specification of a data type within some language independent of the implementation :definition:
+***** Java interface. 
+**** A data structure is the implementation of a data type    :definition:
+***** A list is a sequence of data. A sequence implies there is an order.(index)
+***** Lists are generally homogeneous
+***** Things needed by a list
+****** A create function
+****** an insert function
+****** Move cursor to location
+****** an append function
+****** a getValue function
+****** A next and prev function
+****** moveToStart and moveToEnd
+****** a remove function
+*** Lecture 3
+       [2019-01-17 Thu]
+**** Linked Lists
+***** Composed of nodes
+****** Nodes have a data value and a link to the next node in the list.
+***** Maintain a head and tail pointer.
+***** We need a current position pointer.
+*** Lecture 4
+       [2019-01-22 Tue]
+**** Algorithm Analysis       
+***** What makes for a good solution?
+****** Not complicated
+****** Efficiency
+******* Low run time
+******* Space
+****** Correct
+****** Reusable
+****** Extensible and Adaptable
+***** Problem: A task to be solved
+****** A function mapping inputs to desired outputs
+****** A specific set of inputs is called an instance of a problem.
+***** Algorithm: A method for solving a problem.
+****** A finite set of doable instructions
+****** It must be correct
+****** It must be composed of concrete steps
+****** There can be no ambiguity in what step to do next
+****** It must be a finite number of steps
+****** It must always terminate
+***** Program: Implementation of an algorithm in some language
+*** Lecture 6
+       [2019-01-29 Tue]
+**** Big O Notation
+***** Def: Let f(n) and g(n) be functions Z_{+} \to R then f(n) \in O(g(n)), If there exists c \in R, n_0 \in Z such that f(n) \le cg_n(n) for all n \ge n_0
+***** Example: f(n) = 7n + 8 \in O(n)
+****** Let c = 15. So 7n + 8 \le 15n for all n \ge 1
+****** Proof by induction.
+*** Test 1 review
+**** Review Stuff
+***** S 2, ODSA 3
+***** T(n) = cT(n - 1) + c_0. This is the 1 + 2 + ... + n-1 + n = n(n+1)/2
+***** \sum_{i=1}2^i = 2^{n+1} - 1
+***** n^logn = n
+***** \Theta(log_2 n) = \Theta(log_3 n)
+**** Lists/Stacks/Queus
+***** S, 4, ODSA 4
+***** Space complexity of all of these.
+***** Basic operaitions complexity
+***** C = capacity of array, E is size of elements, P is pointer size, n = num of things
+****** EC = size of array
+****** (E + P)n = size of linked list
+****** Break even point is EC = (E + P)n
+**** Algo analysis
+***** S 3, 14.2, ODSA 4
+***** \Omega, O, o, \Theta, \omega
+***** \omega: If for all c \in R^{+} there exists n_o \in Z s.t. f(n) > cg(n) for all n \ge n_0
+***** Complexity anaysis with recursion
+***** If your computer were 10 times faster...chapter is faster computer or faster algorithm.
+***** Know the families of functions and their orderings.log(n) < v < nlog(n) < n^2 < 2^n < n!
+**** Graphs
+***** S 11, ODSA 14
+***** Definitions
+****** Cycle: A path that starts and ends at the same node and length of the path > 0
+******* Simple cycle: A cycle that doesn't repeat vertices and doesn't repeat any edges
+******* Acyclic graph: No simple cycles
+***** DFS, BFS, Dijkstra's
+****** Complexity depends on graph representative
+*** Searching
+**** Linear search
+***** If the array is sorted, just walk down the list until you find the key
+**** Binary search
+***** Complexity
+****** Best Case \Theta(1) if the value is right in the middle
+****** Worst case \Theta(log(n))
+****** Average Case: 
+Key will be in the list, all keys in list equally likely to be searched.
+Worst Case \ge n/2(log(n))/n = 1/2log(n) \in \Theta(log(n))
+**** Dictionary Search
+Keys are uniformly A, low, high, binary search ind = (high + low)/2
+ind = low + floor[(Key - A[low])/(A[high] - A[low])(high - low)]
+It's basically binary search after that
+*** Hashing
+The Ideal hash function distributes keys evenly across buckets.
+**** Collision: k_1 \ne k_2 but h(k_1) = h(k_2)
+***** Easiest thing to do is Open Hashing/Chaining
+****** Each bucket is a list of things. If a collision occurs just append to the list.
+***** Closed Hashing(Open addressing)
+****** Linear probing
+******* If there is a collision just place the collision into the nearest open bucket. 
+******* If you have to access it you just hash then probe the list until you find the key.
+******* The sequence of values checked is the probe sequence
+home = pos = h(k)
+#+BEGIN_SRC java
+for(int i = 1; HT(pos) != empty; ++i;) {
+	pos = (home + p(k, i)) % M;
+}
+HT(pos);
+#+END_SRC
+****** Primary clustering
+******* Probing is offset by a constant multiplication. The offset must be coprime to M.
+****** Quadratic probing 
+******* Probing happens as an offset of a quadratc function.
+******* If M is prime then i^2 visits at least 1/2 the slots
+******* If M is a multiple of 2 p(k, i) = (i^2 + i)/2 visits all slots
+****** Pseudorandom probing
+******* Come up with a permutation of 1 - n-1 i.e. 0 2 4 7 3 5 9 8 1 6
+
+* Systems Programming (Koffler 218)                                 :systems:
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-11 Sat 17:50
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Classes
+:ARCHIVE_CATEGORY: projects
+:END:
+     <2019-01-10 Thu 08:00-09:15 +1w>
+     <2019-01-15 Tue 08:00-09:15 +1w>
+** Notes                                                             :notes:
+*** Lecture 1 
+       [2019-01-10 Thu]      
+**** We just talked about syllabus stuff. 
+*** Lecure 2
+       [2019-01-15 Tue]
+**** Operating System is a program that manages programs.   
+**** Basic Bash stuff. You know this stuff already.
+	#+BEGIN_SRC bash
+	echo "Easy Stuff"
+	#+END_SRC
+**** Absolute File paths start at the root directory.
+**** Relative path is how to get to a location from another location.
+**** scp will transfer a file from one computer to another(lectura)
+*** Lecture 4
+       [2019-01-22 Tue]
+**** C Programmming
+***** Syntax is like Java
+***** Lower level than Java 
+***** Explicate Memory Management
+***** Lots of Pointers
+***** No Garbage Collection
+***** No array boundry protection
+***** You have more control 
+****** Programs can be made faster
+****** Harder to debug
+****** Security issues
+***** Compiles to machine language
+***** We must compile with gcc -Wall and get rid of all warnings
+*** Lecture 6
+[2019-01-31 Thu] 
+
+* Computer Organization (Pacheco ILC 141)                           :comporg:
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-05-11 Sat 17:50
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Classes
+:ARCHIVE_CATEGORY: projects
+:END:
+     <2019-01-10 Thu 12:30-13:45 +1w>
+     <2019-01-15 Tue 12:30-13:45 +1w>
+** Notes                                                             :notes:
+*** Lecture 1 
+       [2019-01-10 Thu]
+**** Just syllabus stuff 
+*** Lecure 2
+       [2019-01-15 Tue] 
+**** There are a variety of number systems available. 
+**** Computers use binary.
+**** Binary is used because it is easy to represent with electrical signals.
+**** A bit is a binary digit                                  :definition:
+**** A byte is 8 bits                                         :definition:
+**** A nibble is 4 bits                                       :definition:
+**** LSB: Least significant Bit(Rightmost)                    :definition:
+**** MSB: Most significant Bit(Leftmost)                      :definition:
+**** Trinary was tried before and it was kind of cool but had a lot of technical problems.
+**** A binary number is a polynomial with increasing power of two's
+**** Max value in a byte: 2^8 - 1 = 255_ten
+**** Binary Addition
+***** Nothing special about binary addition. 
+***** 00101010 + 00011111 = 01001001
+**** Integers in computers are fixed size and can overflow.
+*** Lecture 3
+       [2019-01-17 Thu]
+**** Carry-out vs. Overflow.
+***** Carry-out is mechanical and expected. We lose the MSB but we don't care.
+***** Overflow is an unexpected error.
+***** 2-complement is both a format and a process.
+*** Lecture 4
+       [2019-01-22 Tue]
+**** Modern processors operates at gigahertz speeds.
+**** There are no decimals in computer hardware.
+**** C has two kinds of AND operations
+***** && is logical AND as you are used to
+***** & bitwise AND takes an Integer and performs ands on its bits.
+***** Masking is bitwise anding with a number that has ones in the bits we are interested in.
+***** >> shift operation moves all bits to the right by n amount
+*** Lecture Ops 
+[2019-03-26 Tue]
+**** Finding the proper opcode

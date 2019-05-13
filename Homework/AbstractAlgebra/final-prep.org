@@ -1,0 +1,175 @@
+* Q1
+** 
+* Q2
+** If a, b \in Z(R) then a - b \in Z(R) and ab \in Z(R) 
+** Notice ab = ba 
+*** Now let c \in R
+*** (ab)c = (ba)c = b(ac) = a(bc) = a(cb) = (ac)b = c(ab) So ab \in Z(R)
+*** (a-b)c = ac - bc = ca - cb = c(a-b) so a-b \in Z(R)
+** So Z(R) is a subring of R
+* Q3
+** Notice that the only idempotent elements in Z are 0 and 1
+** So the set of idempotent elements in Z^n is {(a_1, a_2, ... ,a_n) | a_i \in {0, 1}} 
+* Q4
+** Consider r \in R and x + y \in I + J
+*** So r(x + y) = rx + ry
+*** Clearly rx \in I and rj \in J so rx + ry \in I + J
+*** So I + J is an ideal
+* Q5
+** Let x \in IJ be x = a_{1}b_{1} + ... + a_{n}b_{n}
+*** So r \in R rx = ra_{1}b_{1} + ... + ra_{n}b_{n}
+*** Since any ra_{i}b_{i} is in I or J then rx \in IJ 
+* Q6
+** 
+* Q7
+** <a> = {ras | r,s \in R}
+** R is commutative then <a> = {ra | r \in R} principal ideal
+* Q11
+** Consider Z[X]/P 
+** 0 in this ring is any polynomial with all even coefficient
+** Let a, b \in Z[X]/P be non-zero
+** So both a and b have some odd coefficient
+* Homomorphism
+** Q12
+*** Let s \in S, s = \phi(r) with r \in R
+*** \phi(r)\phi(a) = s\phi(a) = \phi(ra)
+** Q17
+*** Result from course F[X]/<f> \cong F(a) if a \in E and extension of F and f is min. polynomial a over F
+** Q24
+*** Let \phi: S \to (S + I)/I be \phi(s) = s + I
+**** Notice that this is a composition of two homomorphisms
+***** S \to S + I
+***** S + I \to (S + I)/I
+*** As a composition of homomorphisms \phi is a homomorphism
+*** Note that \phi is surjective
+*** In fact if x + I \in (S + I)/I then by definition x = s + a with s \in S and a \in I
+*** So \phi(s) = s + I = s + a + I = x + I
+*** Notice x \in Ker(\phi) iff x \in I
+*** So Ker(\phi) = S \cap I
+*** So by the first isomorphism theorem \phi_bar: S/(S \cap I) \to (S + I)/I is an isomorphism defined by \phi_bar(s + S \cap I) = \phi(s) = s + I
+* Polynomial Rings
+** Q25
+*** If x - a is a factor of f(x) then f(x) = (x - a)g(x)
+**** So f(a) = (a - a)g(x) = 0g(x) = 0
+**** So a is a zero of f(x)
+*** If a is a zero of f(x)
+**** Then by the remainder theorem f(a) = 0 is a remainder of f(x)/(x - a)
+**** So (x - a) | f(x)
+**** So (x - a) is a factor of f(x)
+** 26
+*** 
+** Q27
+*** Let \phi: R \to R/I be the natural quotient map
+**** Then we have \phi_bar: R[X] \to (R/I)[X]
+**** Certainly \phi_bar is surjective
+**** If f \in R[X] then f \in Ker(\phi_bar) iff f \sum_{i \in N_0} IX^i
+**** So for all a_i + I, a_i \in I
+**** As kernels are Ideals we have I[X] is an ideal
+**** By The First Isomorphism Theorem 
+** Q36
+*** Clearly X^{2p} - 1 = (X^P - 1)(X^p + 1) as X^2p - 1 is the difference of two squares
+*** We know X^p - 1 = (X - 1)\phi_p(X) = \phi_{1}\phi_p
+*** By replaceing X with -X we have
+**** -(X^p + 1) = (-X)^p - 1 = (-X - 1)\phi_p(-X) = -(X + 1)\phi_p(-X)
+* EDs, PIDs, and UFDs
+** Q41
+*** We know F[X] must be an integral domain
+*** Let I be an ideal of F[X]
+*** If I = {0} then I = <0>
+*** If I \ne <0> then let g(x) \in I have minimal degree
+*** So <g(x)> \sub I
+*** Now let f(x) \in I
+*** We have f(x) = q(x)g(x) + r(x) with r(x) = 0 or deg(r(x)) \lt deg(g(x))
+*** So r(x) = f(X) - q(x)g(x) \in I
+*** This contradicts the minimality of g(x)
+*** So r(x) must be zero
+*** So <g(x)> = I
+*** F[X] is a UFD because all PIDs are UFDs
+** Q42
+*** Assume <f> is not maximal
+**** So there must be some non-zero non-unit g such that <f> \sub <g> \sub R
+**** so f = rg for some r \in R
+**** Since f is irreducible r must be a unit
+**** So r^{-1}f = g but this implies <g> \sub <f> a contradiction
+**** So r cannot be a unit but this contradicts the irreducibility of f
+*** A similiar argument follows for the other direction
+** Q43
+*** Let \phi: R \to S be a surjective ring homomorphism and R a PID
+*** Let J \sub S be an Ideal of S
+*** So \phi^-1(J) must be an Ideal of R call it <a>
+*** So J = \phi(\phi^-1(J)) = \phi(<a>) = <\phi(a)>
+*** So S is a PID
+** Q45
+*** 
+** Q51
+*** Let d(g) \le d(h) for all h \in I
+*** Since this is a Euclidean Domain, h = qg + r with r = 0 or d(r) \lt d(g)
+*** If r \ne 0 then r = h - qg \in I
+*** But this contradicts the minimality of g
+*** So g | h and I = <g>
+* Fields
+** Q52
+*** Remember that for finite fields of order q a^q = a for all a \in F
+*** So for all a \in F f(a) = a^q - a = a - a = 0
+*** So all elements of F are factors of X^q - X
+*** So X^q - X = (X - a_1)...(X- a_q)
+*** So this is a splitting field
+** Q53
+*** Notice F_3 has charateritic 3 so a^3 = a for all  a \in F_3
+*** So a^3 - a = 0 for all a \in F_3
+*** So we have an artin-schrier polynomial X^3 - X + 1 \in F_3[X]
+*** So F_9 = F_3[X]/<X^3 - X + 1>
+*** Let \alpha = X + <X^3 - X + 1>
+*** Notice \alpha^3 = (X + <X^3 - X + 1>)^3 = X^3 + <X^3 - X + 1> = X + <X^3 -X + 1> = \alpha
+*** So F_9 = {a\alpha^2 + b\alpha + c | a,b,c \in F_3}
+*** Consider (a\alpha^2 + b\alpha + c)^3 = a\alpha^6 + b\alpha^4 + c^3 = a\alpha^2 + b\alpha^2 + c = (a + b)\alpha^2 + c 
+*** So we have teh cube of each element in F_27 has no alpha term of degree 1
+*** So X^3 - \alpha has no zeroes in F_27
+*** So F_27/<X^3 - \alpha> is a field of size 9^3
+** Q54
+*** Notice That x \in F is x = a + bi/c + di with a,b,c,d \in Z
+*** a + bi/c + di = (a + bi)(c - di)/c^2 + d^2 = ac + bd/c^2 + bc - ad/c^2 + d^2 i \in Q(i)
+*** Now if y \in Q(i) is m/n + p/qi = mq + pni/nq \in F
+*** So these are the same sets. So these fields are isomorphic
+** Q55
+*** Let X = (1 + 5^{1/2})^{1/2}
+*** So X^2 = 1 + 5^{1/2}
+*** So X^2 - 1 = 5^{1/2}
+*** So (X^2 - 1)^2 = 5
+*** So X^2 - 2X + 1 = 5
+*** So X^2 - 2X - 4 = 0
+*** Use mod p irreducibility test with p = 3
+*** The degree is 4 as is the degree of the minimal polynomial
+** Q56
+*** First claim Q(2^{1/3} + 4^{1/3}) = Q(2^{1/3}, 4^{1/3})
+*** Q(2^{1/3} + 4^{1/3}) \sub Q(2^{1/3}, 4^{1/3}) is clear
+*** Then find [Q(2^{1/3}, 4^{1/3}):Q] = [Q(2^{1/3}):Q(4^{1/3})][Q(4^{1/3}):Q]
+*** Find some polynomial of that degree that its a zero of
+** Q58
+*** 
+** Q59
+*** So the basis for F is {1_F, a} with a \in F
+*** So x^2 = (-b)x + (-c)1
+*** So x^2 + bx + c = 0
+*** Quadratic formula for x
+*** F must be equal to Q(x)
+** Q60
+*** If \alpha \in E is a zero of f then (x - \alpha) is a factor of F
+*** 
+** Q61
+*** i
+**** Notice X^4 - 6X^2 - 7 = (X^2 - 7)(X^2 + 1)
+**** So 7^{1/2} and i are zeros of this polynomial
+**** So 
+*** ii
+**** So [Q(7^{1/2}, i):Q] = [Q(7^{1/2}):Q(i)][Q(i):Q]
+**** X^2 - 7 \in Q[i] has 7^{1/2} as a zero and (X - 1)(X + 7) \ne X^2 - 7 and (X + 1)(X - 7) \ne x^2 - 7
+**** So this polynomial is irreducible so it is the min polynomial over Q(i)
+**** [Q(7^{1/2}):Q(i)] = 2
+**** Consider X^2 + 1 \in Q[X]
+**** i^2 + 1 = -1 + 1 = 0 and X^2 + 1 does not factor in Q[X]
+**** So [Q(i):Q] = 2
+**** [Q(7^{1/2}, i):Q] = [Q(7^{1/2}):Q(i)][Q(i):Q] = 2 * 2 = 4
+** Q62
+*** Notice a = (a^{1/2})(a^{1/2}) so a \in Q(a^{1/2}) so Q(a) \sub Q (a^{1/2})
+*** Notice a^{1/2} = 1 + a so a^{1/2} \in Q(a) so Q(a^{1/2}) \sub Q(a)

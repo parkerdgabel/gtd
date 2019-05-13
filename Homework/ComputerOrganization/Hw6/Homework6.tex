@@ -1,0 +1,53 @@
+% Created 2019-04-23 Tue 12:42
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Parker Gabel}
+\date{\textit{<2019-04-09 Tue>}}
+\title{Cs252 Homework 5}
+\hypersetup{
+ pdfauthor={Parker Gabel},
+ pdftitle={Cs252 Homework 5},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.1 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section{1.d}
+\label{sec:org37f6dc8}
+\subsection{sll forwards to the MEM register}
+\label{sec:orgcb8461f}
+\subsection{sub forwards to the WB register}
+\label{sec:org05fe23d}
+\subsection{sll forwards to the WB register}
+\label{sec:orgcf1ce53}
+\subsection{sub forwrds to the MEM register}
+\label{sec:orgb9956c4}
+\section{2.f}
+\label{sec:org74d30e8}
+\subsection{No Forwarding}
+\label{sec:org331623b}
+This sequence has two dependencies, instruction 3 and 4. So there is a\\
+stall on instruction 2. Thus instruction 2 is in the WB phase. So on\\
+the 7th clock cycle instruction 3 is in the EX phase. The 4th\\
+instruction must be stalled in the ID phase.\\
+\subsection{With Forwarding}
+\label{sec:orgeab18ac}
+With forwarding there is no stalls as there is no lw instruction. So\\
+all of the instruction execute without stalls. By clock cycle 7\\
+instruction 3 is in the WB phase and instruction 4 is in MEM.\\
+\end{document}

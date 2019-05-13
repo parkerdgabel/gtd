@@ -169,3 +169,136 @@ Archived entries from file /home/garlic/Documents/OrgDocs/gtd/projects.org
   :ARCHIVE_TODO: DONE
   :ARCHIVE_ITAGS: exam
   :END:
+
+* DONE Computer Orginization Midterm 6                              :comporg:
+SCHEDULED: <2019-04-25 Thu 12:30>
+:PROPERTIES:
+:ARCHIVE_TIME: 2019-04-26 Fri 09:27
+:ARCHIVE_FILE: ~/gtd/projects.org
+:ARCHIVE_OLPATH: Projects/School/Exams
+:ARCHIVE_CATEGORY: projects
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: exam
+:END:
+
+* DONE Simulation Project 6                                         :comporg: 
+     DEADLINE: <2019-04-25 Thu 12:30>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:28
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* DONE Simulation Project 5                                         :comporg: 
+     DEADLINE: <2019-04-25 Thu 17:00>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:28
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* DONE Systems Project 10                                           :systems: 
+     DEADLINE: <2019-04-24 Sat 23:59>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:28
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* TODO Abstract Algebra Homework                                    :algebra: 
+     DEADLINE: <2019-05-10 Fri 11:00 +7d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2019-04-26 Fri 09:28]
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:29
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: TODO
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+     - State "DONE"       from "TODO"       [2019-04-26 Fri 09:28]
+     - State "DONE"       from "HOMEWORK"   [2019-04-26 Fri 09:28]
+     - State "DONE"       from "HOMEWORK"   [2019-04-19 Fri 09:15]
+     - State "DONE"       from "HOMEWORK"   [2019-04-18 Thu 12:38]
+     - State "DONE"       from "HOMEWORK"   [2019-04-05 Fri 10:59]
+     - State "DONE"       from "HOMEWORK"   [2019-03-29 Fri 08:03]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:57]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:56]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:55]
+     - State "DONE"       from "HOMEWORK"   [2019-03-01 Fri 11:01]
+     - State "DONE"       from "HOMEWORK"   [2019-02-26 Tue 08:22]
+     - State "DONE"       from "HOMEWORK"   [2019-02-18 Mon 10:58]
+     - State "DONE"       from "HOMEWORK"   [2019-02-11 Mon 08:07]
+     - State "DONE"       from "HOMEWORK"   [2019-02-04 Mon 08:39]
+     - State "DONE"       from "HOMEWORK"   [2019-01-26 Sat 06:17]
+     - State "DONE"       from "HOMEWORK"   [2019-01-18 Fri 20:00] 
+
+* DONE Computer Organization Homework 6                             :comporg: 
+     DEADLINE: <2019-04-23 Tue 17:00>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-04-26 Fri 09:29
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* DONE Assembly Project 5                                           :comporg: 
+     DEADLINE: <2019-04-30 Thu 17:00>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-05-01 Wed 12:20
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* DONE Systems Project 11                                           :systems: 
+     DEADLINE: <2019-04-27 Sat 23:59>
+     :PROPERTIES:
+     :ARCHIVE_TIME: 2019-05-01 Wed 12:20
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: DONE
+     :ARCHIVE_ITAGS: homework
+     :END:
+
+* TODO Zybooks reading.                                             :comporg: 
+     DEADLINE: <2019-05-07 Tue 23:59 +7d>
+     :PROPERTIES:
+     :LAST_REPEAT: [2019-05-01 Wed 12:20]
+     :ARCHIVE_TIME: 2019-05-01 Wed 12:20
+     :ARCHIVE_FILE: ~/gtd/projects.org
+     :ARCHIVE_OLPATH: Projects/School/Homework
+     :ARCHIVE_CATEGORY: projects
+     :ARCHIVE_TODO: TODO
+     :ARCHIVE_ITAGS: homework
+     :END:
+     - State "DONE"       from "HOMEWORK"   [2019-05-01 Wed 12:20]
+     - State "DONE"       from "HOMEWORK"   [2019-04-26 Fri 09:29]
+     - State "DONE"       from "HOMEWORK"   [2019-04-18 Thu 12:38]
+     - State "DONE"       from "HOMEWORK"   [2019-04-03 Wed 08:39]
+     - State "DONE"       from "HOMEWORK"   [2019-04-03 Wed 08:39]
+     - State "DONE"       from "HOMEWORK"   [2019-03-26 Tue 10:44]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 09:01]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:55]
+     - State "DONE"       from "HOMEWORK"   [2019-03-25 Mon 08:54]
+     - State "DONE"       from "HOMEWORK"   [2019-02-28 Thu 12:36]
+     - State "DONE"       from "HOMEWORK"   [2019-02-19 Tue 07:56]
+     - State "DONE"       from "HOMEWORK"   [2019-02-12 Tue 07:52]
+     - State "DONE"       from "HOMEWORK"   [2019-02-05 Tue 09:51]
+     - State "DONE"       from "TODO"       [2019-01-29 Tue 08:45]
+     - State "DONE"       from "HOMEWORK"   [2019-01-22 Tue 22:44]

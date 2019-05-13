@@ -1,0 +1,25 @@
+* Q1
+** 
+* Q2
+** If a, b \in Z(R) then a - b \in Z(R) and ab \in Z(R) 
+** Notice ab = ba 
+*** Now let c \in R
+*** (ab)c = (ba)c = b(ac) = a(bc) = a(cb) = (ac)b = c(ab) So ab \in Z(R)
+*** (a-b)c = ac - bc = ca - cb = c(a-b) so a-b \in Z(R)
+** So Z(R) is a subring of R
+* Q3
+** Notice that the only idempotent elements in Z are 0 and 1
+** So the set of idempotent elements in Z^n is {(a_1, a_2, ... ,a_n) | a_i \in {0, 1}} 
+* Q4
+** Consider r \in R and x + y \in I + J
+*** So r(x + y) = rx + ry
+*** Clearly rx \in I and rj \in J so rx + ry \in I + J
+*** So I + J is an ideal
+* Q5
+** Let x \in IJ be x = a_{1}b_{1} + ... + a_{n}b_{n}
+*** So r \in R rx = ra_{1}b_{1} + ... + ra_{n}b_{n}
+*** Since any ra_{i}b_{i} is in I or J then rx \in IJ 
+* Q6
+** 
+* Q17
+** Result from course F[X]/<f> \cong F(a) if a \in E and extension of F and f is min. polynomial a over F
