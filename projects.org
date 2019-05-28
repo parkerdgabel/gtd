@@ -1,8 +1,0 @@
-#+TAGS: algebra(a) discrete(d) systems(u) comporg(c) notes(n) homework(w) exam(e) definition proof theorem
-#+STARTUP: indent hidestars
-* Projects
-  This file is for all things that require multiple steps to complete.
-** School
-*** Classes
-*** Homework                                                   :homework:
-*** Exams                                                              :exam:

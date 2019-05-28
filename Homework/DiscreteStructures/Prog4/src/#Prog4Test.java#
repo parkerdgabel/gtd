@@ -1,7 +1,0 @@
-
-class Prog4Test {
-
-    @Test
-    void main() {
-    }
-}
