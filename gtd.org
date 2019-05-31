@@ -1,0 +1,183 @@
+* Tasks
+:PROPERTIES:
+:CATEGORY: Tasks
+:END:
+** WAITING Follow up with Mia about theray session
+** TODO Set up gtd reference file
+** TODO Get a car wash
+:PROPERTIES:
+:EFFORT:   0:30
+:END:
+** TODO Take the car to holmes-tuttle to check on the oil light.
+** TODO Plan a date with Sarah
+* Calendar
+:PROPERTIES:
+:CATEGORY: Calendar
+:END:
+** Appointments
+:PROPERTIES:
+   :ORDERED:  t
+   :END:
+*** APPT Birthday Party at Top Golf                                  :wife: 
+    SCHEDULED: <2019-06-01 Sat 14:00>
+    :PROPERTIES:
+    :EFFORT:   2:00
+    :END:
+** Work
+*** WORK FSO Development
+SCHEDULED: <2019-06-10 Mon 08:00-12:00 ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2019-05-23 Thu 21:25]
+:END:
+- State "DONE"       from "WORK"       [2019-05-23 Thu 21:25]
+SCHEDULED: <2019-06-11 Tue 08:00-12:00 ++1w>
+SCHEDULED: <2019-06-12 Wed 08:00-12:00 ++1w>
+SCHEDULED: <2019-06-13 Thu 08:00-12:00 ++1w>
+*** WORK IT
+SCHEDULED: <2019-06-03 Mon 13:00-17:00 ++1w>
+SCHEDULED: <2019-06-04 Tue 13:00-17:00 ++1w>
+SCHEDULED: <2019-06-05 Wed 13:00-17:00 ++1w>
+SCHEDULED: <2019-06-06 Thu 13:00-17:00 ++1w>
+* Projects
+:PROPERTIES:
+:CATEGORY: Projects
+:END:
+** School
+*** Classes
+*** Homework
+*** Exams
+** Emacs                                                             :emacs:
+*** TODO Configure Org-Crypt
+*** TODO Configure Org-mode for Habits i.e. Reading
+** Personal
+*** PROJECT Get a new house to rent [0/2]
+**** Outcome                                                     :outcome:
+Sarah and I move into a fantastic new house in Tucson.
+**** Potential Locations
+***** Apex Teams
+****** WAITING 317 E. Lester Tucson, AZ 857
+SCHEDULED: <2019-05-30 Thu 10:30>
+***** Axion
+****** TODO 3135 E Fairmount $850 2b/1Bath
+****** TODO 838 E Adams 1 $895 2Bed/1Bath
+****** TODO 1302 E Lee St. $995 2Bed/1Bath
+****** TODO 420 E Speedway unit 1. $1195 3Bed/1Bath
+***** Northpoint
+****** TODO  1017 N 6th Ave $1200 Cell 975-8213 Debra
+***** Pima Valley Realty 520-795-7031
+****** TODO 1821 Seneca
+SCHEDULED: <2019-06-04 Tue 14:00>
+***** Individual Landlord
+****** WAITING Call 520-977-7795. 1255 Waverly
+****** WAITING Call Susan Thorpe 520-312-9988. 833 Seneca
+****** WAITING 1757 N. 4th Ave., Tucson, AZ, 85705 
+SCHEDULED: <2019-05-30 Thu 10:00>
+**** Next Call the list compliled from driving around                 :phone:
+***** TODO Call MEB Rentals                                       :phone:
+*** PROJECT Fix garage light [0/1]
+:PROPERTIES:
+:EFFORT:   1:00
+:END:
+**** NEXT Go out and look at the light                             :@home:
+:PROPERTIES:
+:EFFORT:   0:10
+:END:
+* Financial                                                         :finance:
+:PROPERTIES:
+:CATEGORY: Financial
+:END:
+** Bills
+*** BILL [#A] Pay Rent.
+   DEADLINE: <2019-06-01 Mon ++1m>
+   :PROPERTIES:
+   :LAST_REPEAT: [2019-04-01 Mon 22:35]
+   :EFFORT:   0:20
+   :END:
+   - State "DONE"       from "BILL"       [2019-04-01 Mon 22:35]
+   - State "DONE"       from "BILL"       [2019-03-25 Mon 08:58]
+   - State "DONE"       from "BILL"       [2019-02-04 Mon 08:40]
+   - State "DONE"       from "BILL"       [2019-01-10 Thu 11:20]
+  [2018-12-27 Thu 11:39]
+*** BILL [#A] Pay Water bill 
+  DEADLINE: <2019-06-01 Sat ++1m>
+  :PROPERTIES:
+  :LAST_REPEAT: [2019-05-11 Sat 17:51]
+  :EFFORT:   0:10
+  :END:
+  - State "DONE"       from "BILL"       [2019-05-11 Sat 17:51]
+  - State "DONE"       from "BILL"       [2019-04-03 Wed 08:39]
+  - State "DONE"       from "BILL"       [2019-03-25 Mon 08:58]
+  - State "DONE"       from "BILL"       [2019-02-01 Fri 08:16]
+*** BILL [#A] Pay electric bill
+   DEADLINE: <2019-06-17 Mon ++1m>
+   :PROPERTIES:
+   :LAST_REPEAT: [2019-05-17 Fri 08:10]
+   :END:
+   - State "DONE"       from "BILL"       [2019-05-17 Fri 08:10]
+   - State "DONE"       from "BILL"       [2019-04-23 Tue 08:17]
+   - State "DONE"       from "BILL"       [2019-03-25 Mon 08:59]
+   - State "DONE"       from "BILL"       [2019-02-20 Wed 15:43]
+   - State "DONE"       from "BILL"       [2019-01-16 Wed 08:10]
+*** BILL [#A] Pay Ford bill
+    :PROPERTIES:
+    :LAST_REPEAT: [2019-03-25 Mon 08:59]
+    :END:
+    - State "DONE"       from "WORK"       [2019-03-25 Mon 08:59]
+    - State "DONE"       from "BILL"       [2019-03-25 Mon 08:59]
+    <2019-06-07 Fri +1m>
+*** BILL Pay chuze fee
+    :PROPERTIES:
+    :LAST_REPEAT: [2019-03-25 Mon 09:00]
+    :END:
+    - State "DONE"       from "BILL"       [2019-03-25 Mon 09:00]
+    - State "DONE"       from "BILL"       [2019-03-25 Mon 08:59]
+    - State "DONE"       from "BILL"       [2019-01-15 Tue 19:01]
+    <2019-04-15 Mon ++1m>
+*** BILL Pay Credit Card Bill 
+    :PROPERTIES:
+    :LAST_REPEAT: [2019-05-17 Fri 08:12]
+    :END:
+    - State "DONE"       from "BILL"       [2019-05-17 Fri 08:12]
+    - State "DONE"       from "BILL"       [2019-04-05 Fri 13:12]
+    - State "DONE"       from "BILL"       [2019-03-25 Mon 09:00]
+    - State "DONE"       from "BILL"       [2019-03-25 Mon 09:00]
+    <2019-06-04 Tue ++1m>
+* Habits
+:PROPERTIES:
+:CATEGORY: Habits
+:END:
+
+All the habits I would like to keep.
+
+** Chores
+*** TODO Laundry
+SCHEDULED: <2019-06-05 Wed .+1w>
+:PROPERTIES:
+:STYLE:    habit
+:EFFORT:   0:30
+:LAST_REPEAT: [2019-05-29 Wed 11:13]
+:END:
+- State "DONE"       from "TODO"       [2019-05-29 Wed 11:13]
+:LOGBOOK:
+CLOCK: [2019-05-29 Wed 10:21]--[2019-05-29 Wed 11:12] =>  0:51
+CLOCK: [2019-05-29 Wed 10:20]--[2019-05-29 Wed 10:20] =>  0:00
+:END:
+** TODO Go
+SCHEDULED: <2019-05-29 Wed .+3d>
+:PROPERTIES:
+:STYLE:    habit
+:EFFORT:   0:30
+:END:
+*** Outcome                                                       :outcome:
+I would like to develop skill in the game of go.
+* Someday
+:PROPERTIES:
+:CATEGORY: Someday
+:END:
+* Config
+#+STARTUP: overview
+#+STARTUP: hidestars
+#+STARTUP: logdone
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
+#+COLUMNS: %38ITEM(Details) %TAGS(Context) %7TODO(To Do) %5Effort(Time){:} %6CLOCKSUM{Total}
+#+PROPERTY: Effort_ALL  0:10 0:20 0:30 1:00 2:00 4:00 6:00 8:00
